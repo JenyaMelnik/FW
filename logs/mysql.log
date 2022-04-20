@@ -1,0 +1,26 @@
+
+			INSERT INTO `fw_users` SET
+			`login` = 'Jenya',`email` = 'jenyamelnik1986@i.ua',`password` = '$2y$10$GwujSJd0q/kLqnYsSFw7rOYiw0TcuEPQCXMNMGmi93M/kFoHhWUjy',`active` = 'active',
+			`access` = 1
+	
+			
+		
+--Field 'date' doesn't have a default value
+--file: /var/www/html/modules/admin/users/change.php
+--line: 73
+--date: 2022-04-18 14:45:30
+===================================
+
+
+			INSERT INTO `fw_users` SET
+			`login` = 'Jenya',`email` = 'jenyamelnik1986@i.ua',`password` = '$2y$10$VLdqts72a358Ry/gseLZ8.PzCfNZVhP7kIQq6lp/jS3ahHxXqnPNi',`active` = 'active',
+			`access` = 1
+	
+			
+		
+--Field 'date' doesn't have a default value
+--file: /var/www/html/modules/admin/users/change.php
+--line: 73
+--date: 2022-04-18 14:46:29
+===================================
+

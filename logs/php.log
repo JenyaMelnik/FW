@@ -1,0 +1,53 @@
+2022-03-21 10:21:21: Warning: [key() expects parameter 1 to be array, int given]
+at file /var/www/html/index.php in line 150
+=================================================
+
+2022-03-21 10:24:28: Warning: [Use of undefined constant main - assumed 'main' (this will throw an Error in a future version of PHP)]
+at file /var/www/html/modules/news/sitemap/sitemap.php in line 3
+=================================================
+
+2022-03-21 10:25:38: Warning: [Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)]
+at file /var/www/html/modules/news/sitemap/sitemap.php in line 3
+=================================================
+
+2022-03-21 10:25:38: Warning: [require(./modules/news/index.php): failed to open stream: No such file or directory]
+at file /var/www/html/index.php in line 226
+=================================================
+
+2022-03-21 10:25:38: Complite error: [require(): Failed opening required './modules/news/index.php' (include_path='.:/usr/local/lib/php')]
+at file /var/www/html/index.php in line 226
+=================================================
+
+2022-03-21 10:28:33: Warning: [Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)]
+at file /var/www/html/modules/news/sitemap/sitemap.php in line 3
+=================================================
+
+2022-03-21 10:28:33: Warning: [require(./modules/news/index.php): failed to open stream: No such file or directory]
+at file /var/www/html/index.php in line 226
+=================================================
+
+2022-03-21 10:28:33: Complite error: [require(): Failed opening required './modules/news/index.php' (include_path='.:/usr/local/lib/php')]
+at file /var/www/html/index.php in line 226
+=================================================
+
+2022-03-21 10:28:37: Warning: [Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)]
+at file /var/www/html/modules/news/sitemap/sitemap.php in line 3
+=================================================
+
+2022-03-21 10:28:37: Warning: [require(./modules/news/index.php): failed to open stream: No such file or directory]
+at file /var/www/html/index.php in line 226
+=================================================
+
+2022-03-21 10:28:37: Complite error: [require(): Failed opening required './modules/news/index.php' (include_path='.:/usr/local/lib/php')]
+at file /var/www/html/index.php in line 226
+=================================================
+
+2022-03-21 10:29:03: Warning: [Use of undefined constant main - assumed 'main' (this will throw an Error in a future version of PHP)]
+at file /var/www/html/modules/news/sitemap/sitemap.php in line 3
+=================================================
+
+2022-03-21 10:29:40: Warning: [Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP)]
+at file /var/www/html/modules/news/sitemap/sitemap.php in line 3
+=================================================
+
+
