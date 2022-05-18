@@ -50,4 +50,1486 @@ at file /var/www/html/modules/news/sitemap/sitemap.php in line 3
 at file /var/www/html/modules/news/sitemap/sitemap.php in line 3
 =================================================
 
+2022-04-22 11:05:24: User Notice: [Ошибка регистрации: PHPMailer\PHPMailer\Exception Object
+(
+    [message:protected] => Could not instantiate mail function.
+    [string:Exception:private] => 
+    [code:protected] => 2
+    [file:protected] => /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php
+    [line:protected] => 1935
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php
+                    [line] => 1656
+                    [function] => mailSend
+                    [class] => PHPMailer\PHPMailer\PHPMailer
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Date: Fri, 22 Apr 2022 11:05:24 +0300
+From: fw <admin@fw.loc>
+Reply-To: fw <admin@fw.loc>
+Message-ID: <NlQ8zAK4mC1eq2fj8po6Mq9zQHCAO8qfP65p8txhp8@fw.loc>
+X-Mailer: PHPMailer 6.6.0 (https://github.com/PHPMailer/PHPMailer)
+List-Unsubscribe: =?us-ascii?Q?<mailto:admin@fw.loc>,_<fw.loc/login/unsubscrib?=
+ =?us-ascii?Q?e=3Femail=3Djenyamelnik1986%40i.ua&amp;key=3D16?=
+ =?us-ascii?Q?50614724&amp;hash=3DwatsYLDBOvNFM>?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b1_NlQ8zAK4mC1eq2fj8po6Mq9zQHCAO8qfP65p8txhp8"
+Content-Transfer-Encoding: 8bit
+
+
+                            [1] => This is a multi-part message in MIME format.
+
+--b1_NlQ8zAK4mC1eq2fj8po6Mq9zQHCAO8qfP65p8txhp8
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+LOGO
+Вы успешно зарегистрировались на сайте.Для завершения регистрации пройдите по ссылке:fw.loc/login/activate/2/9ada2b2343984cea0fecfb86e899f8fc
+
+
+If you'd like to stop receiving all notifications, please follow the link
+fw.loc/login/unsubscribe?email=jenyamelnik1986%40i.ua&key=1650614724&hash=watsYLDBOvNFM
+--
+fw mail delivery system.
+Auto-generated e-mail, please, do not reply!
+
+--b1_NlQ8zAK4mC1eq2fj8po6Mq9zQHCAO8qfP65p8txhp8
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Вы зарегистрировались на сайте fw.loc</title>
+</head>
+<body style="max-width:600px; margin:auto; font-size:14px; line-height:1.5">
+<div role="banner" style="margin:auto; width:80%; min-width:300px; padding-bottom:10px; border-bottom:1px solid #FAFAD2; text-align: center;">LOGO</div>
+<div role="main"><div>Вы успешно зарегистрировались на сайте.</div><div>Для завершения регистрации пройдите по ссылке:<br><a href="fw.loc/login/activate/2/9ada2b2343984cea0fecfb86e899f8fc">fw.loc/login/activate/2/9ada2b2343984cea0fecfb86e899f8fc</a></div></div>
+<hr style="border: none; height: 1px; background-color: #eee; margin-top: 30px; margin-bottom: 30px;">
+<div role="footer">
+<p>If you'd like to stop receiving all notifications, please follow the link<br>
+<a href="fw.loc/login/unsubscribe?email=jenyamelnik1986%40i.ua&amp;key=1650614724&amp;hash=watsYLDBOvNFM" target="_blank">fw.loc/login/unsubscribe?email=jenyamelnik1986%40i.ua&amp;key=1650614724&amp;hash=watsYLDBOvNFM</a></p>
+<p>--<br>
+fw mail delivery system.<br>
+Auto-generated e-mail, please, do not reply!</p>
+</div>
+</body>
+</html>
+
+
+--b1_NlQ8zAK4mC1eq2fj8po6Mq9zQHCAO8qfP65p8txhp8--
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php
+                    [line] => 1492
+                    [function] => postSend
+                    [class] => PHPMailer\PHPMailer\PHPMailer
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/vendor/schoolphp/library/User/Registration.php
+                    [line] => 152
+                    [function] => send
+                    [class] => PHPMailer\PHPMailer\PHPMailer
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/vendor/schoolphp/library/User/Registration.php
+                    [line] => 127
+                    [function] => sendActivate
+                    [class] => FW\User\Registration
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 2
+                            [1] => 9ada2b2343984cea0fecfb86e899f8fc
+                            [2] => jenyamelnik1986@i.ua
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/modules/login/registration.php
+                    [line] => 50
+                    [function] => regist
+                    [class] => FW\User\Registration
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Jenya
+                            [1] => Зфыыцщкв
+                            [2] => jenyamelnik1986@i.ua
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/index.php
+                    [line] => 226
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/modules/login/registration.php
+                        )
+
+                    [function] => require
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/index.php
+                    [line] => 250
+                    [function] => init
+                    [class] => FrontController
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => login/registration
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PHPMailer\PHPMailer\Exception: Could not instantiate mail function. in /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line <i>1935</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0022</td><td bgcolor='#eeeeec' align='right'>361176</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/html/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0093</td><td bgcolor='#eeeeec' align='right'>414632</td><td bgcolor='#eeeeec'>FrontController::init(  )</td><td title='/var/www/html/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>250</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0105</td><td bgcolor='#eeeeec' align='right'>432560</td><td bgcolor='#eeeeec'>require( <font color='#00bb00'>'/var/www/html/modules/login/registration.php'</font> )</td><td title='/var/www/html/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>226</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0141</td><td bgcolor='#eeeeec' align='right'>442680</td><td bgcolor='#eeeeec'>FW\User\Registration->regist(  )</td><td title='/var/www/html/modules/login/registration.php' bgcolor='#eeeeec'>.../registration.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4290</td><td bgcolor='#eeeeec' align='right'>442888</td><td bgcolor='#eeeeec'>FW\User\Registration->sendActivate(  )</td><td title='/var/www/html/vendor/schoolphp/library/User/Registration.php' bgcolor='#eeeeec'>.../Registration.php<b>:</b>127</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.5356</td><td bgcolor='#eeeeec' align='right'>556064</td><td bgcolor='#eeeeec'>MailProxy->send(  )</td><td title='/var/www/html/vendor/schoolphp/library/User/Registration.php' bgcolor='#eeeeec'>.../Registration.php<b>:</b>152</td></tr>
+
+)
+]
+at file /var/www/html/vendor/schoolphp/library/User/Registration.php in line 155
+=================================================
+
+2022-04-22 13:35:36: Notice: [Undefined index: login]
+at file /var/www/html/skins/index.tpl in line 68
+=================================================
+
+2022-04-22 13:36:05: Notice: [Undefined index: login]
+at file /var/www/html/skins/index.tpl in line 68
+=================================================
+
+2022-04-22 13:36:12: Notice: [Undefined index: login]
+at file /var/www/html/skins/index.tpl in line 68
+=================================================
+
+2022-04-22 13:41:44: Notice: [Undefined index: login]
+at file /var/www/html/skins/index.tpl in line 68
+=================================================
+
+2022-04-22 13:42:42: Notice: [Array to string conversion]
+at file /var/www/html/skins/index.tpl in line 68
+=================================================
+
+2022-04-22 13:42:44: Notice: [Array to string conversion]
+at file /var/www/html/skins/index.tpl in line 68
+=================================================
+
+2022-04-22 13:51:17: User Notice: [Ошибка регистрации: PHPMailer\PHPMailer\Exception Object
+(
+    [message:protected] => Could not instantiate mail function.
+    [string:Exception:private] => 
+    [code:protected] => 2
+    [file:protected] => /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php
+    [line:protected] => 1935
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php
+                    [line] => 1656
+                    [function] => mailSend
+                    [class] => PHPMailer\PHPMailer\PHPMailer
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Date: Fri, 22 Apr 2022 13:51:17 +0300
+From: fw <admin@fw.loc>
+Reply-To: fw <admin@fw.loc>
+Message-ID: <x8kTl0BobZwOuoQEilsPT2w1pUOyayoahKGlXn8U@fw.loc>
+X-Mailer: PHPMailer 6.6.0 (https://github.com/PHPMailer/PHPMailer)
+List-Unsubscribe: =?us-ascii?Q?<mailto:admin@fw.loc>,_<fw.loc/login/unsubscrib?=
+ =?us-ascii?Q?e=3Femail=3Djenyamelnik1986%40i.ua&amp;key=3D16?=
+ =?us-ascii?Q?50624677&amp;hash=3DwaW4WGQnXebXc>?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b1_x8kTl0BobZwOuoQEilsPT2w1pUOyayoahKGlXn8U"
+Content-Transfer-Encoding: 8bit
+
+
+                            [1] => This is a multi-part message in MIME format.
+
+--b1_x8kTl0BobZwOuoQEilsPT2w1pUOyayoahKGlXn8U
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+LOGO
+Вы успешно зарегистрировались на сайте.Для завершения регистрации пройдите по ссылке:fw.loc/login/activate/3/85325c2378b8c2b1fd34576bf4673fdf
+
+
+If you'd like to stop receiving all notifications, please follow the link
+fw.loc/login/unsubscribe?email=jenyamelnik1986%40i.ua&key=1650624677&hash=waW4WGQnXebXc
+--
+fw mail delivery system.
+Auto-generated e-mail, please, do not reply!
+
+--b1_x8kTl0BobZwOuoQEilsPT2w1pUOyayoahKGlXn8U
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Вы зарегистрировались на сайте fw.loc</title>
+</head>
+<body style="max-width:600px; margin:auto; font-size:14px; line-height:1.5">
+<div role="banner" style="margin:auto; width:80%; min-width:300px; padding-bottom:10px; border-bottom:1px solid #FAFAD2; text-align: center;">LOGO</div>
+<div role="main"><div>Вы успешно зарегистрировались на сайте.</div><div>Для завершения регистрации пройдите по ссылке:<br><a href="fw.loc/login/activate/3/85325c2378b8c2b1fd34576bf4673fdf">fw.loc/login/activate/3/85325c2378b8c2b1fd34576bf4673fdf</a></div></div>
+<hr style="border: none; height: 1px; background-color: #eee; margin-top: 30px; margin-bottom: 30px;">
+<div role="footer">
+<p>If you'd like to stop receiving all notifications, please follow the link<br>
+<a href="fw.loc/login/unsubscribe?email=jenyamelnik1986%40i.ua&amp;key=1650624677&amp;hash=waW4WGQnXebXc" target="_blank">fw.loc/login/unsubscribe?email=jenyamelnik1986%40i.ua&amp;key=1650624677&amp;hash=waW4WGQnXebXc</a></p>
+<p>--<br>
+fw mail delivery system.<br>
+Auto-generated e-mail, please, do not reply!</p>
+</div>
+</body>
+</html>
+
+
+--b1_x8kTl0BobZwOuoQEilsPT2w1pUOyayoahKGlXn8U--
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php
+                    [line] => 1492
+                    [function] => postSend
+                    [class] => PHPMailer\PHPMailer\PHPMailer
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/vendor/schoolphp/library/User/Registration.php
+                    [line] => 152
+                    [function] => send
+                    [class] => PHPMailer\PHPMailer\PHPMailer
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/vendor/schoolphp/library/User/Registration.php
+                    [line] => 127
+                    [function] => sendActivate
+                    [class] => FW\User\Registration
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 3
+                            [1] => 85325c2378b8c2b1fd34576bf4673fdf
+                            [2] => jenyamelnik1986@i.ua
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/modules/login/registration.php
+                    [line] => 50
+                    [function] => regist
+                    [class] => FW\User\Registration
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Jenya
+                            [1] => Password
+                            [2] => jenyamelnik1986@i.ua
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/index.php
+                    [line] => 226
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/modules/login/registration.php
+                        )
+
+                    [function] => require
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/index.php
+                    [line] => 250
+                    [function] => init
+                    [class] => FrontController
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => login/registration
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PHPMailer\PHPMailer\Exception: Could not instantiate mail function. in /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line <i>1935</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0003</td><td bgcolor='#eeeeec' align='right'>359768</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/html/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0020</td><td bgcolor='#eeeeec' align='right'>368440</td><td bgcolor='#eeeeec'>FrontController::init(  )</td><td title='/var/www/html/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>250</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0096</td><td bgcolor='#eeeeec' align='right'>431248</td><td bgcolor='#eeeeec'>require( <font color='#00bb00'>'/var/www/html/modules/login/registration.php'</font> )</td><td title='/var/www/html/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>226</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0138</td><td bgcolor='#eeeeec' align='right'>441368</td><td bgcolor='#eeeeec'>FW\User\Registration->regist(  )</td><td title='/var/www/html/modules/login/registration.php' bgcolor='#eeeeec'>.../registration.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.3750</td><td bgcolor='#eeeeec' align='right'>441576</td><td bgcolor='#eeeeec'>FW\User\Registration->sendActivate(  )</td><td title='/var/www/html/vendor/schoolphp/library/User/Registration.php' bgcolor='#eeeeec'>.../Registration.php<b>:</b>127</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.3805</td><td bgcolor='#eeeeec' align='right'>489040</td><td bgcolor='#eeeeec'>MailProxy->send(  )</td><td title='/var/www/html/vendor/schoolphp/library/User/Registration.php' bgcolor='#eeeeec'>.../Registration.php<b>:</b>152</td></tr>
+
+)
+]
+at file /var/www/html/vendor/schoolphp/library/User/Registration.php in line 155
+=================================================
+
+2022-04-26 09:01:50: User Notice: [Ошибка регистрации: PHPMailer\PHPMailer\Exception Object
+(
+    [message:protected] => Could not instantiate mail function.
+    [string:Exception:private] => 
+    [code:protected] => 2
+    [file:protected] => /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php
+    [line:protected] => 1935
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php
+                    [line] => 1656
+                    [function] => mailSend
+                    [class] => PHPMailer\PHPMailer\PHPMailer
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Date: Tue, 26 Apr 2022 09:01:50 +0300
+From: fw <admin@fw.loc>
+Reply-To: fw <admin@fw.loc>
+Message-ID: <NHk463R1r8YotjPdYU939Gb2J918ucJUuNkhk6OCkg@fw.loc>
+X-Mailer: PHPMailer 6.6.0 (https://github.com/PHPMailer/PHPMailer)
+List-Unsubscribe: =?us-ascii?Q?<mailto:admin@fw.loc>,_<fw.loc/login/unsubscrib?=
+ =?us-ascii?Q?e=3Femail=3DSasha1986%40i.ua&amp;key=3D16509529?=
+ =?us-ascii?Q?10&amp;hash=3DwaSWVK%2FqYCYBY>?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b1_NHk463R1r8YotjPdYU939Gb2J918ucJUuNkhk6OCkg"
+Content-Transfer-Encoding: 8bit
+
+
+                            [1] => This is a multi-part message in MIME format.
+
+--b1_NHk463R1r8YotjPdYU939Gb2J918ucJUuNkhk6OCkg
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+LOGO
+Вы успешно зарегистрировались на сайте.Для завершения регистрации пройдите по ссылке:fw.loc/login/activate/4/2ad37939b46368cc70f42fc4ef5976e0
+
+
+If you'd like to stop receiving all notifications, please follow the link
+fw.loc/login/unsubscribe?email=Sasha1986%40i.ua&key=1650952910&hash=waSWVK%2FqYCYBY
+--
+fw mail delivery system.
+Auto-generated e-mail, please, do not reply!
+
+--b1_NHk463R1r8YotjPdYU939Gb2J918ucJUuNkhk6OCkg
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Вы зарегистрировались на сайте fw.loc</title>
+</head>
+<body style="max-width:600px; margin:auto; font-size:14px; line-height:1.5">
+<div role="banner" style="margin:auto; width:80%; min-width:300px; padding-bottom:10px; border-bottom:1px solid #FAFAD2; text-align: center;">LOGO</div>
+<div role="main"><div>Вы успешно зарегистрировались на сайте.</div><div>Для завершения регистрации пройдите по ссылке:<br><a href="fw.loc/login/activate/4/2ad37939b46368cc70f42fc4ef5976e0">fw.loc/login/activate/4/2ad37939b46368cc70f42fc4ef5976e0</a></div></div>
+<hr style="border: none; height: 1px; background-color: #eee; margin-top: 30px; margin-bottom: 30px;">
+<div role="footer">
+<p>If you'd like to stop receiving all notifications, please follow the link<br>
+<a href="fw.loc/login/unsubscribe?email=Sasha1986%40i.ua&amp;key=1650952910&amp;hash=waSWVK%2FqYCYBY" target="_blank">fw.loc/login/unsubscribe?email=Sasha1986%40i.ua&amp;key=1650952910&amp;hash=waSWVK%2FqYCYBY</a></p>
+<p>--<br>
+fw mail delivery system.<br>
+Auto-generated e-mail, please, do not reply!</p>
+</div>
+</body>
+</html>
+
+
+--b1_NHk463R1r8YotjPdYU939Gb2J918ucJUuNkhk6OCkg--
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php
+                    [line] => 1492
+                    [function] => postSend
+                    [class] => PHPMailer\PHPMailer\PHPMailer
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/vendor/schoolphp/library/User/Registration.php
+                    [line] => 152
+                    [function] => send
+                    [class] => PHPMailer\PHPMailer\PHPMailer
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/vendor/schoolphp/library/User/Registration.php
+                    [line] => 127
+                    [function] => sendActivate
+                    [class] => FW\User\Registration
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 4
+                            [1] => 2ad37939b46368cc70f42fc4ef5976e0
+                            [2] => Sasha1986@i.ua
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/modules/login/registration.php
+                    [line] => 50
+                    [function] => regist
+                    [class] => FW\User\Registration
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Саша Руд
+                            [1] => Зфыыцщкв
+                            [2] => Sasha1986@i.ua
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/index.php
+                    [line] => 226
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/modules/login/registration.php
+                        )
+
+                    [function] => require
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/index.php
+                    [line] => 250
+                    [function] => init
+                    [class] => FrontController
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => login/registration
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PHPMailer\PHPMailer\Exception: Could not instantiate mail function. in /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line <i>1935</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0001</td><td bgcolor='#eeeeec' align='right'>365416</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/html/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0009</td><td bgcolor='#eeeeec' align='right'>373392</td><td bgcolor='#eeeeec'>FrontController::init(  )</td><td title='/var/www/html/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>250</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0029</td><td bgcolor='#eeeeec' align='right'>436200</td><td bgcolor='#eeeeec'>require( <font color='#00bb00'>'/var/www/html/modules/login/registration.php'</font> )</td><td title='/var/www/html/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>226</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.1514</td><td bgcolor='#eeeeec' align='right'>447440</td><td bgcolor='#eeeeec'>FW\User\Registration->regist(  )</td><td title='/var/www/html/modules/login/registration.php' bgcolor='#eeeeec'>.../registration.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.6246</td><td bgcolor='#eeeeec' align='right'>447648</td><td bgcolor='#eeeeec'>FW\User\Registration->sendActivate(  )</td><td title='/var/www/html/vendor/schoolphp/library/User/Registration.php' bgcolor='#eeeeec'>.../Registration.php<b>:</b>127</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.7186</td><td bgcolor='#eeeeec' align='right'>560864</td><td bgcolor='#eeeeec'>MailProxy->send(  )</td><td title='/var/www/html/vendor/schoolphp/library/User/Registration.php' bgcolor='#eeeeec'>.../Registration.php<b>:</b>152</td></tr>
+
+)
+]
+at file /var/www/html/vendor/schoolphp/library/User/Registration.php in line 155
+=================================================
+
+2022-05-03 10:34:40: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+Stack trace:
+#0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
+#1 [internal function]: myAuthoload('Cache/CacheFile')
+#2 /var/www/html/modules/test/main.php(5): spl_autoload_call('Cache\\CacheFile')
+#3 /var/www/html/index.php(226): require('/var/www/html/m...')
+#4 /var/www/html/index.php(250): FrontController::init('test')
+#5 {main}
+  thrown]
+at file /var/www/html/library/Cache/CacheFile.php in line 4
+=================================================
+
+2022-05-03 10:35:36: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+Stack trace:
+#0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
+#1 [internal function]: myAuthoload('Cache/CacheFile')
+#2 /var/www/html/modules/test/main.php(5): spl_autoload_call('Cache\\CacheFile')
+#3 /var/www/html/index.php(226): require('/var/www/html/m...')
+#4 /var/www/html/index.php(250): FrontController::init('test')
+#5 {main}
+  thrown]
+at file /var/www/html/library/Cache/CacheFile.php in line 4
+=================================================
+
+2022-05-03 10:36:33: Error: [Uncaught Error: Interface 'Cache\CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+Stack trace:
+#0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
+#1 [internal function]: myAuthoload('Cache/CacheFile')
+#2 /var/www/html/modules/test/main.php(5): spl_autoload_call('Cache\\CacheFile')
+#3 /var/www/html/index.php(226): require('/var/www/html/m...')
+#4 /var/www/html/index.php(250): FrontController::init('test')
+#5 {main}
+  thrown]
+at file /var/www/html/library/Cache/CacheFile.php in line 4
+=================================================
+
+2022-05-03 10:37:12: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+Stack trace:
+#0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
+#1 [internal function]: myAuthoload('Cache/CacheFile')
+#2 /var/www/html/modules/test/main.php(5): spl_autoload_call('Cache\\CacheFile')
+#3 /var/www/html/index.php(226): require('/var/www/html/m...')
+#4 /var/www/html/index.php(250): FrontController::init('test')
+#5 {main}
+  thrown]
+at file /var/www/html/library/Cache/CacheFile.php in line 4
+=================================================
+
+2022-05-03 10:37:53: Error: [Uncaught ArgumentCountError: Too few arguments to function Cache\CacheFile::__construct(), 0 passed in /var/www/html/modules/test/main.php on line 5 and exactly 1 expected in /var/www/html/library/Cache/CacheFile.php:9
+Stack trace:
+#0 /var/www/html/modules/test/main.php(5): Cache\CacheFile->__construct()
+#1 /var/www/html/index.php(226): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('test')
+#3 {main}
+  thrown]
+at file /var/www/html/library/Cache/CacheFile.php in line 9
+=================================================
+
+2022-05-03 10:40:55: Error: [Uncaught ArgumentCountError: Too few arguments to function Cache\CacheFile::__construct(), 0 passed in /var/www/html/modules/test/main.php on line 5 and exactly 1 expected in /var/www/html/library/Cache/CacheFile.php:9
+Stack trace:
+#0 /var/www/html/modules/test/main.php(5): Cache\CacheFile->__construct()
+#1 /var/www/html/index.php(226): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('test')
+#3 {main}
+  thrown]
+at file /var/www/html/library/Cache/CacheFile.php in line 9
+=================================================
+
+2022-05-03 10:43:31: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+Stack trace:
+#0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
+#1 [internal function]: myAuthoload('Cache/CacheFile')
+#2 /var/www/html/modules/test/main.php(3): spl_autoload_call('Cache\\CacheFile')
+#3 /var/www/html/index.php(226): require('/var/www/html/m...')
+#4 /var/www/html/index.php(250): FrontController::init('test')
+#5 {main}
+  thrown]
+at file /var/www/html/library/Cache/CacheFile.php in line 4
+=================================================
+
+2022-05-03 10:48:33: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+Stack trace:
+#0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
+#1 [internal function]: myAuthoload('Cache/CacheFile')
+#2 /var/www/html/modules/test/main.php(3): spl_autoload_call('Cache\\CacheFile')
+#3 /var/www/html/index.php(226): require('/var/www/html/m...')
+#4 /var/www/html/index.php(250): FrontController::init('test')
+#5 {main}
+  thrown]
+at file /var/www/html/library/Cache/CacheFile.php in line 4
+=================================================
+
+2022-05-03 11:20:15: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+Stack trace:
+#0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
+#1 [internal function]: myAuthoload('Cache/CacheFile')
+#2 /var/www/html/modules/test/main.php(3): spl_autoload_call('Cache\\CacheFile')
+#3 /var/www/html/index.php(226): require('/var/www/html/m...')
+#4 /var/www/html/index.php(250): FrontController::init('test')
+#5 {main}
+  thrown]
+at file /var/www/html/library/Cache/CacheFile.php in line 4
+=================================================
+
+2022-05-03 11:21:44: Error: [Uncaught Error: Interface 'Cache\CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+Stack trace:
+#0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
+#1 [internal function]: myAuthoload('Cache/CacheFile')
+#2 /var/www/html/modules/test/main.php(3): spl_autoload_call('Cache\\CacheFile')
+#3 /var/www/html/index.php(226): require('/var/www/html/m...')
+#4 /var/www/html/index.php(250): FrontController::init('test')
+#5 {main}
+  thrown]
+at file /var/www/html/library/Cache/CacheFile.php in line 4
+=================================================
+
+2022-05-04 18:18:58: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
+at file /var/www/html/modules/test/main.php in line 43
+=================================================
+
+2022-05-04 18:19:19: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
+at file /var/www/html/modules/test/main.php in line 43
+=================================================
+
+2022-05-04 18:19:23: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
+at file /var/www/html/modules/test/main.php in line 43
+=================================================
+
+2022-05-04 18:25:15: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
+at file /var/www/html/modules/test/main.php in line 43
+=================================================
+
+2022-05-04 18:25:17: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
+at file /var/www/html/modules/test/main.php in line 43
+=================================================
+
+2022-05-04 18:28:57: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
+at file /var/www/html/modules/test/main.php in line 49
+=================================================
+
+2022-05-05 09:11:34: Error: [Uncaught Error: Call to undefined function generateTable() in /var/www/html/modules/test/main.php:70
+Stack trace:
+#0 /var/www/html/modules/test/main.php(80): ApiStrategy::write(Array)
+#1 /var/www/html/index.php(226): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('test')
+#3 {main}
+  thrown]
+at file /var/www/html/modules/test/main.php in line 70
+=================================================
+
+2022-05-05 10:11:01: Error: [Uncaught Error: Call to undefined method Core::set() in /var/www/html/modules/test/main.php:82
+Stack trace:
+#0 /var/www/html/index.php(226): require()
+#1 /var/www/html/index.php(250): FrontController::init('test')
+#2 {main}
+  thrown]
+at file /var/www/html/modules/test/main.php in line 82
+=================================================
+
+2022-05-05 10:11:30: Error: [Uncaught Error: Call to undefined method Core::get() in /var/www/html/modules/test/main.php:83
+Stack trace:
+#0 /var/www/html/index.php(226): require()
+#1 /var/www/html/index.php(250): FrontController::init('test')
+#2 {main}
+  thrown]
+at file /var/www/html/modules/test/main.php in line 83
+=================================================
+
+2022-05-05 10:12:14: Parse: [syntax error, unexpected 'PHP_EOL' (T_STRING)]
+at file /var/www/html/modules/test/main.php in line 82
+=================================================
+
+2022-05-05 14:12:06: Error: [Uncaught Error: Call to undefined method User::create() in /var/www/html/modules/test/main.php:60
+Stack trace:
+#0 /var/www/html/index.php(226): require()
+#1 /var/www/html/index.php(250): FrontController::init('test')
+#2 {main}
+  thrown]
+at file /var/www/html/modules/test/main.php in line 60
+=================================================
+
+2022-05-07 17:54:08: Notice: [Undefined index: status]
+at file /var/www/html/index.php in line 28
+=================================================
+
+2022-05-07 17:54:08: Warning: [session_start(): Cannot start session when headers already sent]
+at file /var/www/html/modules/_allmodules.php in line 15
+=================================================
+
+2022-05-07 17:54:08: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/schoolphp/library/MyErrorHandler/MyErrorHandler.php:91)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 152
+=================================================
+
+2022-05-07 17:54:08: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/schoolphp/library/MyErrorHandler/MyErrorHandler.php:91)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 153
+=================================================
+
+2022-05-07 17:56:08: Parse: [syntax error, unexpected 'getDatas' (T_STRING), expecting '(']
+at file /var/www/html/vendor/schoolphp/library/User/User.php in line 72
+=================================================
+
+2022-05-07 17:57:27: Error: [Uncaught Error: Class 'FW\User\Core' not found in /var/www/html/vendor/schoolphp/library/User/User.php:65
+Stack trace:
+#0 /var/www/html/modules/_allmodules.php(29): FW\User\User::Start(Array)
+#1 /var/www/html/index.php(59): require('/var/www/html/m...')
+#2 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/User/User.php in line 65
+=================================================
+
+2022-05-07 17:58:15: Error: [Uncaught Error: Class 'FW\User\Core' not found in /var/www/html/vendor/schoolphp/library/User/User.php:65
+Stack trace:
+#0 /var/www/html/modules/_allmodules.php(29): FW\User\User::Start(Array)
+#1 /var/www/html/index.php(59): require('/var/www/html/m...')
+#2 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/User/User.php in line 65
+=================================================
+
+2022-05-07 18:01:59: Error: [Uncaught Error: Class 'FW\User\Core' not found in /var/www/html/vendor/schoolphp/library/User/User.php:66
+Stack trace:
+#0 /var/www/html/modules/_allmodules.php(29): FW\User\User::Start(Array)
+#1 /var/www/html/index.php(59): require('/var/www/html/m...')
+#2 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/User/User.php in line 66
+=================================================
+
+2022-05-07 18:09:35: Error: [Uncaught Error: Access to undeclared static property: FW\User\User::$bannedIp in /var/www/html/vendor/schoolphp/library/User/User.php:66
+Stack trace:
+#0 /var/www/html/modules/_allmodules.php(29): FW\User\User::Start(Array)
+#1 /var/www/html/index.php(59): require('/var/www/html/m...')
+#2 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/User/User.php in line 66
+=================================================
+
+2022-05-12 11:45:50: Notice: [Undefined variable: auth]
+at file /var/www/html/modules/test/main.php in line 71
+=================================================
+
+2022-05-12 13:47:34: Notice: [Undefined variable: userDataQuery]
+at file /var/www/html/vendor/schoolphp/library/User/User.php in line 92
+=================================================
+
+2022-05-12 13:47:34: Error: [Uncaught Error: Call to a member function fetch_assoc() on null in /var/www/html/vendor/schoolphp/library/User/User.php:92
+Stack trace:
+#0 /var/www/html/modules/_allmodules.php(29): FW\User\User::Start(Array)
+#1 /var/www/html/index.php(59): require('/var/www/html/m...')
+#2 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/User/User.php in line 92
+=================================================
+
+2022-05-12 15:40:07: Notice: [Undefined variable: currentUser]
+at file /var/www/html/vendor/schoolphp/library/User/User.php in line 93
+=================================================
+
+2022-05-12 15:47:05: Error: [Uncaught Error: Cannot access self:: when no class scope is active in /var/www/html/modules/_allmodules.php:55
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 55
+=================================================
+
+2022-05-12 15:47:30: Error: [Uncaught Error: Cannot access self:: when no class scope is active in /var/www/html/modules/_allmodules.php:69
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 69
+=================================================
+
+2022-05-12 16:33:17: Parse: [syntax error, unexpected ')']
+at file /var/www/html/modules/_allmodules.php in line 64
+=================================================
+
+2022-05-12 16:47:59: Parse: [syntax error, unexpected ';', expecting ')']
+at file /var/www/html/modules/_allmodules.php in line 60
+=================================================
+
+2022-05-12 18:36:33: Error: [Uncaught Error: Undefined class constant 'FillUsersDada' in /var/www/html/modules/_allmodules.php:86
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 86
+=================================================
+
+2022-05-12 19:27:29: Parse: [syntax error, unexpected 'if' (T_IF)]
+at file /var/www/html/modules/_allmodules.php in line 88
+=================================================
+
+2022-05-12 20:04:46: Notice: [Undefined index: user]
+at file /var/www/html/modules/_allmodules.php in line 56
+=================================================
+
+2022-05-12 20:04:46: Notice: [Trying to access array offset on value of type null]
+at file /var/www/html/modules/_allmodules.php in line 56
+=================================================
+
+2022-05-13 09:18:43: Error: [Uncaught Error: Call to undefined method User::fillUsersData() in /var/www/html/modules/_allmodules.php:106
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 106
+=================================================
+
+2022-05-14 23:50:33: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 236
+=================================================
+
+2022-05-14 23:50:33: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 237
+=================================================
+
+2022-05-14 23:50:33: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 276
+=================================================
+
+2022-05-14 23:50:35: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 236
+=================================================
+
+2022-05-14 23:50:35: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 237
+=================================================
+
+2022-05-14 23:50:35: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 276
+=================================================
+
+2022-05-14 23:51:53: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 152
+=================================================
+
+2022-05-14 23:51:53: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 153
+=================================================
+
+2022-05-14 23:51:53: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+at file /var/www/html/modules/login/main.php in line 40
+=================================================
+
+2022-05-14 23:52:10: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 152
+=================================================
+
+2022-05-14 23:52:10: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 153
+=================================================
+
+2022-05-14 23:52:10: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+at file /var/www/html/modules/login/main.php in line 40
+=================================================
+
+2022-05-14 23:52:56: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 236
+=================================================
+
+2022-05-14 23:52:56: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 237
+=================================================
+
+2022-05-14 23:52:56: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 276
+=================================================
+
+2022-05-14 23:54:31: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 152
+=================================================
+
+2022-05-14 23:54:31: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 153
+=================================================
+
+2022-05-14 23:54:31: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
+at file /var/www/html/modules/login/main.php in line 40
+=================================================
+
+2022-05-14 23:55:11: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 152
+=================================================
+
+2022-05-14 23:55:11: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 153
+=================================================
+
+2022-05-14 23:55:11: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
+at file /var/www/html/modules/login/main.php in line 40
+=================================================
+
+2022-05-14 23:55:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 236
+=================================================
+
+2022-05-14 23:55:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 237
+=================================================
+
+2022-05-14 23:55:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
+at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 276
+=================================================
+
+2022-05-14 23:55:51: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 236
+=================================================
+
+2022-05-14 23:55:51: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 237
+=================================================
+
+2022-05-14 23:55:51: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
+at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 276
+=================================================
+
+2022-05-18 11:44:11: Warning: [strpos() expects at least 2 parameters, 1 given]
+at file /var/www/html/modules/_allmodules.php in line 91
+=================================================
+
+2022-05-18 11:46:20: Warning: [substr() expects parameter 2 to be int, string given]
+at file /var/www/html/modules/_allmodules.php in line 90
+=================================================
+
+2022-05-18 11:46:20: Warning: [strpos() expects at least 2 parameters, 1 given]
+at file /var/www/html/modules/_allmodules.php in line 91
+=================================================
+
+2022-05-18 11:46:35: Warning: [strpos() expects at least 2 parameters, 1 given]
+at file /var/www/html/modules/_allmodules.php in line 91
+=================================================
+
+2022-05-18 11:59:59: Notice: [Array to string conversion]
+at file /var/www/html/modules/_allmodules.php in line 88
+=================================================
+
+2022-05-18 12:11:42: Notice: [Array to string conversion]
+at file /var/www/html/modules/_allmodules.php in line 88
+=================================================
+
+2022-05-18 12:49:39: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:88)]
+at file /var/www/html/modules/static/404.php in line 2
+=================================================
+
+2022-05-18 12:50:22: Parse: [syntax error, unexpected ')']
+at file /var/www/html/modules/_allmodules.php in line 88
+=================================================
+
+2022-05-18 12:51:18: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:85)]
+at file /var/www/html/modules/static/404.php in line 2
+=================================================
+
+2022-05-18 12:53:43: Notice: [Undefined index: route]
+at file /var/www/html/modules/_allmodules.php in line 83
+=================================================
+
+2022-05-18 12:54:00: Notice: [Undefined index: route]
+at file /var/www/html/modules/_allmodules.php in line 83
+=================================================
+
+2022-05-18 13:11:39: User Notice: [Ошибка регистрации: PHPMailer\PHPMailer\Exception Object
+(
+    [message:protected] => Could not instantiate mail function.
+    [string:Exception:private] => 
+    [code:protected] => 2
+    [file:protected] => /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php
+    [line:protected] => 1935
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php
+                    [line] => 1656
+                    [function] => mailSend
+                    [class] => PHPMailer\PHPMailer\PHPMailer
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Date: Wed, 18 May 2022 13:11:39 +0300
+From: fw <admin@fw.loc>
+Reply-To: fw <admin@fw.loc>
+Message-ID: <Y8bIyOmOHxVmeXO3MBCb62MLlnc0kYojtVvuPkdg@fw.loc>
+X-Mailer: PHPMailer 6.6.0 (https://github.com/PHPMailer/PHPMailer)
+List-Unsubscribe: =?us-ascii?Q?<mailto:admin@fw.loc>,_<fw.loc/login/unsubscrib?=
+ =?us-ascii?Q?e=3Femail=3DSasha2=5F1986%40i.ua&amp;key=3D1652?=
+ =?us-ascii?Q?868699&amp;hash=3DwalzVPwADHX4Q>?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b1_Y8bIyOmOHxVmeXO3MBCb62MLlnc0kYojtVvuPkdg"
+Content-Transfer-Encoding: 8bit
+
+
+                            [1] => This is a multi-part message in MIME format.
+
+--b1_Y8bIyOmOHxVmeXO3MBCb62MLlnc0kYojtVvuPkdg
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+LOGO
+Вы успешно зарегистрировались на сайте.Для завершения регистрации пройдите по ссылке:fw.loc/login/activate/5/8f6fe68659422e0cf896632d9fe59cfd
+
+
+If you'd like to stop receiving all notifications, please follow the link
+fw.loc/login/unsubscribe?email=Sasha2_1986%40i.ua&key=1652868699&hash=walzVPwADHX4Q
+--
+fw mail delivery system.
+Auto-generated e-mail, please, do not reply!
+
+--b1_Y8bIyOmOHxVmeXO3MBCb62MLlnc0kYojtVvuPkdg
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Вы зарегистрировались на сайте fw.loc</title>
+</head>
+<body style="max-width:600px; margin:auto; font-size:14px; line-height:1.5">
+<div role="banner" style="margin:auto; width:80%; min-width:300px; padding-bottom:10px; border-bottom:1px solid #FAFAD2; text-align: center;">LOGO</div>
+<div role="main"><div>Вы успешно зарегистрировались на сайте.</div><div>Для завершения регистрации пройдите по ссылке:<br><a href="fw.loc/login/activate/5/8f6fe68659422e0cf896632d9fe59cfd">fw.loc/login/activate/5/8f6fe68659422e0cf896632d9fe59cfd</a></div></div>
+<hr style="border: none; height: 1px; background-color: #eee; margin-top: 30px; margin-bottom: 30px;">
+<div role="footer">
+<p>If you'd like to stop receiving all notifications, please follow the link<br>
+<a href="fw.loc/login/unsubscribe?email=Sasha2_1986%40i.ua&amp;key=1652868699&amp;hash=walzVPwADHX4Q" target="_blank">fw.loc/login/unsubscribe?email=Sasha2_1986%40i.ua&amp;key=1652868699&amp;hash=walzVPwADHX4Q</a></p>
+<p>--<br>
+fw mail delivery system.<br>
+Auto-generated e-mail, please, do not reply!</p>
+</div>
+</body>
+</html>
+
+
+--b1_Y8bIyOmOHxVmeXO3MBCb62MLlnc0kYojtVvuPkdg--
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php
+                    [line] => 1492
+                    [function] => postSend
+                    [class] => PHPMailer\PHPMailer\PHPMailer
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/vendor/schoolphp/library/User/Registration.php
+                    [line] => 152
+                    [function] => send
+                    [class] => PHPMailer\PHPMailer\PHPMailer
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/vendor/schoolphp/library/User/Registration.php
+                    [line] => 127
+                    [function] => sendActivate
+                    [class] => FW\User\Registration
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 5
+                            [1] => 8f6fe68659422e0cf896632d9fe59cfd
+                            [2] => Sasha2_1986@i.ua
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/modules/login/registration.php
+                    [line] => 50
+                    [function] => regist
+                    [class] => FW\User\Registration
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Sasha
+                            [1] => Password
+                            [2] => Sasha2_1986@i.ua
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/index.php
+                    [line] => 226
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/modules/login/registration.php
+                        )
+
+                    [function] => require
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/index.php
+                    [line] => 250
+                    [function] => init
+                    [class] => FrontController
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => login/registration
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PHPMailer\PHPMailer\Exception: Could not instantiate mail function. in /var/www/html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line <i>1935</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0001</td><td bgcolor='#eeeeec' align='right'>361432</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/html/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0007</td><td bgcolor='#eeeeec' align='right'>370592</td><td bgcolor='#eeeeec'>FrontController::init(  )</td><td title='/var/www/html/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>250</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0035</td><td bgcolor='#eeeeec' align='right'>433400</td><td bgcolor='#eeeeec'>require( <font color='#00bb00'>'/var/www/html/modules/login/registration.php'</font> )</td><td title='/var/www/html/index.php' bgcolor='#eeeeec'>.../index.php<b>:</b>226</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.1066</td><td bgcolor='#eeeeec' align='right'>444640</td><td bgcolor='#eeeeec'>FW\User\Registration->regist(  )</td><td title='/var/www/html/modules/login/registration.php' bgcolor='#eeeeec'>.../registration.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.4560</td><td bgcolor='#eeeeec' align='right'>444848</td><td bgcolor='#eeeeec'>FW\User\Registration->sendActivate(  )</td><td title='/var/www/html/vendor/schoolphp/library/User/Registration.php' bgcolor='#eeeeec'>.../Registration.php<b>:</b>127</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.5176</td><td bgcolor='#eeeeec' align='right'>558072</td><td bgcolor='#eeeeec'>MailProxy->send(  )</td><td title='/var/www/html/vendor/schoolphp/library/User/Registration.php' bgcolor='#eeeeec'>.../Registration.php<b>:</b>152</td></tr>
+
+)
+]
+at file /var/www/html/vendor/schoolphp/library/User/Registration.php in line 155
+=================================================
+
+2022-05-18 13:35:06: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 13:37:58: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 13:38:55: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 13:39:05: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 13:41:09: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 13:42:07: Error: [Uncaught Error: Class 'library\User\CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 13:42:38: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 13:42:59: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
+Stack trace:
+#0 /var/www/html/modules/_allmodules.php(39): isAdmin()
+#1 /var/www/html/index.php(59): require('/var/www/html/m...')
+#2 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 329
+=================================================
+
+2022-05-18 13:43:21: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 13:43:54: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
+Stack trace:
+#0 /var/www/html/modules/_allmodules.php(39): isAdmin()
+#1 /var/www/html/index.php(59): require('/var/www/html/m...')
+#2 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 329
+=================================================
+
+2022-05-18 13:47:11: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 13:47:43: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 13:49:16: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 13:49:18: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 13:56:29: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 14:00:06: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 14:02:18: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 14:03:10: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 14:03:28: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:32
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 32
+=================================================
+
+2022-05-18 14:03:54: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 31
+=================================================
+
+2022-05-18 14:05:21: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
+Stack trace:
+#0 /var/www/html/modules/_allmodules.php(40): isAdmin()
+#1 /var/www/html/index.php(59): require('/var/www/html/m...')
+#2 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 329
+=================================================
+
+2022-05-18 14:07:28: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+Stack trace:
+#0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
+#1 /var/www/html/index.php(213): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('admin/users/vie...')
+#3 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
+=================================================
+
+2022-05-18 14:07:46: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
+Stack trace:
+#0 /var/www/html/modules/_allmodules.php(40): isAdmin()
+#1 /var/www/html/index.php(59): require('/var/www/html/m...')
+#2 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 329
+=================================================
+
+2022-05-18 14:08:08: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+Stack trace:
+#0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
+#1 /var/www/html/index.php(213): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('admin/users/vie...')
+#3 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
+=================================================
+
+2022-05-18 14:09:58: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+Stack trace:
+#0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
+#1 /var/www/html/index.php(213): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('admin/users/vie...')
+#3 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
+=================================================
+
+2022-05-18 14:17:44: Error: [Uncaught Error: Call to undefined method FW\User\User::enableCaptcha() in /var/www/html/modules/_allmodules.php:33
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 33
+=================================================
+
+2022-05-18 14:20:19: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+Stack trace:
+#0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
+#1 /var/www/html/index.php(213): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('admin/users/vie...')
+#3 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
+=================================================
+
+2022-05-18 14:20:22: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+Stack trace:
+#0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
+#1 /var/www/html/index.php(213): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('admin/users/vie...')
+#3 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
+=================================================
+
+2022-05-18 14:21:01: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+Stack trace:
+#0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
+#1 /var/www/html/index.php(213): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('admin/users/vie...')
+#3 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
+=================================================
+
+2022-05-18 14:26:45: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 236
+=================================================
+
+2022-05-18 14:26:45: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 237
+=================================================
+
+2022-05-18 14:26:45: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
+at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 276
+=================================================
+
+2022-05-18 14:26:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 236
+=================================================
+
+2022-05-18 14:26:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 237
+=================================================
+
+2022-05-18 14:26:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
+at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 276
+=================================================
+
 
