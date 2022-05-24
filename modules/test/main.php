@@ -1,5 +1,47 @@
 <?php
 
+// ================================ decorator ====================================
+
+//$facebookSender = new Decorator\FacebookSender();
+//$smsSenderDecorator = new Decorator\SmsSenderDecorator($facebookSender);
+//$slackSenderDecorator = new Decorator\SlackSenderDecorator($smsSenderDecorator);
+//$service = new Decorator\SenderService($slackSenderDecorator);
+//
+//$service->send();
+//exit();
+
+// ===============================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //$cache = new \Cache\CacheFile(1);
 //$cache->write('qweqweqe');
 //exit();
@@ -67,3 +109,13 @@
 ////удаление
 //$user = User::find(1);
 //$user->delete();
+
+// ===============================================================================
+use Date\DateTimeAdapter;
+
+$dateAdapter = new DateTimeAdapter();
+$dateAdapter->modify('+1 day');
+echo $dateAdapter->format();
+
+// ===============================================================================
+
