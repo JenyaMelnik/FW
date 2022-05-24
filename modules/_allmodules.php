@@ -1,8 +1,5 @@
 <?php
 
-//use FW\User\User;
-//use FW\User\CurrentUser\User;
-
 function my_session_start()
 {
     if (ini_get('session.use_cookies') && isset($_COOKIE['PHPSESSID'])) {
@@ -33,11 +30,14 @@ class User extends \FW\User\User
     /** @var string */
     static string $avatar = '';
 
+    /** @var array */
+    static $datas = ['id', 'role', 'login', 'avatar'];
+
     /** @var int if the user is not authorized, captcha must be 1 */
     static int $captcha = 0;
 
     /** @var array */
-    public static array $blockedIp = ['192.168.80.3', '192.168.80.2'];
+    public static array $blockedIp = ['192.168.80.1', '192.168.80.2'];
 
     /**
      *
@@ -66,29 +66,25 @@ class User extends \FW\User\User
     static function monitorAdmin(): void
     {
         $route = $_GET['route'] ?? '';
-
         $isAdminka = substr($route, 0, 5) == 'admin'; // bool
 
         if (isAdmin() && $isAdminka) {
             $url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . '/' . $route;
 
             q("
-        INSERT INTO `fw_monitor_admin` SET
-        `url` =  '" . es($url) . "',
-        `conversion_method` = '" . $_SERVER['REQUEST_METHOD'] . "'
-    ");
+                INSERT INTO `fw_monitor_admin` SET
+                `url` =  '" . es($url) . "',
+                `conversion_method` = '" . $_SERVER['REQUEST_METHOD'] . "'
+            ");
         }
     }
 }
 
-
 User::start(isset($_SESSION['user']['id']) ? ['id' => (int)$_SESSION['user']['id']] : []);
+User::muteBlockedIp();
 User::checkCaptcha();
 User::monitorAdmin();
-User::muteBlockedIp();
-
 
 if (!isset($_SESSION['antixsrf'])) {
     $_SESSION['antixsrf'] = md5(time() . $_SERVER['REMOTE_ADDR'] . (isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : rand(1, 99999)));
 }
-

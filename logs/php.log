@@ -1532,4 +1532,334 @@ at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 23
 at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 276
 =================================================
 
+2022-05-18 14:38:09: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+Stack trace:
+#0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
+#1 /var/www/html/index.php(213): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('admin/users/gro...')
+#3 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
+=================================================
+
+2022-05-18 14:38:49: Parse: [syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)]
+at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 98
+=================================================
+
+2022-05-18 14:39:01: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+Stack trace:
+#0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
+#1 /var/www/html/index.php(213): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('admin/users/gro...')
+#3 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
+=================================================
+
+2022-05-18 14:39:12: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
+Stack trace:
+#0 /var/www/html/modules/admin/main/view/main.tpl(1): isAdmin()
+#1 /var/www/html/index.php(232): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('admin/users/gro...')
+#3 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 329
+=================================================
+
+2022-05-18 14:39:53: Error: [Uncaught Error: Class 'User' not found in /var/www/html/modules/admin/main/view/main.tpl:5
+Stack trace:
+#0 /var/www/html/index.php(232): require()
+#1 /var/www/html/index.php(250): FrontController::init('admin/users/gro...')
+#2 {main}
+  thrown]
+at file /var/www/html/modules/admin/main/view/main.tpl in line 5
+=================================================
+
+2022-05-18 21:41:31: Error: [Uncaught Error: Class 'FW\Access\User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+Stack trace:
+#0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
+#1 /var/www/html/index.php(213): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('admin/users/gro...')
+#3 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
+=================================================
+
+2022-05-18 21:47:14: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+Stack trace:
+#0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
+#1 /var/www/html/index.php(213): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('admin/users/gro...')
+#3 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
+=================================================
+
+2022-05-18 21:49:41: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
+Stack trace:
+#0 /var/www/html/modules/_allmodules.php(72): isAdmin()
+#1 /var/www/html/modules/_allmodules.php(88): ProxyUser::monitorAdmin()
+#2 /var/www/html/index.php(59): require('/var/www/html/m...')
+#3 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 329
+=================================================
+
+2022-05-23 10:02:15: Warning: [A non-numeric value encountered]
+at file /var/www/html/modules/_allmodules.php in line 6
+=================================================
+
+2022-05-23 10:03:36: Warning: [A non-numeric value encountered]
+at file /var/www/html/modules/_allmodules.php in line 6
+=================================================
+
+2022-05-23 10:04:03: Warning: [A non-numeric value encountered]
+at file /var/www/html/modules/_allmodules.php in line 5
+=================================================
+
+2022-05-23 10:04:30: Warning: [A non-numeric value encountered]
+at file /var/www/html/modules/_allmodules.php in line 5
+=================================================
+
+2022-05-23 10:09:24: Warning: [mktime() expects parameter 5 to be int, string given]
+at file /var/www/html/modules/_allmodules.php in line 5
+=================================================
+
+2022-05-23 10:12:24: Warning: [mktime() expects parameter 5 to be int, string given]
+at file /var/www/html/modules/_allmodules.php in line 5
+=================================================
+
+2022-05-23 10:12:26: Warning: [mktime() expects parameter 5 to be int, string given]
+at file /var/www/html/modules/_allmodules.php in line 5
+=================================================
+
+2022-05-23 12:44:44: Error: [Uncaught Error: Class 'MyDate' not found in /var/www/html/modules/_allmodules.php:6
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 6
+=================================================
+
+2022-05-23 12:46:10: Error: [Uncaught Error: Class 'MyDate' not found in /var/www/html/modules/_allmodules.php:6
+Stack trace:
+#0 /var/www/html/index.php(59): require()
+#1 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 6
+=================================================
+
+2022-05-23 13:04:06: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (2000.05.01) at position 5 (0): Double time specification in /var/www/html/modules/_allmodules.php:11
+Stack trace:
+#0 /var/www/html/modules/_allmodules.php(11): DateTime->__construct('2000.05.01')
+#1 /var/www/html/index.php(59): require('/var/www/html/m...')
+#2 {main}
+  thrown]
+at file /var/www/html/modules/_allmodules.php in line 11
+=================================================
+
+2022-05-23 13:11:33: Error: [Uncaught TypeError: Typed property Date\MyDate::$month must be int, string used in /var/www/html/library/Date/MyDate.php:35
+Stack trace:
+#0 /var/www/html/modules/_allmodules.php(9): Date\MyDate->getNextDay()
+#1 /var/www/html/index.php(59): require('/var/www/html/m...')
+#2 {main}
+  thrown]
+at file /var/www/html/library/Date/MyDate.php in line 35
+=================================================
+
+2022-05-23 18:24:06: Notice: [Undefined offset: 1]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 25
+=================================================
+
+2022-05-23 18:24:06: Notice: [Undefined offset: 2]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 26
+=================================================
+
+2022-05-23 18:24:06: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--23-05-2022) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
+Stack trace:
+#0 /var/www/html/library/Date/DateTimeAdapter.php(70): DateTime->__construct('--23-05-2022')
+#1 /var/www/html/modules/_allmodules.php(12): Date\DateTimeAdapter->format('--23-05-2022')
+#2 /var/www/html/index.php(59): require('/var/www/html/m...')
+#3 {main}
+  thrown]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 70
+=================================================
+
+2022-05-23 18:26:41: Notice: [Undefined offset: 1]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 25
+=================================================
+
+2022-05-23 18:26:41: Notice: [Undefined offset: 2]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 26
+=================================================
+
+2022-05-23 18:26:41: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--23-05-2022) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
+Stack trace:
+#0 /var/www/html/library/Date/DateTimeAdapter.php(70): DateTime->__construct('--23-05-2022')
+#1 /var/www/html/modules/_allmodules.php(12): Date\DateTimeAdapter->format('24 \xD0\xBC\xD0\xB0\xD1\x8F 2022 ...')
+#2 /var/www/html/index.php(59): require('/var/www/html/m...')
+#3 {main}
+  thrown]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 70
+=================================================
+
+2022-05-23 18:27:59: Notice: [Undefined offset: 1]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 25
+=================================================
+
+2022-05-23 18:27:59: Notice: [Undefined offset: 2]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 26
+=================================================
+
+2022-05-23 18:27:59: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--23-05-2022) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
+Stack trace:
+#0 /var/www/html/library/Date/DateTimeAdapter.php(70): DateTime->__construct('--23-05-2022')
+#1 /var/www/html/modules/_allmodules.php(12): Date\DateTimeAdapter->format('24 \xD0\xBC\xD0\xB0\xD1\x8F 2022 ...')
+#2 /var/www/html/index.php(59): require('/var/www/html/m...')
+#3 {main}
+  thrown]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 70
+=================================================
+
+2022-05-23 19:14:19: Notice: [Undefined offset: 1]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 25
+=================================================
+
+2022-05-23 19:14:19: Notice: [Undefined offset: 2]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 26
+=================================================
+
+2022-05-23 19:28:33: Notice: [A non well formed numeric value encountered]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 24
+=================================================
+
+2022-05-23 19:28:33: Notice: [Undefined offset: 1]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 25
+=================================================
+
+2022-05-23 19:28:33: Notice: [Undefined offset: 2]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 26
+=================================================
+
+2022-05-23 19:28:33: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--25) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
+Stack trace:
+#0 /var/www/html/library/Date/DateTimeAdapter.php(70): DateTime->__construct('--25')
+#1 /var/www/html/modules/_allmodules.php(12): Date\DateTimeAdapter->format()
+#2 /var/www/html/index.php(59): require('/var/www/html/m...')
+#3 {main}
+  thrown]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 70
+=================================================
+
+2022-05-23 19:31:43: Notice: [A non well formed numeric value encountered]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 24
+=================================================
+
+2022-05-23 19:31:43: Notice: [Undefined offset: 1]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 25
+=================================================
+
+2022-05-23 19:31:43: Notice: [Undefined offset: 2]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 26
+=================================================
+
+2022-05-23 19:31:43: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--25) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
+Stack trace:
+#0 /var/www/html/library/Date/DateTimeAdapter.php(70): DateTime->__construct('--25')
+#1 /var/www/html/modules/_allmodules.php(15): Date\DateTimeAdapter->format()
+#2 /var/www/html/index.php(59): require('/var/www/html/m...')
+#3 {main}
+  thrown]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 70
+=================================================
+
+2022-05-23 19:32:11: Notice: [Undefined offset: 1]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 25
+=================================================
+
+2022-05-23 19:32:11: Notice: [Undefined offset: 2]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 26
+=================================================
+
+2022-05-23 19:32:11: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--23-05-2022) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
+Stack trace:
+#0 /var/www/html/library/Date/DateTimeAdapter.php(70): DateTime->__construct('--23-05-2022')
+#1 /var/www/html/modules/_allmodules.php(15): Date\DateTimeAdapter->format()
+#2 /var/www/html/index.php(59): require('/var/www/html/m...')
+#3 {main}
+  thrown]
+at file /var/www/html/library/Date/DateTimeAdapter.php in line 70
+=================================================
+
+2022-05-24 09:45:25: Complite error: [Cannot use FW\User\CurrentUser\User as User because the name is already in use]
+at file /var/www/html/modules/_allmodules.php in line 4
+=================================================
+
+2022-05-24 09:46:09: Warning: [session_start(): Cannot start session when headers already sent]
+at file /var/www/html/modules/_allmodules.php in line 29
+=================================================
+
+2022-05-24 09:46:10: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:12)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 152
+=================================================
+
+2022-05-24 09:46:10: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:12)]
+at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 153
+=================================================
+
+2022-05-24 09:47:27: Error: [Uncaught Error: Class 'DateTimeAdapter' not found in /var/www/html/modules/test/main.php:71
+Stack trace:
+#0 /var/www/html/index.php(226): require()
+#1 /var/www/html/index.php(250): FrontController::init('test')
+#2 {main}
+  thrown]
+at file /var/www/html/modules/test/main.php in line 71
+=================================================
+
+2022-05-24 10:11:18: Error: [Uncaught Error: Class 'Src\Patterns\Structure\Decorator\FacebookSender' not found in /var/www/html/modules/test/main.php:80
+Stack trace:
+#0 /var/www/html/index.php(226): require()
+#1 /var/www/html/index.php(250): FrontController::init('test')
+#2 {main}
+  thrown]
+at file /var/www/html/modules/test/main.php in line 80
+=================================================
+
+2022-05-24 10:12:32: Error: [Uncaught Error: Class 'Src\Patterns\Structure\Decorator\FacebookSender' not found in /var/www/html/modules/test/main.php:80
+Stack trace:
+#0 /var/www/html/index.php(226): require()
+#1 /var/www/html/index.php(250): FrontController::init('test')
+#2 {main}
+  thrown]
+at file /var/www/html/modules/test/main.php in line 80
+=================================================
+
+2022-05-24 10:12:34: Error: [Uncaught Error: Class 'Src\Patterns\Structure\Decorator\FacebookSender' not found in /var/www/html/modules/test/main.php:80
+Stack trace:
+#0 /var/www/html/index.php(226): require()
+#1 /var/www/html/index.php(250): FrontController::init('test')
+#2 {main}
+  thrown]
+at file /var/www/html/modules/test/main.php in line 80
+=================================================
+
+2022-05-24 10:25:25: Error: [Uncaught Error: Class 'DateTimeAdapter' not found in /var/www/html/modules/test/main.php:116
+Stack trace:
+#0 /var/www/html/index.php(226): require()
+#1 /var/www/html/index.php(250): FrontController::init('test')
+#2 {main}
+  thrown]
+at file /var/www/html/modules/test/main.php in line 116
+=================================================
+
+2022-05-24 10:44:03: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
+Stack trace:
+#0 /var/www/html/library/User/User.php(47): isAdmin()
+#1 /var/www/html/modules/_allmodules.php(86): User\User::monitorAdmin()
+#2 /var/www/html/index.php(59): require('/var/www/html/m...')
+#3 {main}
+  thrown]
+at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 329
+=================================================
+
 
