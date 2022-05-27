@@ -58,6 +58,11 @@ window.fbAsyncInit = function () {
     });
 }
 
+function logOut() {
+    FB.logout(function (response) {
+        // Person is now logged out
+    });
+}
 
 // Load the SDK asynchronously
 // (function (d, s, id) {
@@ -144,13 +149,6 @@ window.fbAsyncInit = function () {
 // https://www.facebook.com//dialog/oauthv14.0?client_id=527634212260006&redirect_uri=https://localhost:80/&state=123456
 
 // https://www.facebook.com//dialog/oauthv14.0?client_id=527634212260006&redirect_uri=https://www.facebook.com/connect/login_success.html/&state=123456
-
-
-function logOut() {
-    FB.logout(function (response) {
-        // Person is now logged out
-    });
-}
 
 
 // Load the SDK asynchronously
