@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var $content
+ */
+?>
 <!DOCTYPE html>
 <html lang="<?php echo Core::$LANGUAGE['lang']; ?>">
 <head>
@@ -66,7 +71,7 @@
     <?php } else { ?>
         <div class="auth">
             Вы вошли как: <?= $_SESSION['user']['id'] ?>
-            <a href="<?= createUrl('login/exit') ?>"> Выход </a>
+            <a onclick="logOut()" href="<?= createUrl('login/exit') ?>"> Выход </a>
         </div>
     <?php } ?>
 

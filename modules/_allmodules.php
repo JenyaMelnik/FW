@@ -66,9 +66,9 @@ class User extends \FW\User\User
     static function monitorAdmin(): void
     {
         $route = $_GET['route'] ?? '';
-        $isAdminka = substr($route, 0, 5) == 'admin'; // bool
+        $isAdminPanel = substr($route, 0, 5) == 'admin'; // bool
 
-        if (isAdmin() && $isAdminka) {
+        if (isAdmin() && $isAdminPanel) {
             $url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . '/' . $route;
 
             q("
