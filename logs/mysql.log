@@ -102,3 +102,507 @@
 --date: 2022-05-18 13:25:00
 ===================================
 
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:18:46
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:19:01
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:19:04
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:20:12
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:20:15
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:20:19
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:23:52
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:24:43
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:26:41
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:27:42
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:07:54
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:09:07
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:30:01
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:30:04
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:31:00
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:36:15
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:36:35
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:37:57
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'qwerty',
+            `email` = 'qwerty@i.ua'
+            `facebook_id` = '123123123'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '123123123'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 45
+--date: 2022-05-26 17:40:01
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'qwerty',
+            `email` = 'qwerty@i.ua'
+            `facebook_id` = 123123123
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = 123123123' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 45
+--date: 2022-05-26 17:40:53
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'qwerty',
+            `email` = 'qwerty@i.ua'
+            `facebook_id` = '123123123'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '123123123'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 45
+--date: 2022-05-26 17:41:11
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:18:46
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:19:01
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:19:04
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:20:12
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:20:15
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:20:19
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:23:52
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:24:43
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:26:41
+===================================
+
+
+        SELECT * FROM fw_users
+        WHERE facebook_id == '1638134336564464'
+        LIMIT 1
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== '1638134336564464'
+        LIMIT 1' at line 2
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 7
+--date: 2022-05-25 10:27:42
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:07:54
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:09:07
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:30:01
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:30:04
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:31:00
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:36:15
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:36:35
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com'
+            `facebook_id` = '1638134336564464'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '1638134336564464'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 23
+--date: 2022-05-26 17:37:57
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'qwerty',
+            `email` = 'qwerty@i.ua'
+            `facebook_id` = '123123123'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '123123123'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 45
+--date: 2022-05-26 17:40:01
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'qwerty',
+            `email` = 'qwerty@i.ua'
+            `facebook_id` = 123123123
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = 123123123' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 45
+--date: 2022-05-26 17:40:53
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'qwerty',
+            `email` = 'qwerty@i.ua'
+            `facebook_id` = '123123123'
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`facebook_id` = '123123123'' at line 4
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 45
+--date: 2022-05-26 17:41:11
+===================================
+

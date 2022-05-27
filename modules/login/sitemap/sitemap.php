@@ -7,6 +7,7 @@ return [
 	'restoration' => 1,
 	'unsubscribe' => 1,
 	'exit' => 1,
+    'facebookAuth' => 1,
 	'activate' => [
 		'id' => [
 			'req' => 1,

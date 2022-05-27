@@ -1,8 +1,14 @@
+<?php
+/**
+ * @var $form
+ */
+?>
 <div align="center">
     <div>
         Зарегистрируйтесь с помощью учетной записи Facebook:
-        <fb:login-button size="large" scope="public_profile,email" onlogin="checkLoginState();">
-        </fb:login-button>
+        <a class="fb_login_btn" onclick="fb_login();return false;">
+            <img src="/skins/img/facebook.jpg" height="40" width="240">
+        </a>
     </div>
     <div id="status">
     </div>
