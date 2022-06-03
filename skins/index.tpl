@@ -70,7 +70,7 @@
         </div>
     <?php } else { ?>
         <div class="auth">
-            Вы вошли как: <?= $_SESSION['user']['id'] ?>
+            Вы вошли как: <a href="<?= createUrl('login/edit') ?>"><?= $_SESSION['user']['id'] ?></a>
             <a onclick="logOut()" href="<?= createUrl('login/exit') ?>"> Выход </a>
         </div>
     <?php } ?>
@@ -100,6 +100,8 @@
 <!-- scripts for login with Facebook -->
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 <script src="/skins/js/fbAuth.js"></script>
+<script src="/skins/js/addFbSocial.js"></script>
+<script src="/skins/js/addVkSocial.js"></script>
 <?php echo Core::$END; ?>
 </body>
 </html>

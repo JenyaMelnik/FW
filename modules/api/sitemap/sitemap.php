@@ -5,11 +5,15 @@ return [
         'page2' => [],
         'login' => [],
         'password' => [],
+        'content-type' =>[
+            'default' => 'json',
+        ],
     ],
 
     'socials' => [
         'page2' => [],
         'param1' => [],
+        'param2' => [],
     ],
 
     '/OPTIONS' => [

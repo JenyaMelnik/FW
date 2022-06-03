@@ -4,6 +4,8 @@ return [
 		'link' => 1,
 	],
 	'registration' => 1,
+    'edit' => 1,
+    'addSocial'=> 1,
 	'restoration' => 1,
 	'unsubscribe' => 1,
 	'exit' => 1,

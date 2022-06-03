@@ -24,8 +24,16 @@ if (!isset($_SESSION['user'])) {
             `access` = 1
         ");
 
+
         if ($addUser) {
-            $_SESSION['user']['id'] = DB::_()->insert_id;
+            $addedUserId = DB::_()->insert_id;
+
+            q("
+                INSERT INTO `fw_users2socials` SET
+                `user_id` = " . $addedUserId . ",
+                `social_id` = 1
+            ");
+            $_SESSION['user']['id'] = $addedUserId;
             $_SESSION['user']['login'] = $_POST['firstName'];
             echo json_encode('registered');
             exit();
@@ -35,4 +43,3 @@ if (!isset($_SESSION['user'])) {
     echo json_encode('already logged');
     exit();
 }
-
