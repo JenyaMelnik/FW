@@ -70,7 +70,7 @@
         </div>
     <?php } else { ?>
         <div class="auth">
-            Вы вошли как: <a href="<?= createUrl('login/edit') ?>"><?= $_SESSION['user']['id'] ?></a>
+            Вы вошли как: <a href="<?= createUrl('login/edit') ?>"><?= $_SESSION['user']['login'] ?></a>
             <a onclick="logOut()" href="<?= createUrl('login/exit') ?>"> Выход </a>
         </div>
     <?php } ?>

@@ -21,8 +21,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'delete' && isset($_GET['id'])
 
 // ====================================== Лучше вынести в авторизацию? ================================================
 $queryUserData = q("
-    SELECT `fw_users`.`id`, `fw_users`.email, `fw_users`.`login`, `fw_users`.`password`, 
-           GROUP_CONCAT(`fw_socials`.`social_name`) as `socials_name`, GROUP_CONCAT(`fw_socials`.`social_id`) as `socials_id`
+    SELECT GROUP_CONCAT(`fw_socials`.`social_name`) as `socials_name`, GROUP_CONCAT(`fw_socials`.`social_id`) as `socials_id`
     FROM `fw_users` 
     LEFT JOIN `fw_users2socials` ON `fw_users2socials` . `user_id` = `fw_users` . `id`
     LEFT JOIN `fw_socials` ON `fw_socials` . `social_id` = `fw_users2socials` . `social_id`
@@ -32,7 +31,10 @@ $queryUserData = q("
 
 if ($queryUserData->num_rows) {
     $userData = $queryUserData->fetch_assoc();
-    $_SESSION['user'] = $userData;
+
+    $_SESSION['user']['socials_name'] = $userData['socials_name'];
+    $_SESSION['user']['socials_id'] = $userData['socials_id'];
+
     if (!empty($_SESSION['user']['socials_id'])) {
 
         $userSocialsId = explode(',', $_SESSION['user']['socials_id']);

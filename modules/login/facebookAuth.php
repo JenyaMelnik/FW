@@ -12,6 +12,7 @@ if (!isset($_SESSION['user'])) {
             $user = $queryUser->fetch_assoc();
             $_SESSION['user']['id'] = $user['id'];
             $_SESSION['user']['login'] = $user['login'];
+            $_SESSION['user']['email'] = $user['email'];
             echo json_encode('authorized');
             exit();
         }
@@ -35,6 +36,7 @@ if (!isset($_SESSION['user'])) {
             ");
             $_SESSION['user']['id'] = $addedUserId;
             $_SESSION['user']['login'] = $_POST['firstName'];
+            $_SESSION['user']['email'] = $_POST['email'];
             echo json_encode('registered');
             exit();
         }

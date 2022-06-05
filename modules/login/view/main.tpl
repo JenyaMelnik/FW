@@ -23,5 +23,5 @@
         }
     </style>
 <?php } else { ?>
-    <div>Вы авторизированы. Здравствуйте, ID: <?= htmlspecialchars($_SESSION['user']['id']); ?></div>
+    <div>Вы авторизированы. Здравствуйте,  <?= htmlspecialchars($_SESSION['user']['login']); ?></div>
 <?php } ?>
