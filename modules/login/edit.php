@@ -128,7 +128,5 @@ if (isset($_POST['edit'],
     }
 }
 
-//wtf($_SESSION);
-
 $_SESSION['user']['login'] = $_POST['login'] ?? $_SESSION['user']['login'];
 $_SESSION['user']['email'] = $_POST['email'] ?? $_SESSION['user']['email'];
