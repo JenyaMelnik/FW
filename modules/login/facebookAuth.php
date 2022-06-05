@@ -1,10 +1,11 @@
 <?php
 // Do nothing if the user is already logged in
 if (!isset($_SESSION['user'])) {
-    if (isset($_POST['id'])) {
+    if (isset($_POST['id'], $_POST['email'])) {
         $queryUser = q("
         SELECT * FROM `fw_users`
         WHERE `facebook_id` = '" . es($_POST['id']) . "'
+        OR `email` = '" . $_POST['email'] . "'
         LIMIT 1
     ");
 
@@ -24,7 +25,6 @@ if (!isset($_SESSION['user'])) {
             `facebook_id` = '" . es($_POST['id']) . "',
             `access` = 1
         ");
-
 
         if ($addUser) {
             $addedUserId = DB::_()->insert_id;
