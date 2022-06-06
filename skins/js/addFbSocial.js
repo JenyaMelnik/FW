@@ -1,3 +1,6 @@
+/**
+ * handle fb data
+ */
 function handle_data() {
     FB.api('/me', function (response) {
         console.log('Successful login for: ' + response.name);
@@ -27,6 +30,9 @@ function handle_data() {
     });
 }
 
+/**
+ * add fb account
+ */
 function add_fb_account() {
     FB.getLoginStatus(function (response) {
         if (response.authResponse) {
@@ -48,6 +54,9 @@ function add_fb_account() {
     });
 }
 
+/**
+ * init fb app
+ */
 window.fbAsyncInit = function () {
     FB.init({
         appId: '527634212260006',
