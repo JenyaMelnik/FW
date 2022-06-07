@@ -2,7 +2,7 @@
 
 header('Content-type: json/application');
 
-$method = $_SERVER['REQUEST_METHOD'];
+$method = $_POST['action'] ?? $_SERVER['REQUEST_METHOD'];
 if ($method === 'POST') {
     if (isset($_GET['login']) && isset($_GET['password'])) {
         $queryUserData = q("
@@ -13,7 +13,7 @@ if ($method === 'POST') {
 ");
 
         if (!$queryUserData->num_rows) {
-            echo 'wrong login';
+            echo json_encode('wrong login');
             exit();
         }
 
@@ -33,12 +33,17 @@ if ($method === 'POST') {
             ");
             $response = 'Поздравляем, вы получили доступ к API. secret_token = ' . $secretToken;
             echo json_encode($response);
+
         } else {
-            echo 'wrong password';
+            echo json_encode('wrong password');
         }
+
+    } else {
+        echo json_encode('Вы ввели не все данные');
     }
+
 } else {
-    echo json_encode('Не корректный запрос');
+    echo json_encode('Не верный method');
 }
 
 exit();

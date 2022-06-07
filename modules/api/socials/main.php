@@ -2,7 +2,7 @@
 
 header('Content-type: json/application');
 
-$method = $_SERVER['REQUEST_METHOD'];
+$method = $_POST['action'] ?? $_SERVER['REQUEST_METHOD'];
 if ($method === 'GET') {
     if (isset($_COOKIE['secret_token'])) {
 
@@ -34,7 +34,7 @@ if ($method === 'GET') {
     }
 
 } else {
-    echo json_encode('Не корректный запрос');
+    echo json_encode('Не верный method');
 
 }
 

@@ -2,7 +2,7 @@
 
 header('Content-type: json/application');
 
-$method = $_SERVER['REQUEST_METHOD'];
+$method = $_POST['action'] ?? $_SERVER['REQUEST_METHOD'];
 
 if ($method === 'DELETE') {
     $response = '';
@@ -22,7 +22,7 @@ if ($method === 'DELETE') {
               `social_id` = " . (int)($_GET['param1']) . "
         ");
 
-            if (\DB::_()->affected_rows > 0) {
+            if (DB::_()->affected_rows > 0) {
                 $response = 'авторизация через соц. сеть с id: ' . $_GET['param1'] . ' удалена';
                 echo json_encode($response);
             } else {
@@ -35,7 +35,7 @@ if ($method === 'DELETE') {
         echo json_encode($response);
     }
 } else {
-    echo json_encode('Не корректный запрос');
+    echo json_encode('Не верный method');
 }
 
 exit();
