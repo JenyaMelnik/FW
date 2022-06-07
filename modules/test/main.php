@@ -2,20 +2,50 @@
 
 // ================================ decorator ====================================
 
-$facebookSender = new Decorator\FacebookSender();
-$smsSenderDecorator = new Decorator\SmsSenderDecorator($facebookSender);
-$slackSenderDecorator = new Decorator\SlackSenderDecorator($smsSenderDecorator);
-$service = new Decorator\SenderService($slackSenderDecorator);
-
-$service->send();
-exit();
+//$facebookSender = new Decorator\FacebookSender();
+//$smsSenderDecorator = new Decorator\SmsSenderDecorator($facebookSender);
+//$slackSenderDecorator = new Decorator\SlackSenderDecorator($smsSenderDecorator);
+//$service = new Decorator\SenderService($slackSenderDecorator);
+//
+//$service->send();
+//exit();
 
 // ===============================================================================
 
+//$queryUserData = q("
+//        SELECT GROUP_CONCAT(`fw_socials`.`social_name`) as `social_name`, GROUP_CONCAT(`fw_socials`.`social_id`) as `social_id`
+//        FROM `fw_users`
+//        RIGHT JOIN `fw_users2socials` ON `fw_users2socials` . `user_id` = `fw_users` . `id`
+//        RIGHT JOIN `fw_socials` ON `fw_socials` . `social_id` = `fw_users2socials` . `social_id`
+//        WHERE `fw_users`.`secret_token` = '" . $_COOKIE['secret_token'] . "'
+//        GROUP BY `fw_users`.`id`;
+//    ");
+//
+//if ($queryUserData->num_rows) {
+//    $userData = $queryUserData->fetch_assoc();
+//
+//    $userSocialsId = explode(',', $userData['social_id']);
+//    $userSocialsName = explode(',', $userData['social_name']);
+//
+//    $i = 0;
+//    foreach ($userSocialsId as $socialId) {
+//        $userSocials[$socialId] = $userSocialsName[$i];
+//        $i++;
+//    }
+//}
+//
+//echo json_encode($userSocials);
+//exit();
 
 
+$deletion = q("
+        SELECT * FROM `fw_users2socials`
+        WHERE `user_id` = 3 AND
+              `social_id` = 2
+              ");
 
-
+$res = $deletion->fetch_assoc();
+wtf($res);
 
 
 

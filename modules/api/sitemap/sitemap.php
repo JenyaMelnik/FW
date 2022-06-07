@@ -13,7 +13,6 @@ return [
     'socials' => [
         'page2' => [],
         'param1' => [],
-        'param2' => [],
     ],
 
     '/OPTIONS' => [
