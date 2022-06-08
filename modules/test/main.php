@@ -2,13 +2,13 @@
 
 // ================================ decorator ====================================
 
-//$facebookSender = new Decorator\FacebookSender();
-//$smsSenderDecorator = new Decorator\SmsSenderDecorator($facebookSender);
-//$slackSenderDecorator = new Decorator\SlackSenderDecorator($smsSenderDecorator);
-//$service = new Decorator\SenderService($slackSenderDecorator);
-//
-//$service->send();
-//exit();
+$facebookSender = new Decorator\FacebookSender();
+$smsSenderDecorator = new Decorator\SmsSenderDecorator($facebookSender);
+$slackSenderDecorator = new Decorator\SlackSenderDecorator($smsSenderDecorator);
+$service = new Decorator\SenderService($slackSenderDecorator);
+
+$service->send();
+exit();
 
 // ===============================================================================
 
@@ -37,18 +37,25 @@
 //echo json_encode($userSocials);
 //exit();
 
-
-$deletion = q("
-        SELECT * FROM `fw_users2socials`
-        WHERE `user_id` = 3 AND
-              `social_id` = 2
-              ");
-
-$res = $deletion->fetch_assoc();
-wtf($res);
-
-
-
+//$expDateQuery = q("
+//    SELECT `secret_token_expire_date` FROM `fw_users`
+//    WHERE `id` = 3
+//");
+//
+//$expDate = $expDateQuery->fetch_assoc();
+//
+//$exp = new DateTime($expDate['secret_token_expire_date']);
+////wtf($exp);
+//
+//$now = new DateTime();
+////wtf($now);
+//
+//if ($exp > $now) {
+//    echo 'Токен действителен';
+//} else {
+//    echo 'Токен просрочен';
+//}
+//exit();
 
 
 

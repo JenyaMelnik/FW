@@ -12,7 +12,7 @@ return [
 
     'socials' => [
         'page2' => [],
-        'param1' => [],
+        'socialId' => [],
     ],
 
     'testApi' => [
