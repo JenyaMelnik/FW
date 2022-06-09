@@ -15,11 +15,8 @@ function testApiRequest() {
         method: "POST",
         cache: "no-cache"
     })
-
-        .then((response) => {
-            return response.json();
-        })
+        .then(response => response.text())
         .then((data) => {
-            document.getElementById('responseTestApi').innerHTML = JSON.stringify(data);
+            document.getElementById('responseTestApi').value = data;
         });
 }

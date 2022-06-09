@@ -25,7 +25,7 @@
         </table>
     </div>
     <div class="requestTestApi">
-        <form action="" method="post" onsubmit="testApiRequest(); return false">
+        <form action="" method="post" onsubmit="testApiRequest(<?php ?>); return false">
             <tr>
                 <td>
                     <label>
@@ -47,5 +47,5 @@
             </tr>
         </form>
     </div>
-    <div id="responseTestApi"></div>
+    <textarea readonly style="width: 100%" id="responseTestApi"></textarea>
 </div>

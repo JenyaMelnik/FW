@@ -1,12 +1,31 @@
 <?php
 
-header('Content-type: json/application');
+if (isset($_GET['content-type']) && $_GET['content-type'] === 'xml') {
+    header('Content-type: application/xml');
+} else {
+    header('Content-type: application/json');
+}
 
-verifyRequestMethod('POST');
+//verifyRequestMethod('POST');
+//
+//verifyLoginAndPassword();
+//
+//createSecretToken();
 
-verifyLoginAndPassword();
 
-createSecretToken();
+$login = new \Api\XmlResponse();
+$login->verifyRequestMethod('POST');
+$login->verifyLoginAndPassword();
+$login->createSecretToken();
+
+
+
+
+
+
+
+
+
 
 
 //$method = $_POST['action'] ?? $_SERVER['REQUEST_METHOD'];

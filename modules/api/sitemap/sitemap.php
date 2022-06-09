@@ -13,6 +13,9 @@ return [
     'socials' => [
         'page2' => [],
         'socialId' => [],
+        'content-type' => [
+            'default' => 'json',
+        ],
     ],
 
     'testApi' => [

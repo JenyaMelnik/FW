@@ -1,12 +1,17 @@
 <?php
 
-header('Content-type: json/application');
+if (isset($_GET['socialId']) && $_GET['socialId'] === 'xml') {
+    header('Content-type: application/xml');
+} else {
+    header('Content-type: application/json');
+}
 
 verifyApiToken();
 
 verifyRequestMethod('GET');
 
 printConnectedSocials();
+
 
 
 //if (!isset($_COOKIE['secret_token'])) {
