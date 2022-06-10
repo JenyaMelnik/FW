@@ -1,76 +1,21 @@
 <?php
 
+use Api\Api;
+use Api\JsonResponse;
+use Api\XmlResponse;
+
+$responseFormat = 'json';
+header('Content-type: application/json');
+
 if (isset($_GET['content-type']) && $_GET['content-type'] === 'xml') {
+    $responseFormat = 'xml';
     header('Content-type: application/xml');
-} else {
-    header('Content-type: application/json');
 }
 
-//verifyRequestMethod('POST');
-//
-//verifyLoginAndPassword();
-//
-//createSecretToken();
+$responseFormat === 'json'
+    ? $api = new Api(new JsonResponse())
+    : $api = new Api(new XmlResponse());
 
-
-$login = new \Api\XmlResponse();
-$login->verifyRequestMethod('POST');
-$login->verifyLoginAndPassword();
-$login->createSecretToken();
-
-
-
-
-
-
-
-
-
-
-
-//$method = $_POST['action'] ?? $_SERVER['REQUEST_METHOD'];
-//
-//if ($method !== 'POST') {
-//    echo json_encode('Не верный method');
-//    exit();
-//}
-//
-//if (!isset($_GET['login']) || !isset($_GET['password'])) {
-//    echo json_encode('Вы ввели не все данные');
-//    exit();
-//}
-//
-//$queryUserData = q("
-//    SELECT `id`, `hash`, `password`
-//    FROM `fw_users`
-//    WHERE `login` = '" . es($_GET['login']) . "'
-//    LIMIT 1
-//");
-//
-//if (!$queryUserData->num_rows) {
-//    echo json_encode('wrong login');
-//    exit();
-//}
-//
-//$userDada = $queryUserData->fetch_assoc();
-//
-//if (!password_verify($_GET['password'], $userDada['password'])) {
-//    echo json_encode('wrong password');
-//    exit();
-//}
-//
-//$secretToken = md5(microtime(true) . rand(1, 1000000));
-//
-//setcookie('secret_token', $secretToken, time() + 600, '/');
-//$_COOKIE['secret_token'] = $secretToken;
-//
-//q("
-//    UPDATE `fw_users`
-//    SET `secret_token` = '" . $secretToken . "',
-//        `secret_token_expire_date` = NOW() + 1000
-//    WHERE `login` = '" . es($_GET['login']) . "'
-//    LIMIT 1
-//");
-//$response = 'Поздравляем, вы получили доступ к API. secret_token = ' . $secretToken;
-//echo json_encode($response);
-//exit();
+$api->verifyRequestMethod('POST');
+$api->verifyLoginAndPassword();
+$api->createSecretToken();
