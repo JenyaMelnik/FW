@@ -15,7 +15,7 @@ class Api
      */
     public function __construct(IApi $responseFormat)
     {
-        $this->responseFormat = $responseFormat;
+        $this->response = $responseFormat;
     }
 
     /**

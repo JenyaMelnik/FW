@@ -2,9 +2,6 @@
 
 namespace Api;
 
-use DateTime;
-use DB;
-
 class JsonResponse implements IApi
 {
     public function verifyRequestMethod(string $correctMethod): void
@@ -175,60 +172,6 @@ class JsonResponse implements IApi
         $userData = $queryUserData->fetch_all(MYSQLI_ASSOC);
 
         echo json_encode($userData);
-        exit();
-    }
-
-    /**
-     *
-     */
-    public function deleteAuthViaSocial(): void
-    {
-        if (!isset($_GET['socialId'])) {
-            $response = [
-                'status' => 'error',
-                'message' => 'You didn\'t specify a social id to remove'
-            ];
-
-            echo json_encode($response);
-            exit();
-        }
-
-        $sql = "
-            DELETE FROM `fw_users2socials` 
-            WHERE `user_id` = (SELECT `id` FROM fw_users WHERE secret_token = '" . es($_COOKIE['secret_token']) . "') 
-            AND `social_id` = " . (int)($_GET['socialId']) . "
-            LIMIT 1
-        ";
-
-        q($sql);
-
-        if (!DB::_()->affected_rows > 0) {
-            $response = [
-                'status' => 'error',
-                'message' => 'Social network with id: ' . $_GET['socialId'] . ' not found'
-            ];
-
-            echo json_encode($response);
-            exit();
-        }
-
-        $sql = "
-            SELECT * FROM fw_socials
-            WHERE social_id = " . (int)($_GET['socialId']) . "
-            LIMIT 1
-        ";
-
-        $socialQuery = q($sql);
-        $social = $socialQuery->fetch_assoc();
-
-        $response = [
-            'status' => 'success',
-            'social id' => $social['social_id'],
-            'social name' => $social['social_name'],
-            'message' => 'authorization via social network deleted'
-        ];
-
-        echo json_encode($response);
         exit();
     }
 }
