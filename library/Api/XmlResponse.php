@@ -2,9 +2,11 @@
 
 namespace Api;
 
+use DateTime;
+use DB;
 use SimpleXMLElement;
 
-class XmlResponse
+class XmlResponse implements IApi
 {
     public function verifyRequestMethod(string $correctMethod): void
     {
@@ -13,7 +15,7 @@ class XmlResponse
         if ($method !== $correctMethod) {
             $response = [
                 'status' => 'error',
-                'message' => 'incorrect method'
+                'message' => 'Incorrect method'
             ];
             $xml = new SimpleXMLElement('<method/>');
             $xmlResponse = array_flip($response);
@@ -31,9 +33,9 @@ class XmlResponse
         if (!isset($_GET['login']) || !isset($_GET['password'])) {
             $response = [
                 'status' => 'error',
-                'message' => 'Вы ввели не все данные'
+                'message' => 'Not all data entered'
             ];
-            $xml = new SimpleXMLElement('<data/>');
+            $xml = new SimpleXMLElement('<entered data/>');
             $xmlResponse = array_flip($response);
             array_walk($xmlResponse, [$xml, 'addChild']);
             echo $xml->asXML();
@@ -50,7 +52,7 @@ class XmlResponse
         if (!$queryUserData->num_rows) {
             $response = [
                 'status' => 'error',
-                'message' => 'wrong login'
+                'message' => 'Wrong login'
             ];
             $xml = new SimpleXMLElement('<login/>');
             $xmlResponse = array_flip($response);
@@ -64,7 +66,7 @@ class XmlResponse
         if (!password_verify($_GET['password'], $userDada['password'])) {
             $response = [
                 'status' => 'error',
-                'message' => 'wrong password'
+                'message' => 'Wrong password'
             ];
             $xml = new SimpleXMLElement('<password/>');
             $xmlResponse = array_flip($response);
@@ -103,14 +105,14 @@ class XmlResponse
     }
 
     /**
-     * @throws Exception
+     *
      */
     public function verifyApiToken(): void
     {
         if (!isset($_COOKIE['secret_token'])) {
             $response = [
                 'status' => 'error',
-                'message' => 'Вы не авторизированы',
+                'message' => 'You are not authorized',
                 'login-link' => 'https://fw.loc/api/auth/login/{login}/{password}/{content type(default-JSON)}'
             ];
             $xml = new SimpleXMLElement('<token/>');
@@ -128,7 +130,7 @@ class XmlResponse
         if (!$queryTokenDate->num_rows) {
             $response = [
                 'status' => 'error',
-                'message' => 'Не корректный secret token'
+                'message' => 'Incorrect secret token'
             ];
             $xml = new SimpleXMLElement('<token/>');
             $xmlResponse = array_flip($response);
@@ -145,7 +147,7 @@ class XmlResponse
         if ($now > $tokenExpiresDate) {
             $response = [
                 'status' => 'error',
-                'message' => 'token просрочен, авторизируйтесь заново'
+                'message' => 'token expired, please login again'
             ];
             $xml = new SimpleXMLElement('<token/>');
             $xmlResponse = array_flip($response);
@@ -173,7 +175,7 @@ class XmlResponse
         if (!$queryUserData->num_rows) {
             $response = [
                 'status' => 'error',
-                'message' => 'Прикрепленные аккаунты соц. сетей отсутствуют'
+                'message' => 'Attached social accounts does not exist'
             ];
             $xml = new SimpleXMLElement('<token/>');
             $xmlResponse = array_flip($response);
@@ -198,7 +200,7 @@ class XmlResponse
         if (!isset($_GET['socialId'])) {
             $response = [
                 'status' => 'error',
-                'message' => 'Вы не указали id соц. сети для удаления'
+                'message' => 'You didn\'t specify a social id to remove'
             ];
             $xml = new SimpleXMLElement('<token/>');
             $xmlResponse = array_flip($response);
@@ -219,7 +221,7 @@ class XmlResponse
         if (!DB::_()->affected_rows > 0) {
             $response = [
                 'status' => 'error',
-                'message' => 'соц. сеть с id: ' . $_GET['socialId'] . ' не найдена'
+                'message' => 'Social network with id: ' . $_GET['socialId'] . ' not found'
             ];
             $xml = new SimpleXMLElement('<token/>');
             $xmlResponse = array_flip($response);
@@ -230,7 +232,7 @@ class XmlResponse
 
         $response = [
             'status' => 'success',
-            'message' => 'авторизация через соц. сеть с id: ' . $_GET['socialId'] . ' удалена'
+            'message' => 'authorization via social network with id: ' . $_GET['socialId'] . ' deleted'
         ];
         $xml = new SimpleXMLElement('<token/>');
         $xmlResponse = array_flip($response);

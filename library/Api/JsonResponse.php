@@ -2,7 +2,10 @@
 
 namespace Api;
 
-class JsonResponse
+use DateTime;
+use DB;
+
+class JsonResponse implements IApi
 {
     public function verifyRequestMethod(string $correctMethod): void
     {
@@ -11,8 +14,9 @@ class JsonResponse
         if ($method !== $correctMethod) {
             $response = [
                 'status' => 'error',
-                'message' => 'incorrect method'
+                'message' => 'Incorrect method'
             ];
+
             echo json_encode($response);
             exit();
         }
@@ -24,7 +28,11 @@ class JsonResponse
     public function verifyLoginAndPassword(): void
     {
         if (!isset($_GET['login']) || !isset($_GET['password'])) {
-            echo json_encode('Вы ввели не все данные');
+            $response = [
+                'status' => 'error',
+                'message' => 'Not all data entered'
+            ];
+            echo json_encode($response);
             exit();
         }
 
@@ -36,14 +44,22 @@ class JsonResponse
 ");
 
         if (!$queryUserData->num_rows) {
-            echo json_encode('wrong login');
+            $response = [
+                'status' => 'error',
+                'message' => 'Wrong login'
+            ];
+            echo json_encode($response);
             exit();
         }
 
         $userDada = $queryUserData->fetch_assoc();
 
         if (!password_verify($_GET['password'], $userDada['password'])) {
-            echo json_encode('wrong password');
+            $response = [
+                'status' => 'error',
+                'message' => 'Wrong password'
+            ];
+            echo json_encode($response);
             exit();
         }
     }
@@ -65,34 +81,40 @@ class JsonResponse
     WHERE `login` = '" . es($_GET['login']) . "'
     LIMIT 1
 ");
-        $response = 'Поздравляем, вы получили доступ к API. secret_token = ' . $secretToken;
+        $response = [
+            'status' => 'success',
+            'message' => 'Congratulations, you have gained access to the API. secret_token = ' . $secretToken
+        ];
         echo json_encode($response);
         exit();
     }
 
     /**
-     * @throws Exception
+     *
      */
     public function verifyApiToken(): void
     {
         if (!isset($_COOKIE['secret_token'])) {
             $response = [
                 'status' => 'error',
-                'message' => 'Вы не авторизированы',
+                'message' => 'You are not authorized',
                 'login-link' => 'https://fw.loc/api/auth/login/{login}/{password}/{content type(default-JSON)}'
             ];
-
             echo json_encode($response);
             exit();
         }
 
         $queryTokenDate = q("
-        SELECT `secret_token_expire_date` FROM `fw_users`
-        WHERE `secret_token` = '" . es($_COOKIE['secret_token']) . "'
+    SELECT `secret_token_expire_date` FROM `fw_users`
+    WHERE `secret_token` = '" . es($_COOKIE['secret_token']) . "'
 ");
 
         if (!$queryTokenDate->num_rows) {
-            echo json_encode('Не корректный secret token');
+            $response = [
+                'status' => 'error',
+                'message' => 'Incorrect secret token'
+            ];
+            echo json_encode($response);
             exit();
         }
 
@@ -102,7 +124,11 @@ class JsonResponse
         $tokenExpiresDate = new DateTime($tokenDate['secret_token_expire_date']);
 
         if ($now > $tokenExpiresDate) {
-            echo json_encode('token просрочен, авторизируйтесь заново');
+            $response = [
+                'status' => 'error',
+                'message' => 'token expired, please login again'
+            ];
+            echo json_encode($response);
             exit();
         }
     }
@@ -123,12 +149,15 @@ class JsonResponse
         $queryUserData = q($sql);
 
         if (!$queryUserData->num_rows) {
-            echo json_encode('Прикрепленные аккаунты соц. сетей отсутствуют');
+            $response = [
+                'status' => 'error',
+                'message' => 'Attached social accounts does not exist'
+            ];
+            echo json_encode($response);
             exit();
         }
 
         $userData = $queryUserData->fetch_all(MYSQLI_ASSOC);
-
         echo json_encode($userData);
         exit();
     }
@@ -139,26 +168,36 @@ class JsonResponse
     public function deleteAuthViaSocial(): void
     {
         if (!isset($_GET['socialId'])) {
-            echo json_encode('Вы не указали id соц. сети для удаления');
-            exit();
-        }
-
-        $sql = "
-        DELETE FROM `fw_users2socials` 
-        WHERE `user_id` = (SELECT `id` FROM fw_users WHERE secret_token = '" . es($_COOKIE['secret_token']) . "') 
-        AND `social_id` = " . (int)($_GET['socialId']) . "
-        LIMIT 1
-        ";
-
-        q($sql);
-
-        if (!DB::_()->affected_rows > 0) {
-            $response = 'соц. сеть с id: ' . $_GET['socialId'] . ' не найдена';
+            $response = [
+                'status' => 'error',
+                'message' => 'You didn\'t specify a social id to remove'
+            ];
             echo json_encode($response);
             exit();
         }
 
-        $response = 'авторизация через соц. сеть с id: ' . $_GET['socialId'] . ' удалена';
+        $sql = "
+    DELETE FROM `fw_users2socials` 
+    WHERE `user_id` = (SELECT `id` FROM fw_users WHERE secret_token = '" . es($_COOKIE['secret_token']) . "') 
+    AND `social_id` = " . (int)($_GET['socialId']) . "
+    LIMIT 1
+    ";
+
+        q($sql);
+
+        if (!DB::_()->affected_rows > 0) {
+            $response = [
+                'status' => 'error',
+                'message' => 'Social network with id: ' . $_GET['socialId'] . ' not found'
+            ];
+            echo json_encode($response);
+            exit();
+        }
+
+        $response = [
+            'status' => 'success',
+            'message' => 'authorization via social network with id: ' . $_GET['socialId'] . ' deleted'
+        ];
         echo json_encode($response);
         exit();
     }
