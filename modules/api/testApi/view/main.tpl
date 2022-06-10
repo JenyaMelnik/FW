@@ -22,7 +22,11 @@
                 <td>DELETE</td>
                 <td>/socials/delete/{id}</td>
             </tr>
+
         </table>
+        <br>
+        <p>По умолчанию ответ приходит в формате JSON, если хотите изменить на XML: в конце зопроса добавте /xml</p>
+        <br>
     </div>
     <div class="requestTestApi">
         <form action="" method="post" onsubmit="testApiRequest(<?php ?>); return false">
