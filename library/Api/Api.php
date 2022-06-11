@@ -10,7 +10,7 @@ class Api
     /**
      * @var IApi
      */
-    private IApi $requestedFormat;
+    private IApi $response;
 
     /**
      * Api constructor.
@@ -18,7 +18,7 @@ class Api
      */
     public function __construct(IApi $responseFormat)
     {
-        $this->requestedFormat = $responseFormat;
+        $this->response = $responseFormat;
     }
 
     /**
@@ -34,7 +34,7 @@ class Api
                 'message' => 'Incorrect method'
             ];
 
-            $this->requestedFormat->printResponse($response);
+            $this->response->printResponse($response);
         }
     }
 
@@ -49,7 +49,7 @@ class Api
                 'message' => 'Not all data entered'
             ];
 
-            $this->requestedFormat->printResponse($response);
+            $this->response->printResponse($response);
         }
 
         $sql = "
@@ -67,7 +67,7 @@ class Api
                 'message' => 'Wrong login'
             ];
 
-            $this->requestedFormat->printResponse($response);
+            $this->response->printResponse($response);
 
         }
 
@@ -79,7 +79,7 @@ class Api
                 'message' => 'Wrong password'
             ];
 
-            $this->requestedFormat->printResponse($response);
+            $this->response->printResponse($response);
         }
     }
 
@@ -108,7 +108,7 @@ class Api
             'message' => 'Congratulations, you have gained access to the API. secret_token = ' . $secretToken
         ];
 
-        $this->requestedFormat->printResponse($response);
+        $this->response->printResponse($response);
     }
 
     /**
@@ -123,7 +123,7 @@ class Api
                 'login-link' => 'https://fw.loc/api/auth/login/{login}/{password}/{content type(default-JSON)}'
             ];
 
-            $this->requestedFormat->printResponse($response);
+            $this->response->printResponse($response);
         }
 
         $sql = "
@@ -139,7 +139,7 @@ class Api
                 'message' => 'Incorrect secret token'
             ];
 
-            $this->requestedFormat->printResponse($response);
+            $this->response->printResponse($response);
         }
 
         $tokenDate = $queryTokenDate->fetch_assoc();
@@ -153,7 +153,7 @@ class Api
                 'message' => 'token expired, please login again'
             ];
 
-            $this->requestedFormat->printResponse($response);
+            $this->response->printResponse($response);
         }
     }
 
@@ -178,12 +178,12 @@ class Api
                 'message' => 'Attached social accounts does not exist'
             ];
 
-            $this->requestedFormat->printResponse($response);
+            $this->response->printResponse($response);
         }
 
         $response = $queryUserData->fetch_all(MYSQLI_ASSOC);
 
-        $this->requestedFormat->printResponse($response);
+        $this->response->printResponse($response);
     }
 
     /**
@@ -197,7 +197,7 @@ class Api
                 'message' => 'You didn\'t specify a social id to remove'
             ];
 
-            $this->requestedFormat->printResponse($response);
+            $this->response->printResponse($response);
         }
 
         $sql = "
@@ -215,7 +215,7 @@ class Api
                 'message' => 'Social network with id: ' . $_GET['socialId'] . ' not found'
             ];
 
-            $this->requestedFormat->printResponse($response);
+            $this->response->printResponse($response);
         }
 
         $sql = "
@@ -234,6 +234,6 @@ class Api
             'social_name' => $social['social_name']
         ];
 
-        $this->requestedFormat->printResponse($response);
+        $this->response->printResponse($response);
     }
 }
