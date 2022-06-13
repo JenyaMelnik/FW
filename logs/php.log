@@ -1,56 +1,82 @@
 2022-03-21 10:21:21: Warning: [key() expects parameter 1 to be array, int given]
 at file /var/www/html/index.php in line 150
-=================================================
 
-2022-03-21 10:24:28: Warning: [Use of undefined constant main - assumed 'main' (this will throw an Error in a future version of PHP)]
+=================================================
+
+
+2022-03-21 10:24:28: Warning: [Use of undefined constant main - assumed 'main' (this will throw an Error in a future version of PHP)]
 at file /var/www/html/modules/news/sitemap/sitemap.php in line 3
-=================================================
 
-2022-03-21 10:25:38: Warning: [Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)]
+=================================================
+
+
+2022-03-21 10:25:38: Warning: [Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)]
 at file /var/www/html/modules/news/sitemap/sitemap.php in line 3
-=================================================
 
-2022-03-21 10:25:38: Warning: [require(./modules/news/index.php): failed to open stream: No such file or directory]
+=================================================
+
+
+2022-03-21 10:25:38: Warning: [require(./modules/news/index.php): failed to open stream: No such file or directory]
 at file /var/www/html/index.php in line 226
-=================================================
 
-2022-03-21 10:25:38: Complite error: [require(): Failed opening required './modules/news/index.php' (include_path='.:/usr/local/lib/php')]
+=================================================
+
+
+2022-03-21 10:25:38: Complite error: [require(): Failed opening required './modules/news/index.php' (include_path='.:/usr/local/lib/php')]
 at file /var/www/html/index.php in line 226
-=================================================
 
-2022-03-21 10:28:33: Warning: [Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)]
+=================================================
+
+
+2022-03-21 10:28:33: Warning: [Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)]
 at file /var/www/html/modules/news/sitemap/sitemap.php in line 3
-=================================================
 
-2022-03-21 10:28:33: Warning: [require(./modules/news/index.php): failed to open stream: No such file or directory]
+=================================================
+
+
+2022-03-21 10:28:33: Warning: [require(./modules/news/index.php): failed to open stream: No such file or directory]
 at file /var/www/html/index.php in line 226
-=================================================
 
-2022-03-21 10:28:33: Complite error: [require(): Failed opening required './modules/news/index.php' (include_path='.:/usr/local/lib/php')]
+=================================================
+
+
+2022-03-21 10:28:33: Complite error: [require(): Failed opening required './modules/news/index.php' (include_path='.:/usr/local/lib/php')]
 at file /var/www/html/index.php in line 226
-=================================================
 
-2022-03-21 10:28:37: Warning: [Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)]
+=================================================
+
+
+2022-03-21 10:28:37: Warning: [Use of undefined constant index - assumed 'index' (this will throw an Error in a future version of PHP)]
 at file /var/www/html/modules/news/sitemap/sitemap.php in line 3
-=================================================
 
-2022-03-21 10:28:37: Warning: [require(./modules/news/index.php): failed to open stream: No such file or directory]
+=================================================
+
+
+2022-03-21 10:28:37: Warning: [require(./modules/news/index.php): failed to open stream: No such file or directory]
 at file /var/www/html/index.php in line 226
-=================================================
 
-2022-03-21 10:28:37: Complite error: [require(): Failed opening required './modules/news/index.php' (include_path='.:/usr/local/lib/php')]
+=================================================
+
+
+2022-03-21 10:28:37: Complite error: [require(): Failed opening required './modules/news/index.php' (include_path='.:/usr/local/lib/php')]
 at file /var/www/html/index.php in line 226
-=================================================
 
-2022-03-21 10:29:03: Warning: [Use of undefined constant main - assumed 'main' (this will throw an Error in a future version of PHP)]
+=================================================
+
+
+2022-03-21 10:29:03: Warning: [Use of undefined constant main - assumed 'main' (this will throw an Error in a future version of PHP)]
 at file /var/www/html/modules/news/sitemap/sitemap.php in line 3
-=================================================
 
-2022-03-21 10:29:40: Warning: [Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP)]
+=================================================
+
+
+2022-03-21 10:29:40: Warning: [Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP)]
 at file /var/www/html/modules/news/sitemap/sitemap.php in line 3
-=================================================
 
-2022-04-22 11:05:24: User Notice: [Ошибка регистрации: PHPMailer\PHPMailer\Exception Object
+=================================================
+
+
+2022-04-22 11:05:24: User Notice: [Ошибка регистрации: PHPMailer\PHPMailer\Exception Object
 (
     [message:protected] => Could not instantiate mail function.
     [string:Exception:private] => 
@@ -229,33 +255,47 @@ Auto-generated e-mail, please, do not reply!</p>
 )
 ]
 at file /var/www/html/vendor/schoolphp/library/User/Registration.php in line 155
-=================================================
 
-2022-04-22 13:35:36: Notice: [Undefined index: login]
+=================================================
+
+
+2022-04-22 13:35:36: Notice: [Undefined index: login]
 at file /var/www/html/skins/index.tpl in line 68
-=================================================
 
-2022-04-22 13:36:05: Notice: [Undefined index: login]
+=================================================
+
+
+2022-04-22 13:36:05: Notice: [Undefined index: login]
 at file /var/www/html/skins/index.tpl in line 68
-=================================================
 
-2022-04-22 13:36:12: Notice: [Undefined index: login]
+=================================================
+
+
+2022-04-22 13:36:12: Notice: [Undefined index: login]
 at file /var/www/html/skins/index.tpl in line 68
-=================================================
 
-2022-04-22 13:41:44: Notice: [Undefined index: login]
+=================================================
+
+
+2022-04-22 13:41:44: Notice: [Undefined index: login]
 at file /var/www/html/skins/index.tpl in line 68
-=================================================
 
-2022-04-22 13:42:42: Notice: [Array to string conversion]
+=================================================
+
+
+2022-04-22 13:42:42: Notice: [Array to string conversion]
 at file /var/www/html/skins/index.tpl in line 68
-=================================================
 
-2022-04-22 13:42:44: Notice: [Array to string conversion]
+=================================================
+
+
+2022-04-22 13:42:44: Notice: [Array to string conversion]
 at file /var/www/html/skins/index.tpl in line 68
-=================================================
 
-2022-04-22 13:51:17: User Notice: [Ошибка регистрации: PHPMailer\PHPMailer\Exception Object
+=================================================
+
+
+2022-04-22 13:51:17: User Notice: [Ошибка регистрации: PHPMailer\PHPMailer\Exception Object
 (
     [message:protected] => Could not instantiate mail function.
     [string:Exception:private] => 
@@ -434,9 +474,11 @@ Auto-generated e-mail, please, do not reply!</p>
 )
 ]
 at file /var/www/html/vendor/schoolphp/library/User/Registration.php in line 155
-=================================================
 
-2022-04-26 09:01:50: User Notice: [Ошибка регистрации: PHPMailer\PHPMailer\Exception Object
+=================================================
+
+
+2022-04-26 09:01:50: User Notice: [Ошибка регистрации: PHPMailer\PHPMailer\Exception Object
 (
     [message:protected] => Could not instantiate mail function.
     [string:Exception:private] => 
@@ -615,9 +657,11 @@ Auto-generated e-mail, please, do not reply!</p>
 )
 ]
 at file /var/www/html/vendor/schoolphp/library/User/Registration.php in line 155
-=================================================
 
-2022-05-03 10:34:40: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+=================================================
+
+
+2022-05-03 10:34:40: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
 Stack trace:
 #0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
 #1 [internal function]: myAuthoload('Cache/CacheFile')
@@ -627,9 +671,11 @@ Stack trace:
 #5 {main}
   thrown]
 at file /var/www/html/library/Cache/CacheFile.php in line 4
-=================================================
 
-2022-05-03 10:35:36: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+=================================================
+
+
+2022-05-03 10:35:36: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
 Stack trace:
 #0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
 #1 [internal function]: myAuthoload('Cache/CacheFile')
@@ -639,9 +685,11 @@ Stack trace:
 #5 {main}
   thrown]
 at file /var/www/html/library/Cache/CacheFile.php in line 4
-=================================================
 
-2022-05-03 10:36:33: Error: [Uncaught Error: Interface 'Cache\CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+=================================================
+
+
+2022-05-03 10:36:33: Error: [Uncaught Error: Interface 'Cache\CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
 Stack trace:
 #0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
 #1 [internal function]: myAuthoload('Cache/CacheFile')
@@ -651,9 +699,11 @@ Stack trace:
 #5 {main}
   thrown]
 at file /var/www/html/library/Cache/CacheFile.php in line 4
-=================================================
 
-2022-05-03 10:37:12: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+=================================================
+
+
+2022-05-03 10:37:12: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
 Stack trace:
 #0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
 #1 [internal function]: myAuthoload('Cache/CacheFile')
@@ -663,9 +713,11 @@ Stack trace:
 #5 {main}
   thrown]
 at file /var/www/html/library/Cache/CacheFile.php in line 4
-=================================================
 
-2022-05-03 10:37:53: Error: [Uncaught ArgumentCountError: Too few arguments to function Cache\CacheFile::__construct(), 0 passed in /var/www/html/modules/test/main.php on line 5 and exactly 1 expected in /var/www/html/library/Cache/CacheFile.php:9
+=================================================
+
+
+2022-05-03 10:37:53: Error: [Uncaught ArgumentCountError: Too few arguments to function Cache\CacheFile::__construct(), 0 passed in /var/www/html/modules/test/main.php on line 5 and exactly 1 expected in /var/www/html/library/Cache/CacheFile.php:9
 Stack trace:
 #0 /var/www/html/modules/test/main.php(5): Cache\CacheFile->__construct()
 #1 /var/www/html/index.php(226): require('/var/www/html/m...')
@@ -673,9 +725,11 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/library/Cache/CacheFile.php in line 9
-=================================================
 
-2022-05-03 10:40:55: Error: [Uncaught ArgumentCountError: Too few arguments to function Cache\CacheFile::__construct(), 0 passed in /var/www/html/modules/test/main.php on line 5 and exactly 1 expected in /var/www/html/library/Cache/CacheFile.php:9
+=================================================
+
+
+2022-05-03 10:40:55: Error: [Uncaught ArgumentCountError: Too few arguments to function Cache\CacheFile::__construct(), 0 passed in /var/www/html/modules/test/main.php on line 5 and exactly 1 expected in /var/www/html/library/Cache/CacheFile.php:9
 Stack trace:
 #0 /var/www/html/modules/test/main.php(5): Cache\CacheFile->__construct()
 #1 /var/www/html/index.php(226): require('/var/www/html/m...')
@@ -683,9 +737,11 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/library/Cache/CacheFile.php in line 9
-=================================================
 
-2022-05-03 10:43:31: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+=================================================
+
+
+2022-05-03 10:43:31: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
 Stack trace:
 #0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
 #1 [internal function]: myAuthoload('Cache/CacheFile')
@@ -695,9 +751,11 @@ Stack trace:
 #5 {main}
   thrown]
 at file /var/www/html/library/Cache/CacheFile.php in line 4
-=================================================
 
-2022-05-03 10:48:33: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+=================================================
+
+
+2022-05-03 10:48:33: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
 Stack trace:
 #0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
 #1 [internal function]: myAuthoload('Cache/CacheFile')
@@ -707,9 +765,11 @@ Stack trace:
 #5 {main}
   thrown]
 at file /var/www/html/library/Cache/CacheFile.php in line 4
-=================================================
 
-2022-05-03 11:20:15: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+=================================================
+
+
+2022-05-03 11:20:15: Error: [Uncaught Error: Interface 'CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
 Stack trace:
 #0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
 #1 [internal function]: myAuthoload('Cache/CacheFile')
@@ -719,9 +779,11 @@ Stack trace:
 #5 {main}
   thrown]
 at file /var/www/html/library/Cache/CacheFile.php in line 4
-=================================================
 
-2022-05-03 11:21:44: Error: [Uncaught Error: Interface 'Cache\CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
+=================================================
+
+
+2022-05-03 11:21:44: Error: [Uncaught Error: Interface 'Cache\CacheInterface' not found in /var/www/html/library/Cache/CacheFile.php:4
 Stack trace:
 #0 /var/www/html/vendor/schoolphp/library/Core/functions.php(72): require()
 #1 [internal function]: myAuthoload('Cache/CacheFile')
@@ -731,33 +793,47 @@ Stack trace:
 #5 {main}
   thrown]
 at file /var/www/html/library/Cache/CacheFile.php in line 4
-=================================================
 
-2022-05-04 18:18:58: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
+=================================================
+
+
+2022-05-04 18:18:58: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
 at file /var/www/html/modules/test/main.php in line 43
-=================================================
 
-2022-05-04 18:19:19: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
+=================================================
+
+
+2022-05-04 18:19:19: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
 at file /var/www/html/modules/test/main.php in line 43
-=================================================
 
-2022-05-04 18:19:23: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
+=================================================
+
+
+2022-05-04 18:19:23: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
 at file /var/www/html/modules/test/main.php in line 43
-=================================================
 
-2022-05-04 18:25:15: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
+=================================================
+
+
+2022-05-04 18:25:15: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
 at file /var/www/html/modules/test/main.php in line 43
-=================================================
 
-2022-05-04 18:25:17: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
+=================================================
+
+
+2022-05-04 18:25:17: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
 at file /var/www/html/modules/test/main.php in line 43
-=================================================
 
-2022-05-04 18:28:57: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
+=================================================
+
+
+2022-05-04 18:28:57: Warning: [mysqli_connect(): (HY000/2002): No such file or directory]
 at file /var/www/html/modules/test/main.php in line 49
-=================================================
 
-2022-05-05 09:11:34: Error: [Uncaught Error: Call to undefined function generateTable() in /var/www/html/modules/test/main.php:70
+=================================================
+
+
+2022-05-05 09:11:34: Error: [Uncaught Error: Call to undefined function generateTable() in /var/www/html/modules/test/main.php:70
 Stack trace:
 #0 /var/www/html/modules/test/main.php(80): ApiStrategy::write(Array)
 #1 /var/www/html/index.php(226): require('/var/www/html/m...')
@@ -765,321 +841,451 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/modules/test/main.php in line 70
-=================================================
 
-2022-05-05 10:11:01: Error: [Uncaught Error: Call to undefined method Core::set() in /var/www/html/modules/test/main.php:82
+=================================================
+
+
+2022-05-05 10:11:01: Error: [Uncaught Error: Call to undefined method Core::set() in /var/www/html/modules/test/main.php:82
 Stack trace:
 #0 /var/www/html/index.php(226): require()
 #1 /var/www/html/index.php(250): FrontController::init('test')
 #2 {main}
   thrown]
 at file /var/www/html/modules/test/main.php in line 82
-=================================================
 
-2022-05-05 10:11:30: Error: [Uncaught Error: Call to undefined method Core::get() in /var/www/html/modules/test/main.php:83
+=================================================
+
+
+2022-05-05 10:11:30: Error: [Uncaught Error: Call to undefined method Core::get() in /var/www/html/modules/test/main.php:83
 Stack trace:
 #0 /var/www/html/index.php(226): require()
 #1 /var/www/html/index.php(250): FrontController::init('test')
 #2 {main}
   thrown]
 at file /var/www/html/modules/test/main.php in line 83
-=================================================
 
-2022-05-05 10:12:14: Parse: [syntax error, unexpected 'PHP_EOL' (T_STRING)]
+=================================================
+
+
+2022-05-05 10:12:14: Parse: [syntax error, unexpected 'PHP_EOL' (T_STRING)]
 at file /var/www/html/modules/test/main.php in line 82
-=================================================
 
-2022-05-05 14:12:06: Error: [Uncaught Error: Call to undefined method User::create() in /var/www/html/modules/test/main.php:60
+=================================================
+
+
+2022-05-05 14:12:06: Error: [Uncaught Error: Call to undefined method User::create() in /var/www/html/modules/test/main.php:60
 Stack trace:
 #0 /var/www/html/index.php(226): require()
 #1 /var/www/html/index.php(250): FrontController::init('test')
 #2 {main}
   thrown]
 at file /var/www/html/modules/test/main.php in line 60
-=================================================
 
-2022-05-07 17:54:08: Notice: [Undefined index: status]
+=================================================
+
+
+2022-05-07 17:54:08: Notice: [Undefined index: status]
 at file /var/www/html/index.php in line 28
-=================================================
 
-2022-05-07 17:54:08: Warning: [session_start(): Cannot start session when headers already sent]
+=================================================
+
+
+2022-05-07 17:54:08: Warning: [session_start(): Cannot start session when headers already sent]
 at file /var/www/html/modules/_allmodules.php in line 15
-=================================================
 
-2022-05-07 17:54:08: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/schoolphp/library/MyErrorHandler/MyErrorHandler.php:91)]
+=================================================
+
+
+2022-05-07 17:54:08: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/schoolphp/library/MyErrorHandler/MyErrorHandler.php:91)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 152
-=================================================
 
-2022-05-07 17:54:08: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/schoolphp/library/MyErrorHandler/MyErrorHandler.php:91)]
+=================================================
+
+
+2022-05-07 17:54:08: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/schoolphp/library/MyErrorHandler/MyErrorHandler.php:91)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 153
-=================================================
 
-2022-05-07 17:56:08: Parse: [syntax error, unexpected 'getDatas' (T_STRING), expecting '(']
+=================================================
+
+
+2022-05-07 17:56:08: Parse: [syntax error, unexpected 'getDatas' (T_STRING), expecting '(']
 at file /var/www/html/vendor/schoolphp/library/User/User.php in line 72
-=================================================
 
-2022-05-07 17:57:27: Error: [Uncaught Error: Class 'FW\User\Core' not found in /var/www/html/vendor/schoolphp/library/User/User.php:65
+=================================================
+
+
+2022-05-07 17:57:27: Error: [Uncaught Error: Class 'FW\User\Core' not found in /var/www/html/vendor/schoolphp/library/User/User.php:65
 Stack trace:
 #0 /var/www/html/modules/_allmodules.php(29): FW\User\User::Start(Array)
 #1 /var/www/html/index.php(59): require('/var/www/html/m...')
 #2 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/User/User.php in line 65
-=================================================
 
-2022-05-07 17:58:15: Error: [Uncaught Error: Class 'FW\User\Core' not found in /var/www/html/vendor/schoolphp/library/User/User.php:65
+=================================================
+
+
+2022-05-07 17:58:15: Error: [Uncaught Error: Class 'FW\User\Core' not found in /var/www/html/vendor/schoolphp/library/User/User.php:65
 Stack trace:
 #0 /var/www/html/modules/_allmodules.php(29): FW\User\User::Start(Array)
 #1 /var/www/html/index.php(59): require('/var/www/html/m...')
 #2 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/User/User.php in line 65
-=================================================
 
-2022-05-07 18:01:59: Error: [Uncaught Error: Class 'FW\User\Core' not found in /var/www/html/vendor/schoolphp/library/User/User.php:66
+=================================================
+
+
+2022-05-07 18:01:59: Error: [Uncaught Error: Class 'FW\User\Core' not found in /var/www/html/vendor/schoolphp/library/User/User.php:66
 Stack trace:
 #0 /var/www/html/modules/_allmodules.php(29): FW\User\User::Start(Array)
 #1 /var/www/html/index.php(59): require('/var/www/html/m...')
 #2 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/User/User.php in line 66
-=================================================
 
-2022-05-07 18:09:35: Error: [Uncaught Error: Access to undeclared static property: FW\User\User::$bannedIp in /var/www/html/vendor/schoolphp/library/User/User.php:66
+=================================================
+
+
+2022-05-07 18:09:35: Error: [Uncaught Error: Access to undeclared static property: FW\User\User::$bannedIp in /var/www/html/vendor/schoolphp/library/User/User.php:66
 Stack trace:
 #0 /var/www/html/modules/_allmodules.php(29): FW\User\User::Start(Array)
 #1 /var/www/html/index.php(59): require('/var/www/html/m...')
 #2 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/User/User.php in line 66
-=================================================
 
-2022-05-12 11:45:50: Notice: [Undefined variable: auth]
+=================================================
+
+
+2022-05-12 11:45:50: Notice: [Undefined variable: auth]
 at file /var/www/html/modules/test/main.php in line 71
-=================================================
 
-2022-05-12 13:47:34: Notice: [Undefined variable: userDataQuery]
+=================================================
+
+
+2022-05-12 13:47:34: Notice: [Undefined variable: userDataQuery]
 at file /var/www/html/vendor/schoolphp/library/User/User.php in line 92
-=================================================
 
-2022-05-12 13:47:34: Error: [Uncaught Error: Call to a member function fetch_assoc() on null in /var/www/html/vendor/schoolphp/library/User/User.php:92
+=================================================
+
+
+2022-05-12 13:47:34: Error: [Uncaught Error: Call to a member function fetch_assoc() on null in /var/www/html/vendor/schoolphp/library/User/User.php:92
 Stack trace:
 #0 /var/www/html/modules/_allmodules.php(29): FW\User\User::Start(Array)
 #1 /var/www/html/index.php(59): require('/var/www/html/m...')
 #2 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/User/User.php in line 92
-=================================================
 
-2022-05-12 15:40:07: Notice: [Undefined variable: currentUser]
+=================================================
+
+
+2022-05-12 15:40:07: Notice: [Undefined variable: currentUser]
 at file /var/www/html/vendor/schoolphp/library/User/User.php in line 93
-=================================================
 
-2022-05-12 15:47:05: Error: [Uncaught Error: Cannot access self:: when no class scope is active in /var/www/html/modules/_allmodules.php:55
+=================================================
+
+
+2022-05-12 15:47:05: Error: [Uncaught Error: Cannot access self:: when no class scope is active in /var/www/html/modules/_allmodules.php:55
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 55
-=================================================
 
-2022-05-12 15:47:30: Error: [Uncaught Error: Cannot access self:: when no class scope is active in /var/www/html/modules/_allmodules.php:69
+=================================================
+
+
+2022-05-12 15:47:30: Error: [Uncaught Error: Cannot access self:: when no class scope is active in /var/www/html/modules/_allmodules.php:69
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 69
-=================================================
 
-2022-05-12 16:33:17: Parse: [syntax error, unexpected ')']
+=================================================
+
+
+2022-05-12 16:33:17: Parse: [syntax error, unexpected ')']
 at file /var/www/html/modules/_allmodules.php in line 64
-=================================================
 
-2022-05-12 16:47:59: Parse: [syntax error, unexpected ';', expecting ')']
+=================================================
+
+
+2022-05-12 16:47:59: Parse: [syntax error, unexpected ';', expecting ')']
 at file /var/www/html/modules/_allmodules.php in line 60
-=================================================
 
-2022-05-12 18:36:33: Error: [Uncaught Error: Undefined class constant 'FillUsersDada' in /var/www/html/modules/_allmodules.php:86
+=================================================
+
+
+2022-05-12 18:36:33: Error: [Uncaught Error: Undefined class constant 'FillUsersDada' in /var/www/html/modules/_allmodules.php:86
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 86
-=================================================
 
-2022-05-12 19:27:29: Parse: [syntax error, unexpected 'if' (T_IF)]
+=================================================
+
+
+2022-05-12 19:27:29: Parse: [syntax error, unexpected 'if' (T_IF)]
 at file /var/www/html/modules/_allmodules.php in line 88
-=================================================
 
-2022-05-12 20:04:46: Notice: [Undefined index: user]
+=================================================
+
+
+2022-05-12 20:04:46: Notice: [Undefined index: user]
 at file /var/www/html/modules/_allmodules.php in line 56
-=================================================
 
-2022-05-12 20:04:46: Notice: [Trying to access array offset on value of type null]
+=================================================
+
+
+2022-05-12 20:04:46: Notice: [Trying to access array offset on value of type null]
 at file /var/www/html/modules/_allmodules.php in line 56
-=================================================
 
-2022-05-13 09:18:43: Error: [Uncaught Error: Call to undefined method User::fillUsersData() in /var/www/html/modules/_allmodules.php:106
+=================================================
+
+
+2022-05-13 09:18:43: Error: [Uncaught Error: Call to undefined method User::fillUsersData() in /var/www/html/modules/_allmodules.php:106
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 106
-=================================================
 
-2022-05-14 23:50:33: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+=================================================
+
+
+2022-05-14 23:50:33: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 236
-=================================================
 
-2022-05-14 23:50:33: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+=================================================
+
+
+2022-05-14 23:50:33: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 237
-=================================================
 
-2022-05-14 23:50:33: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+=================================================
+
+
+2022-05-14 23:50:33: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
 at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 276
-=================================================
 
-2022-05-14 23:50:35: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+=================================================
+
+
+2022-05-14 23:50:35: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 236
-=================================================
 
-2022-05-14 23:50:35: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+=================================================
+
+
+2022-05-14 23:50:35: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 237
-=================================================
 
-2022-05-14 23:50:35: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+=================================================
+
+
+2022-05-14 23:50:35: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
 at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 276
-=================================================
 
-2022-05-14 23:51:53: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+=================================================
+
+
+2022-05-14 23:51:53: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 152
-=================================================
 
-2022-05-14 23:51:53: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+=================================================
+
+
+2022-05-14 23:51:53: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 153
-=================================================
 
-2022-05-14 23:51:53: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+=================================================
+
+
+2022-05-14 23:51:53: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
 at file /var/www/html/modules/login/main.php in line 40
-=================================================
 
-2022-05-14 23:52:10: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+=================================================
+
+
+2022-05-14 23:52:10: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 152
-=================================================
 
-2022-05-14 23:52:10: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+=================================================
+
+
+2022-05-14 23:52:10: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 153
-=================================================
 
-2022-05-14 23:52:10: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+=================================================
+
+
+2022-05-14 23:52:10: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
 at file /var/www/html/modules/login/main.php in line 40
-=================================================
 
-2022-05-14 23:52:56: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+=================================================
+
+
+2022-05-14 23:52:56: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 236
-=================================================
 
-2022-05-14 23:52:56: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+=================================================
+
+
+2022-05-14 23:52:56: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 237
-=================================================
 
-2022-05-14 23:52:56: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
+=================================================
+
+
+2022-05-14 23:52:56: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:93)]
 at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 276
-=================================================
 
-2022-05-14 23:54:31: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
+=================================================
+
+
+2022-05-14 23:54:31: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 152
-=================================================
 
-2022-05-14 23:54:31: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
+=================================================
+
+
+2022-05-14 23:54:31: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 153
-=================================================
 
-2022-05-14 23:54:31: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
+=================================================
+
+
+2022-05-14 23:54:31: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
 at file /var/www/html/modules/login/main.php in line 40
-=================================================
 
-2022-05-14 23:55:11: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
+=================================================
+
+
+2022-05-14 23:55:11: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 152
-=================================================
 
-2022-05-14 23:55:11: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
+=================================================
+
+
+2022-05-14 23:55:11: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 153
-=================================================
 
-2022-05-14 23:55:11: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
+=================================================
+
+
+2022-05-14 23:55:11: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:94)]
 at file /var/www/html/modules/login/main.php in line 40
-=================================================
 
-2022-05-14 23:55:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
+=================================================
+
+
+2022-05-14 23:55:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 236
-=================================================
 
-2022-05-14 23:55:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
+=================================================
+
+
+2022-05-14 23:55:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 237
-=================================================
 
-2022-05-14 23:55:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
+=================================================
+
+
+2022-05-14 23:55:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
 at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 276
-=================================================
 
-2022-05-14 23:55:51: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
+=================================================
+
+
+2022-05-14 23:55:51: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 236
-=================================================
 
-2022-05-14 23:55:51: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
+=================================================
+
+
+2022-05-14 23:55:51: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 237
-=================================================
 
-2022-05-14 23:55:51: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
+=================================================
+
+
+2022-05-14 23:55:51: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:96)]
 at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 276
-=================================================
 
-2022-05-18 11:44:11: Warning: [strpos() expects at least 2 parameters, 1 given]
+=================================================
+
+
+2022-05-18 11:44:11: Warning: [strpos() expects at least 2 parameters, 1 given]
 at file /var/www/html/modules/_allmodules.php in line 91
-=================================================
 
-2022-05-18 11:46:20: Warning: [substr() expects parameter 2 to be int, string given]
+=================================================
+
+
+2022-05-18 11:46:20: Warning: [substr() expects parameter 2 to be int, string given]
 at file /var/www/html/modules/_allmodules.php in line 90
-=================================================
 
-2022-05-18 11:46:20: Warning: [strpos() expects at least 2 parameters, 1 given]
+=================================================
+
+
+2022-05-18 11:46:20: Warning: [strpos() expects at least 2 parameters, 1 given]
 at file /var/www/html/modules/_allmodules.php in line 91
-=================================================
 
-2022-05-18 11:46:35: Warning: [strpos() expects at least 2 parameters, 1 given]
+=================================================
+
+
+2022-05-18 11:46:35: Warning: [strpos() expects at least 2 parameters, 1 given]
 at file /var/www/html/modules/_allmodules.php in line 91
-=================================================
 
-2022-05-18 11:59:59: Notice: [Array to string conversion]
+=================================================
+
+
+2022-05-18 11:59:59: Notice: [Array to string conversion]
 at file /var/www/html/modules/_allmodules.php in line 88
-=================================================
 
-2022-05-18 12:11:42: Notice: [Array to string conversion]
+=================================================
+
+
+2022-05-18 12:11:42: Notice: [Array to string conversion]
 at file /var/www/html/modules/_allmodules.php in line 88
-=================================================
 
-2022-05-18 12:49:39: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:88)]
+=================================================
+
+
+2022-05-18 12:49:39: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:88)]
 at file /var/www/html/modules/static/404.php in line 2
-=================================================
 
-2022-05-18 12:50:22: Parse: [syntax error, unexpected ')']
+=================================================
+
+
+2022-05-18 12:50:22: Parse: [syntax error, unexpected ')']
 at file /var/www/html/modules/_allmodules.php in line 88
-=================================================
 
-2022-05-18 12:51:18: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:85)]
+=================================================
+
+
+2022-05-18 12:51:18: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:85)]
 at file /var/www/html/modules/static/404.php in line 2
-=================================================
 
-2022-05-18 12:53:43: Notice: [Undefined index: route]
+=================================================
+
+
+2022-05-18 12:53:43: Notice: [Undefined index: route]
 at file /var/www/html/modules/_allmodules.php in line 83
-=================================================
 
-2022-05-18 12:54:00: Notice: [Undefined index: route]
+=================================================
+
+
+2022-05-18 12:54:00: Notice: [Undefined index: route]
 at file /var/www/html/modules/_allmodules.php in line 83
-=================================================
 
-2022-05-18 13:11:39: User Notice: [Ошибка регистрации: PHPMailer\PHPMailer\Exception Object
+=================================================
+
+
+2022-05-18 13:11:39: User Notice: [Ошибка регистрации: PHPMailer\PHPMailer\Exception Object
 (
     [message:protected] => Could not instantiate mail function.
     [string:Exception:private] => 
@@ -1258,180 +1464,224 @@ Auto-generated e-mail, please, do not reply!</p>
 )
 ]
 at file /var/www/html/vendor/schoolphp/library/User/Registration.php in line 155
-=================================================
 
-2022-05-18 13:35:06: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 13:35:06: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 13:37:58: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 13:37:58: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 13:38:55: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 13:38:55: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 13:39:05: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 13:39:05: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 13:41:09: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 13:41:09: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 13:42:07: Error: [Uncaught Error: Class 'library\User\CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 13:42:07: Error: [Uncaught Error: Class 'library\User\CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 13:42:38: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 13:42:38: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 13:42:59: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
+=================================================
+
+
+2022-05-18 13:42:59: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
 Stack trace:
 #0 /var/www/html/modules/_allmodules.php(39): isAdmin()
 #1 /var/www/html/index.php(59): require('/var/www/html/m...')
 #2 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 329
-=================================================
 
-2022-05-18 13:43:21: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 13:43:21: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 13:43:54: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
+=================================================
+
+
+2022-05-18 13:43:54: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
 Stack trace:
 #0 /var/www/html/modules/_allmodules.php(39): isAdmin()
 #1 /var/www/html/index.php(59): require('/var/www/html/m...')
 #2 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 329
-=================================================
 
-2022-05-18 13:47:11: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 13:47:11: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 13:47:43: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 13:47:43: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 13:49:16: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 13:49:16: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 13:49:18: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 13:49:18: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 13:56:29: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 13:56:29: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 14:00:06: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 14:00:06: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 14:02:18: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 14:02:18: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 14:03:10: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 14:03:10: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 14:03:28: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:32
+=================================================
+
+
+2022-05-18 14:03:28: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:32
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 32
-=================================================
 
-2022-05-18 14:03:54: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
+=================================================
+
+
+2022-05-18 14:03:54: Error: [Uncaught Error: Class 'CurrentUser' not found in /var/www/html/modules/_allmodules.php:31
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 31
-=================================================
 
-2022-05-18 14:05:21: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
+=================================================
+
+
+2022-05-18 14:05:21: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
 Stack trace:
 #0 /var/www/html/modules/_allmodules.php(40): isAdmin()
 #1 /var/www/html/index.php(59): require('/var/www/html/m...')
 #2 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 329
-=================================================
 
-2022-05-18 14:07:28: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+=================================================
+
+
+2022-05-18 14:07:28: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
 Stack trace:
 #0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
 #1 /var/www/html/index.php(213): require('/var/www/html/m...')
@@ -1439,18 +1689,22 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
-=================================================
 
-2022-05-18 14:07:46: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
+=================================================
+
+
+2022-05-18 14:07:46: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
 Stack trace:
 #0 /var/www/html/modules/_allmodules.php(40): isAdmin()
 #1 /var/www/html/index.php(59): require('/var/www/html/m...')
 #2 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 329
-=================================================
 
-2022-05-18 14:08:08: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+=================================================
+
+
+2022-05-18 14:08:08: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
 Stack trace:
 #0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
 #1 /var/www/html/index.php(213): require('/var/www/html/m...')
@@ -1458,9 +1712,11 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
-=================================================
 
-2022-05-18 14:09:58: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+=================================================
+
+
+2022-05-18 14:09:58: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
 Stack trace:
 #0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
 #1 /var/www/html/index.php(213): require('/var/www/html/m...')
@@ -1468,17 +1724,21 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
-=================================================
 
-2022-05-18 14:17:44: Error: [Uncaught Error: Call to undefined method FW\User\User::enableCaptcha() in /var/www/html/modules/_allmodules.php:33
+=================================================
+
+
+2022-05-18 14:17:44: Error: [Uncaught Error: Call to undefined method FW\User\User::enableCaptcha() in /var/www/html/modules/_allmodules.php:33
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 33
-=================================================
 
-2022-05-18 14:20:19: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+=================================================
+
+
+2022-05-18 14:20:19: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
 Stack trace:
 #0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
 #1 /var/www/html/index.php(213): require('/var/www/html/m...')
@@ -1486,9 +1746,11 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
-=================================================
 
-2022-05-18 14:20:22: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+=================================================
+
+
+2022-05-18 14:20:22: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
 Stack trace:
 #0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
 #1 /var/www/html/index.php(213): require('/var/www/html/m...')
@@ -1496,9 +1758,11 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
-=================================================
 
-2022-05-18 14:21:01: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+=================================================
+
+
+2022-05-18 14:21:01: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
 Stack trace:
 #0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
 #1 /var/www/html/index.php(213): require('/var/www/html/m...')
@@ -1506,33 +1770,47 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
-=================================================
 
-2022-05-18 14:26:45: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
+=================================================
+
+
+2022-05-18 14:26:45: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 236
-=================================================
 
-2022-05-18 14:26:45: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
+=================================================
+
+
+2022-05-18 14:26:45: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 237
-=================================================
 
-2022-05-18 14:26:45: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
+=================================================
+
+
+2022-05-18 14:26:45: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
 at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 276
-=================================================
 
-2022-05-18 14:26:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
+=================================================
+
+
+2022-05-18 14:26:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 236
-=================================================
 
-2022-05-18 14:26:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
+=================================================
+
+
+2022-05-18 14:26:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 237
-=================================================
 
-2022-05-18 14:26:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
+=================================================
+
+
+2022-05-18 14:26:49: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:70)]
 at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 276
-=================================================
 
-2022-05-18 14:38:09: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+=================================================
+
+
+2022-05-18 14:38:09: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
 Stack trace:
 #0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
 #1 /var/www/html/index.php(213): require('/var/www/html/m...')
@@ -1540,13 +1818,17 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
-=================================================
 
-2022-05-18 14:38:49: Parse: [syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)]
+=================================================
+
+
+2022-05-18 14:38:49: Parse: [syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)]
 at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 98
-=================================================
 
-2022-05-18 14:39:01: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+=================================================
+
+
+2022-05-18 14:39:01: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
 Stack trace:
 #0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
 #1 /var/www/html/index.php(213): require('/var/www/html/m...')
@@ -1554,9 +1836,11 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
-=================================================
 
-2022-05-18 14:39:12: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
+=================================================
+
+
+2022-05-18 14:39:12: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
 Stack trace:
 #0 /var/www/html/modules/admin/main/view/main.tpl(1): isAdmin()
 #1 /var/www/html/index.php(232): require('/var/www/html/m...')
@@ -1564,18 +1848,22 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 329
-=================================================
 
-2022-05-18 14:39:53: Error: [Uncaught Error: Class 'User' not found in /var/www/html/modules/admin/main/view/main.tpl:5
+=================================================
+
+
+2022-05-18 14:39:53: Error: [Uncaught Error: Class 'User' not found in /var/www/html/modules/admin/main/view/main.tpl:5
 Stack trace:
 #0 /var/www/html/index.php(232): require()
 #1 /var/www/html/index.php(250): FrontController::init('admin/users/gro...')
 #2 {main}
   thrown]
 at file /var/www/html/modules/admin/main/view/main.tpl in line 5
-=================================================
 
-2022-05-18 21:41:31: Error: [Uncaught Error: Class 'FW\Access\User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+=================================================
+
+
+2022-05-18 21:41:31: Error: [Uncaught Error: Class 'FW\Access\User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
 Stack trace:
 #0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
 #1 /var/www/html/index.php(213): require('/var/www/html/m...')
@@ -1583,9 +1871,11 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
-=================================================
 
-2022-05-18 21:47:14: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
+=================================================
+
+
+2022-05-18 21:47:14: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Access/Access.php:94
 Stack trace:
 #0 /var/www/html/modules/admin/_allmodules.php(2): FW\Access\Access::isAllowAdmin()
 #1 /var/www/html/index.php(213): require('/var/www/html/m...')
@@ -1593,9 +1883,11 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Access/Access.php in line 94
-=================================================
 
-2022-05-18 21:49:41: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
+=================================================
+
+
+2022-05-18 21:49:41: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
 Stack trace:
 #0 /var/www/html/modules/_allmodules.php(72): isAdmin()
 #1 /var/www/html/modules/_allmodules.php(88): ProxyUser::monitorAdmin()
@@ -1603,79 +1895,107 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 329
-=================================================
 
-2022-05-23 10:02:15: Warning: [A non-numeric value encountered]
+=================================================
+
+
+2022-05-23 10:02:15: Warning: [A non-numeric value encountered]
 at file /var/www/html/modules/_allmodules.php in line 6
-=================================================
 
-2022-05-23 10:03:36: Warning: [A non-numeric value encountered]
+=================================================
+
+
+2022-05-23 10:03:36: Warning: [A non-numeric value encountered]
 at file /var/www/html/modules/_allmodules.php in line 6
-=================================================
 
-2022-05-23 10:04:03: Warning: [A non-numeric value encountered]
+=================================================
+
+
+2022-05-23 10:04:03: Warning: [A non-numeric value encountered]
 at file /var/www/html/modules/_allmodules.php in line 5
-=================================================
 
-2022-05-23 10:04:30: Warning: [A non-numeric value encountered]
+=================================================
+
+
+2022-05-23 10:04:30: Warning: [A non-numeric value encountered]
 at file /var/www/html/modules/_allmodules.php in line 5
-=================================================
 
-2022-05-23 10:09:24: Warning: [mktime() expects parameter 5 to be int, string given]
+=================================================
+
+
+2022-05-23 10:09:24: Warning: [mktime() expects parameter 5 to be int, string given]
 at file /var/www/html/modules/_allmodules.php in line 5
-=================================================
 
-2022-05-23 10:12:24: Warning: [mktime() expects parameter 5 to be int, string given]
+=================================================
+
+
+2022-05-23 10:12:24: Warning: [mktime() expects parameter 5 to be int, string given]
 at file /var/www/html/modules/_allmodules.php in line 5
-=================================================
 
-2022-05-23 10:12:26: Warning: [mktime() expects parameter 5 to be int, string given]
+=================================================
+
+
+2022-05-23 10:12:26: Warning: [mktime() expects parameter 5 to be int, string given]
 at file /var/www/html/modules/_allmodules.php in line 5
-=================================================
 
-2022-05-23 12:44:44: Error: [Uncaught Error: Class 'MyDate' not found in /var/www/html/modules/_allmodules.php:6
+=================================================
+
+
+2022-05-23 12:44:44: Error: [Uncaught Error: Class 'MyDate' not found in /var/www/html/modules/_allmodules.php:6
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 6
-=================================================
 
-2022-05-23 12:46:10: Error: [Uncaught Error: Class 'MyDate' not found in /var/www/html/modules/_allmodules.php:6
+=================================================
+
+
+2022-05-23 12:46:10: Error: [Uncaught Error: Class 'MyDate' not found in /var/www/html/modules/_allmodules.php:6
 Stack trace:
 #0 /var/www/html/index.php(59): require()
 #1 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 6
-=================================================
 
-2022-05-23 13:04:06: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (2000.05.01) at position 5 (0): Double time specification in /var/www/html/modules/_allmodules.php:11
+=================================================
+
+
+2022-05-23 13:04:06: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (2000.05.01) at position 5 (0): Double time specification in /var/www/html/modules/_allmodules.php:11
 Stack trace:
 #0 /var/www/html/modules/_allmodules.php(11): DateTime->__construct('2000.05.01')
 #1 /var/www/html/index.php(59): require('/var/www/html/m...')
 #2 {main}
   thrown]
 at file /var/www/html/modules/_allmodules.php in line 11
-=================================================
 
-2022-05-23 13:11:33: Error: [Uncaught TypeError: Typed property Date\MyDate::$month must be int, string used in /var/www/html/library/Date/MyDate.php:35
+=================================================
+
+
+2022-05-23 13:11:33: Error: [Uncaught TypeError: Typed property Date\MyDate::$month must be int, string used in /var/www/html/library/Date/MyDate.php:35
 Stack trace:
 #0 /var/www/html/modules/_allmodules.php(9): Date\MyDate->getNextDay()
 #1 /var/www/html/index.php(59): require('/var/www/html/m...')
 #2 {main}
   thrown]
 at file /var/www/html/library/Date/MyDate.php in line 35
-=================================================
 
-2022-05-23 18:24:06: Notice: [Undefined offset: 1]
+=================================================
+
+
+2022-05-23 18:24:06: Notice: [Undefined offset: 1]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 25
-=================================================
 
-2022-05-23 18:24:06: Notice: [Undefined offset: 2]
+=================================================
+
+
+2022-05-23 18:24:06: Notice: [Undefined offset: 2]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 26
-=================================================
 
-2022-05-23 18:24:06: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--23-05-2022) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
+=================================================
+
+
+2022-05-23 18:24:06: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--23-05-2022) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
 Stack trace:
 #0 /var/www/html/library/Date/DateTimeAdapter.php(70): DateTime->__construct('--23-05-2022')
 #1 /var/www/html/modules/_allmodules.php(12): Date\DateTimeAdapter->format('--23-05-2022')
@@ -1683,17 +2003,23 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 70
-=================================================
 
-2022-05-23 18:26:41: Notice: [Undefined offset: 1]
+=================================================
+
+
+2022-05-23 18:26:41: Notice: [Undefined offset: 1]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 25
-=================================================
 
-2022-05-23 18:26:41: Notice: [Undefined offset: 2]
+=================================================
+
+
+2022-05-23 18:26:41: Notice: [Undefined offset: 2]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 26
-=================================================
 
-2022-05-23 18:26:41: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--23-05-2022) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
+=================================================
+
+
+2022-05-23 18:26:41: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--23-05-2022) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
 Stack trace:
 #0 /var/www/html/library/Date/DateTimeAdapter.php(70): DateTime->__construct('--23-05-2022')
 #1 /var/www/html/modules/_allmodules.php(12): Date\DateTimeAdapter->format('24 \xD0\xBC\xD0\xB0\xD1\x8F 2022 ...')
@@ -1701,17 +2027,23 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 70
-=================================================
 
-2022-05-23 18:27:59: Notice: [Undefined offset: 1]
+=================================================
+
+
+2022-05-23 18:27:59: Notice: [Undefined offset: 1]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 25
-=================================================
 
-2022-05-23 18:27:59: Notice: [Undefined offset: 2]
+=================================================
+
+
+2022-05-23 18:27:59: Notice: [Undefined offset: 2]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 26
-=================================================
 
-2022-05-23 18:27:59: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--23-05-2022) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
+=================================================
+
+
+2022-05-23 18:27:59: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--23-05-2022) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
 Stack trace:
 #0 /var/www/html/library/Date/DateTimeAdapter.php(70): DateTime->__construct('--23-05-2022')
 #1 /var/www/html/modules/_allmodules.php(12): Date\DateTimeAdapter->format('24 \xD0\xBC\xD0\xB0\xD1\x8F 2022 ...')
@@ -1719,29 +2051,41 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 70
-=================================================
 
-2022-05-23 19:14:19: Notice: [Undefined offset: 1]
+=================================================
+
+
+2022-05-23 19:14:19: Notice: [Undefined offset: 1]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 25
-=================================================
 
-2022-05-23 19:14:19: Notice: [Undefined offset: 2]
+=================================================
+
+
+2022-05-23 19:14:19: Notice: [Undefined offset: 2]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 26
-=================================================
 
-2022-05-23 19:28:33: Notice: [A non well formed numeric value encountered]
+=================================================
+
+
+2022-05-23 19:28:33: Notice: [A non well formed numeric value encountered]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 24
-=================================================
 
-2022-05-23 19:28:33: Notice: [Undefined offset: 1]
+=================================================
+
+
+2022-05-23 19:28:33: Notice: [Undefined offset: 1]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 25
-=================================================
 
-2022-05-23 19:28:33: Notice: [Undefined offset: 2]
+=================================================
+
+
+2022-05-23 19:28:33: Notice: [Undefined offset: 2]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 26
-=================================================
 
-2022-05-23 19:28:33: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--25) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
+=================================================
+
+
+2022-05-23 19:28:33: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--25) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
 Stack trace:
 #0 /var/www/html/library/Date/DateTimeAdapter.php(70): DateTime->__construct('--25')
 #1 /var/www/html/modules/_allmodules.php(12): Date\DateTimeAdapter->format()
@@ -1749,21 +2093,29 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 70
-=================================================
 
-2022-05-23 19:31:43: Notice: [A non well formed numeric value encountered]
+=================================================
+
+
+2022-05-23 19:31:43: Notice: [A non well formed numeric value encountered]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 24
-=================================================
 
-2022-05-23 19:31:43: Notice: [Undefined offset: 1]
+=================================================
+
+
+2022-05-23 19:31:43: Notice: [Undefined offset: 1]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 25
-=================================================
 
-2022-05-23 19:31:43: Notice: [Undefined offset: 2]
+=================================================
+
+
+2022-05-23 19:31:43: Notice: [Undefined offset: 2]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 26
-=================================================
 
-2022-05-23 19:31:43: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--25) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
+=================================================
+
+
+2022-05-23 19:31:43: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--25) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
 Stack trace:
 #0 /var/www/html/library/Date/DateTimeAdapter.php(70): DateTime->__construct('--25')
 #1 /var/www/html/modules/_allmodules.php(15): Date\DateTimeAdapter->format()
@@ -1771,17 +2123,23 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 70
-=================================================
 
-2022-05-23 19:32:11: Notice: [Undefined offset: 1]
+=================================================
+
+
+2022-05-23 19:32:11: Notice: [Undefined offset: 1]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 25
-=================================================
 
-2022-05-23 19:32:11: Notice: [Undefined offset: 2]
+=================================================
+
+
+2022-05-23 19:32:11: Notice: [Undefined offset: 2]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 26
-=================================================
 
-2022-05-23 19:32:11: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--23-05-2022) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
+=================================================
+
+
+2022-05-23 19:32:11: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (--23-05-2022) at position 0 (-): Unexpected character in /var/www/html/library/Date/DateTimeAdapter.php:70
 Stack trace:
 #0 /var/www/html/library/Date/DateTimeAdapter.php(70): DateTime->__construct('--23-05-2022')
 #1 /var/www/html/modules/_allmodules.php(15): Date\DateTimeAdapter->format()
@@ -1789,70 +2147,90 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/library/Date/DateTimeAdapter.php in line 70
-=================================================
 
-2022-05-24 09:45:25: Complite error: [Cannot use FW\User\CurrentUser\User as User because the name is already in use]
+=================================================
+
+
+2022-05-24 09:45:25: Complite error: [Cannot use FW\User\CurrentUser\User as User because the name is already in use]
 at file /var/www/html/modules/_allmodules.php in line 4
-=================================================
 
-2022-05-24 09:46:09: Warning: [session_start(): Cannot start session when headers already sent]
+=================================================
+
+
+2022-05-24 09:46:09: Warning: [session_start(): Cannot start session when headers already sent]
 at file /var/www/html/modules/_allmodules.php in line 29
-=================================================
 
-2022-05-24 09:46:10: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:12)]
+=================================================
+
+
+2022-05-24 09:46:10: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:12)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 152
-=================================================
 
-2022-05-24 09:46:10: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:12)]
+=================================================
+
+
+2022-05-24 09:46:10: Warning: [Cannot modify header information - headers already sent by (output started at /var/www/html/modules/_allmodules.php:12)]
 at file /var/www/html/vendor/schoolphp/library/User/Authorization.php in line 153
-=================================================
 
-2022-05-24 09:47:27: Error: [Uncaught Error: Class 'DateTimeAdapter' not found in /var/www/html/modules/test/main.php:71
+=================================================
+
+
+2022-05-24 09:47:27: Error: [Uncaught Error: Class 'DateTimeAdapter' not found in /var/www/html/modules/test/main.php:71
 Stack trace:
 #0 /var/www/html/index.php(226): require()
 #1 /var/www/html/index.php(250): FrontController::init('test')
 #2 {main}
   thrown]
 at file /var/www/html/modules/test/main.php in line 71
-=================================================
 
-2022-05-24 10:11:18: Error: [Uncaught Error: Class 'Src\Patterns\Structure\Decorator\FacebookSender' not found in /var/www/html/modules/test/main.php:80
+=================================================
+
+
+2022-05-24 10:11:18: Error: [Uncaught Error: Class 'Src\Patterns\Structure\Decorator\FacebookSender' not found in /var/www/html/modules/test/main.php:80
 Stack trace:
 #0 /var/www/html/index.php(226): require()
 #1 /var/www/html/index.php(250): FrontController::init('test')
 #2 {main}
   thrown]
 at file /var/www/html/modules/test/main.php in line 80
-=================================================
 
-2022-05-24 10:12:32: Error: [Uncaught Error: Class 'Src\Patterns\Structure\Decorator\FacebookSender' not found in /var/www/html/modules/test/main.php:80
+=================================================
+
+
+2022-05-24 10:12:32: Error: [Uncaught Error: Class 'Src\Patterns\Structure\Decorator\FacebookSender' not found in /var/www/html/modules/test/main.php:80
 Stack trace:
 #0 /var/www/html/index.php(226): require()
 #1 /var/www/html/index.php(250): FrontController::init('test')
 #2 {main}
   thrown]
 at file /var/www/html/modules/test/main.php in line 80
-=================================================
 
-2022-05-24 10:12:34: Error: [Uncaught Error: Class 'Src\Patterns\Structure\Decorator\FacebookSender' not found in /var/www/html/modules/test/main.php:80
+=================================================
+
+
+2022-05-24 10:12:34: Error: [Uncaught Error: Class 'Src\Patterns\Structure\Decorator\FacebookSender' not found in /var/www/html/modules/test/main.php:80
 Stack trace:
 #0 /var/www/html/index.php(226): require()
 #1 /var/www/html/index.php(250): FrontController::init('test')
 #2 {main}
   thrown]
 at file /var/www/html/modules/test/main.php in line 80
-=================================================
 
-2022-05-24 10:25:25: Error: [Uncaught Error: Class 'DateTimeAdapter' not found in /var/www/html/modules/test/main.php:116
+=================================================
+
+
+2022-05-24 10:25:25: Error: [Uncaught Error: Class 'DateTimeAdapter' not found in /var/www/html/modules/test/main.php:116
 Stack trace:
 #0 /var/www/html/index.php(226): require()
 #1 /var/www/html/index.php(250): FrontController::init('test')
 #2 {main}
   thrown]
 at file /var/www/html/modules/test/main.php in line 116
-=================================================
 
-2022-05-24 10:44:03: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
+=================================================
+
+
+2022-05-24 10:44:03: Error: [Uncaught Error: Class 'User' not found in /var/www/html/vendor/schoolphp/library/Core/functions.php:329
 Stack trace:
 #0 /var/www/html/library/User/User.php(47): isAdmin()
 #1 /var/www/html/modules/_allmodules.php(86): User\User::monitorAdmin()
@@ -1860,6 +2238,31 @@ Stack trace:
 #3 {main}
   thrown]
 at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 329
-=================================================
 
-
+=================================================
+
+
+2022-06-13 13:55:25: Notice: [Undefined index: page2]
+at file /var/www/html/modules/api/controller/controller.php in line 3
+
+=================================================
+
+
+2022-06-13 13:55:25: Notice: [Undefined index: page2]
+at file /var/www/html/modules/api/controller/controller.php in line 4
+
+=================================================
+
+
+2022-06-13 14:14:19: Warning: [require(./modules/admin/main/view/main.tpl): failed to open stream: No such file or directory]
+at file /var/www/html/index.php in line 232
+
+=================================================
+
+
+2022-06-13 14:14:19: Complite error: [require(): Failed opening required './modules/admin/main/view/main.tpl' (include_path='.:/usr/local/lib/php')]
+at file /var/www/html/index.php in line 232
+
+=================================================
+
+

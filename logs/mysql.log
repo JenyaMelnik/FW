@@ -858,3 +858,115 @@
 --date: 2022-05-26 17:41:11
 ===================================
 
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com',
+            `facebook_id` = '1638134336564464',
+            `access` = 1
+        
+--Field 'secret_token_expire_date' doesn't have a default value
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 58
+--date: 2022-06-13 09:22:04
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com',
+            `facebook_id` = '1638134336564464',
+            `access` = 1
+        
+--Field 'secret_token_expire_date' doesn't have a default value
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 58
+--date: 2022-06-13 09:22:18
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com',
+            `facebook_id` = '1638134336564464',
+            `access` = 1
+        
+--Field 'secret_token_expire_date' doesn't have a default value
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 58
+--date: 2022-06-13 09:22:39
+===================================
+
+
+            INSERT INTO `fw_users` SET 
+            `login` = 'Евгений',
+            `email` = 'jenyamelnik1986@gmail.com',
+            `facebook_id` = '1638134336564464',
+            `access` = 1
+        
+--Field 'secret_token_expire_date' doesn't have a default value
+--file: /var/www/html/modules/login/facebookAuth.php
+--line: 58
+--date: 2022-06-13 09:22:51
+===================================
+
+
+    SELECT GROUP_CONCAT(`fw_socials`.`social_name`) as `socials_name`, GROUP_CONCAT(`fw_socials`.`social_id`) as `socials_id`, `login`, email,
+    FROM `fw_users` 
+    LEFT JOIN `fw_users2socials` ON `fw_users2socials` . `user_id` = `fw_users` . `id`
+    LEFT JOIN `fw_socials` ON `fw_socials` . `social_id` = `fw_users2socials` . `social_id`
+    WHERE `fw_users`.`id` = 3
+    GROUP BY `fw_users`.`id`;
+
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `fw_users` 
+    LEFT JOIN `fw_users2socials` ON `fw_users2socials` . `user_' at line 2
+--file: /var/www/html/modules/login/edit.php
+--line: 27
+--date: 2022-06-13 16:11:25
+===================================
+
+
+    SELECT GROUP_CONCAT(`fw_socials`.`social_name`) as `socials_name`, GROUP_CONCAT(`fw_socials`.`social_id`) as `socials_id`, `fw_users`.`login`, `fw_users`.`email`,
+    FROM `fw_users` 
+    LEFT JOIN `fw_users2socials` ON `fw_users2socials` . `user_id` = `fw_users` . `id`
+    LEFT JOIN `fw_socials` ON `fw_socials` . `social_id` = `fw_users2socials` . `social_id`
+    WHERE `fw_users`.`id` = 3
+    GROUP BY `fw_users`.`id`;
+
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `fw_users` 
+    LEFT JOIN `fw_users2socials` ON `fw_users2socials` . `user_' at line 2
+--file: /var/www/html/modules/login/edit.php
+--line: 27
+--date: 2022-06-13 16:12:30
+===================================
+
+
+    SELECT GROUP_CONCAT(`fw_socials`.`social_name`) as `socials_name`, GROUP_CONCAT(`fw_socials`.`social_id`) as `socials_id`, `fw_users`.`login`, `fw_users`.`email`,
+    FROM `fw_users` 
+    LEFT JOIN `fw_users2socials` ON `fw_users2socials` . `user_id` = `fw_users` . `id`
+    LEFT JOIN `fw_socials` ON `fw_socials` . `social_id` = `fw_users2socials` . `social_id`
+    WHERE `fw_users`.`id` = 3
+    GROUP BY `fw_users`.`id`;
+
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `fw_users` 
+    LEFT JOIN `fw_users2socials` ON `fw_users2socials` . `user_' at line 2
+--file: /var/www/html/modules/login/edit.php
+--line: 27
+--date: 2022-06-13 16:13:28
+===================================
+
+
+    SELECT GROUP_CONCAT(`fw_socials`.`social_name`) as `socials_name`, GROUP_CONCAT(`fw_socials`.`social_id`) as `socials_id`, `fw_users`.`login`, `fw_users`.`email`,
+    FROM `fw_users` 
+    LEFT JOIN `fw_users2socials` ON `fw_users2socials` . `user_id` = `fw_users` . `id`
+    LEFT JOIN `fw_socials` ON `fw_socials` . `social_id` = `fw_users2socials` . `social_id`
+    WHERE `fw_users`.`id` = 3
+    GROUP BY `fw_users`.`id`;
+
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `fw_users` 
+    LEFT JOIN `fw_users2socials` ON `fw_users2socials` . `user_' at line 2
+--file: /var/www/html/modules/login/edit.php
+--line: 27
+--date: 2022-06-13 16:13:33
+===================================
+
