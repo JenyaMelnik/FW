@@ -2,15 +2,10 @@
 // Do nothing if the user is already logged in
 if (!isset($_SESSION['user'])) {
     if (isset($_POST['id'], $_POST['email'])) {
-        $queryUser = q("
-        SELECT * FROM `fw_users`
-        WHERE `facebook_id` = '" . es($_POST['id']) . "'
-        OR `email` = '" . $_POST['email'] . "'
-        LIMIT 1
-    ");
 
-        if ($queryUser->num_rows) {
-            $user = $queryUser->fetch_assoc();
+        function createSessionUser($query)
+        {
+            $user = $query->fetch_assoc();
             $_SESSION['user']['id'] = $user['id'];
             $_SESSION['user']['login'] = $user['login'];
             $_SESSION['user']['email'] = $user['email'];
@@ -18,6 +13,42 @@ if (!isset($_SESSION['user'])) {
             exit();
         }
 
+// ==================================== if exist facebook_id - create Session user =====================================
+        $sql = "
+            SELECT * FROM `fw_users`
+            WHERE `facebook_id` = '" . es($_POST['id']) . "'
+            LIMIT 1
+        ";
+
+        $queryUser = q($sql);
+
+        if ($queryUser->num_rows) {
+            createSessionUser($queryUser);
+        }
+
+// ===================== if doesn't exist facebook_id but exist the same email as facebook: ============================
+// =============================    add facebook_id and create Session user    =========================================
+        $sql = "
+            SELECT * FROM `fw_users` WHERE
+            `email` = '" . es($_POST['email']) . "'
+            LIMIT 1
+        ";
+
+        $sqlInsertFacebookId = "
+            UPDATE `fw_users` SET
+            `facebook_id` = '" . es($_POST['id']) . "'
+            WHERE `email` = '" . es($_POST['email']) . "'
+            LIMIT 1
+        ";
+
+        $checkEmail = q($sql);
+        if ($checkEmail->num_rows) {
+            q($sqlInsertFacebookId);
+            createSessionUser($checkEmail);
+        }
+
+// ======================== if doesn't exist facebook_id and the same email as facebook: ===============================
+// ================================  create Session user matched to facebook  ==========================================
         $addUser = q("
             INSERT INTO `fw_users` SET 
             `login` = '" . es($_POST['firstName']) . "',
