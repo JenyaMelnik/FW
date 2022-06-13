@@ -49,7 +49,7 @@ if (!isset($_SESSION['user'])) {
         }
 
 // ======================== if doesn't exist neither facebook_id nor the same email as facebook: ===============================
-// ================================  create new user matched to facebook  ==========================================
+// ================================  create new user bonded to facebook  ==========================================
         $addUser = q("
             INSERT INTO `fw_users` SET 
             `login` = '" . es($_POST['firstName']) . "',

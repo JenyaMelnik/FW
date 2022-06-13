@@ -71,12 +71,16 @@
     <?php } else { ?>
         <div class="auth">
             Вы вошли как: <a href="<?= createUrl('login/edit') ?>"><?= $_SESSION['user']['login'] ?></a>
-            <a onclick="logOut()" href="<?= createUrl('login/exit') ?>"> Выход </a>
+            <a onclick="logOut()" href="<?= createUrl('login/exit') ?>"> / Выход </a>
+            <?php if (isset($_SESSION['user']['role']) && $_SESSION['user']['role'] === 'admin') { ?>
+                <a class="admin" href="<?= createUrl('admin') ?>"> Admin </a>
+            <?php } ?>
         </div>
     <?php } ?>
-
     <nav class="clearfix">
         <a href="/">На главную</a>
+        <br>
+        <a href="<?= createUrl('/api/testApi/main'); ?>">Test Api</a>
     </nav>
 </header>
 <main>
