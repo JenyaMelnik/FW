@@ -45,7 +45,6 @@ if ($queryUserData->num_rows) {
 $queryAllSocials = q("
     SELECT `social_id`, `social_name`
     FROM `fw_socials`
-    ORDER BY `social_name` ASC;
 ");
 
 if ($queryAllSocials->num_rows) {
