@@ -9,6 +9,7 @@ if (!isset($_SESSION['user'])) {
             $_SESSION['user']['id'] = $user['id'];
             $_SESSION['user']['login'] = $user['login'];
             $_SESSION['user']['email'] = $user['email'];
+            $_SESSION['user']['role'] = $user['role'];
             echo json_encode('authorized');
             exit();
         }
@@ -47,8 +48,8 @@ if (!isset($_SESSION['user'])) {
             createSessionUser($checkEmail);
         }
 
-// ======================== if doesn't exist facebook_id and the same email as facebook: ===============================
-// ================================  create Session user matched to facebook  ==========================================
+// ======================== if doesn't exist neither facebook_id nor the same email as facebook: ===============================
+// ================================  create new user matched to facebook  ==========================================
         $addUser = q("
             INSERT INTO `fw_users` SET 
             `login` = '" . es($_POST['firstName']) . "',

@@ -9,15 +9,15 @@ if (isset($_SESSION['notice'])) { ?>
     <div>
         <table>
             <tr>
-                <td width="300">Ваш логин:</td>
-                <td><input type="text" name="login"
-                           value="<?= htmlspecialchars($_SESSION['user']['login'] ?? '') ?>">
+                <td width="250">Ваш логин:</td>
+                <td width="300"><input type="text" name="login"
+                           value="<?= htmlspecialchars($_SESSION['user']['login'] ?? '') ?>" style='min-width:300px'>
                 </td>
                 <td> <?= (htmlspecialchars($errors['login'] ?? '')) ?></td>
             </tr>
             <tr>
                 <td>Ваш email:</td>
-                <td><input type="text" name="email" value="<?= htmlspecialchars($_SESSION['user']['email'] ?? '') ?>">
+                <td><input type="text" name="email" value="<?= htmlspecialchars($_SESSION['user']['email'] ?? '') ?>" style='min-width:300px'>
                 </td>
                 <td> <?= (htmlspecialchars($errors['email'] ?? '')) ?></td>
             </tr>

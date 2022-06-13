@@ -19,7 +19,6 @@ if (isset($_GET['action']) && $_GET['action'] === 'delete' && isset($_GET['id'])
     redirect('/login/edit');
 }
 
-// ====================================== Лучше вынести в авторизацию? ================================================
 $queryUserData = q("
     SELECT GROUP_CONCAT(`fw_socials`.`social_name`) as `socials_name`, GROUP_CONCAT(`fw_socials`.`social_id`) as `socials_id`
     FROM `fw_users` 
@@ -32,19 +31,13 @@ $queryUserData = q("
 if ($queryUserData->num_rows) {
     $userData = $queryUserData->fetch_assoc();
 
-    $_SESSION['user']['socials_name'] = $userData['socials_name'];
-    $_SESSION['user']['socials_id'] = $userData['socials_id'];
+    $userSocialsId = explode(',', $userData['socials_id']);
+    $userSocialsName = explode(',', $userData['socials_name']);
 
-    if (!empty($_SESSION['user']['socials_id'])) {
-
-        $userSocialsId = explode(',', $_SESSION['user']['socials_id']);
-        $userSocialsName = explode(',', $_SESSION['user']['socials_name']);
-
-        $i = 0;
-        foreach ($userSocialsId as $socialId) {
-            $userSocials[$socialId] = $userSocialsName[$i];
-            $i++;
-        }
+    $i = 0;
+    foreach ($userSocialsId as $socialId) {
+        $userSocials[$socialId] = $userSocialsName[$i];
+        $i++;
     }
 }
 // ====================================================================================================================
@@ -122,11 +115,11 @@ if (isset($_POST['edit'],
              	WHERE  `id` = " . (int)$_SESSION['user']['id'] . "
       		");
 
+            $_SESSION['user']['login'] = $_POST['login'] ?? $_SESSION['user']['login'];
+            $_SESSION['user']['email'] = $_POST['email'] ?? $_SESSION['user']['email'];
+
             $_SESSION['notice'] = 'Ваши данные отредактированы';
             redirect('login/edit');
         }
     }
 }
-
-$_SESSION['user']['login'] = $_POST['login'] ?? $_SESSION['user']['login'];
-$_SESSION['user']['email'] = $_POST['email'] ?? $_SESSION['user']['email'];
