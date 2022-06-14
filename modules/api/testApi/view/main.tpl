@@ -29,7 +29,7 @@
         <br>
     </div>
     <div class="requestTestApi">
-        <form action="" method="post" onsubmit="testApiRequest(<?php ?>); return false">
+        <form action="" method="post" onsubmit="testApiRequest(); return false">
             <tr>
                 <td>
                     <label>
@@ -51,5 +51,5 @@
             </tr>
         </form>
     </div>
-    <textarea readonly style="width: 100%" id="responseTestApi"></textarea>
+    <label for="responseTestApi"></label><textarea readonly style="width: 100%" id="responseTestApi"></textarea>
 </div>
