@@ -2,15 +2,33 @@
 
 // ================================ decorator ====================================
 
-$facebookSender = new Decorator\FacebookSender();
-$smsSenderDecorator = new Decorator\SmsSenderDecorator($facebookSender);
-$slackSenderDecorator = new Decorator\SlackSenderDecorator($smsSenderDecorator);
-$service = new Decorator\SenderService($slackSenderDecorator);
-
-$service->send();
-exit();
+//$facebookSender = new Decorator\FacebookSender();
+//$smsSenderDecorator = new Decorator\SmsSenderDecorator($facebookSender);
+//$slackSenderDecorator = new Decorator\SlackSenderDecorator($smsSenderDecorator);
+//$service = new Decorator\SenderService($slackSenderDecorator);
+//
+//$service->send();
+//exit();
 
 // ===============================================================================
+
+$zodiacSign = new \ZodiacSign\ZodiacSign();
+$myZodiac = $zodiacSign->getZodiacSign('2021-12-31');
+wtf($myZodiac);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //$queryUserData = q("
 //        SELECT GROUP_CONCAT(`fw_socials`.`social_name`) as `social_name`, GROUP_CONCAT(`fw_socials`.`social_id`) as `social_id`

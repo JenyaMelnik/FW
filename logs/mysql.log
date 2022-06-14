@@ -970,3 +970,81 @@
 --date: 2022-06-13 16:13:33
 ===================================
 
+
+            UPDATE `fw_users`
+            SET `secret_token` = 'b0264bdc42cc8c943e31f2452ff773f9',
+                `secret_token_expire_date` = NOW() + 1000
+            WHERE `login` = 'Jenya'
+            LIMIT 1
+        
+--Incorrect datetime value: '20220614106447' for column 'secret_token_expire_date' at row 2
+--file: /var/www/html/library/Api/Api.php
+--line: 104
+--date: 2022-06-14 10:54:47
+===================================
+
+
+            UPDATE `fw_users`
+            SET `secret_token` = '72f6e68dd27ec7a20722135853345c87',
+                `secret_token_expire_date` = NOW() + 1000
+            WHERE `login` = 'Jenya'
+            LIMIT 1
+        
+--Incorrect datetime value: '20220614106456' for column 'secret_token_expire_date' at row 2
+--file: /var/www/html/library/Api/Api.php
+--line: 104
+--date: 2022-06-14 10:54:56
+===================================
+
+
+            UPDATE `fw_users`
+            SET `secret_token` = '2f5e0c70f2462152f1701faaa4143276',
+                `secret_token_expire_date` = NOW() + 1000
+            WHERE `login` = 'Jenya'
+            LIMIT 1
+        
+--Incorrect datetime value: '20220614106512' for column 'secret_token_expire_date' at row 2
+--file: /var/www/html/library/Api/Api.php
+--line: 104
+--date: 2022-06-14 10:55:12
+===================================
+
+
+            UPDATE `fw_users`
+            SET `secret_token` = 'f92196092a3a65b93e7485f5e53b9546',
+                `secret_token_expire_date` = NOW() + 1000
+            WHERE `login` = 'Jenya'
+            LIMIT 1
+        
+--Incorrect datetime value: '20220614106515' for column 'secret_token_expire_date' at row 2
+--file: /var/www/html/library/Api/Api.php
+--line: 104
+--date: 2022-06-14 10:55:15
+===================================
+
+
+            UPDATE `fw_users`
+            SET `secret_token` = 'a8f9701837407eee8c300f8602908892',
+                `secret_token_expire_date` = NOW() + 1000
+            WHERE `login` = 'Jenya'
+            LIMIT 1
+        
+--Incorrect datetime value: '20220614106608' for column 'secret_token_expire_date' at row 2
+--file: /var/www/html/library/Api/Api.php
+--line: 104
+--date: 2022-06-14 10:56:08
+===================================
+
+
+            UPDATE `fw_users`
+            SET `secret_token` = '603ea211ae3755ea014ee99a060e93d2',
+                `secret_token_expire_date` = NOW() + 1000
+            WHERE `login` = 'Jenya'
+            LIMIT 1
+        
+--Incorrect datetime value: '20220614106613' for column 'secret_token_expire_date' at row 2
+--file: /var/www/html/library/Api/Api.php
+--line: 104
+--date: 2022-06-14 10:56:13
+===================================
+

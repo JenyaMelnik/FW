@@ -2274,4 +2274,193 @@ at file /var/www/html/modules/main/main.php in line 14
 at file /var/www/html/modules/main/main.php in line 14
 =================================================
 
+2022-06-14 15:40:55: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (1986-13-18) at position 6 (3): Unexpected character in /var/www/html/modules/main/main.php:14
+Stack trace:
+#0 /var/www/html/modules/main/main.php(14): DateTime->__construct('1986-13-18')
+#1 /var/www/html/index.php(226): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('')
+#3 {main}
+  thrown]
+at file /var/www/html/modules/main/main.php in line 14
+=================================================
+
+2022-06-14 15:41:14: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (1986-wqwe-18) at position 4 (-): Unexpected character in /var/www/html/modules/main/main.php:14
+Stack trace:
+#0 /var/www/html/modules/main/main.php(14): DateTime->__construct('1986-wqwe-18')
+#1 /var/www/html/index.php(226): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('')
+#3 {main}
+  thrown]
+at file /var/www/html/modules/main/main.php in line 14
+=================================================
+
+2022-06-14 15:41:32: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (1986-08-32) at position 9 (2): Unexpected character in /var/www/html/modules/main/main.php:14
+Stack trace:
+#0 /var/www/html/modules/main/main.php(14): DateTime->__construct('1986-08-32')
+#1 /var/www/html/index.php(226): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('')
+#3 {main}
+  thrown]
+at file /var/www/html/modules/main/main.php in line 14
+=================================================
+
+2022-06-14 17:00:28: Notice: [Undefined index: incorrect date format!]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 17
+=================================================
+
+2022-06-14 17:00:28: Error: [Uncaught PHPUnit\Framework\InvalidArgumentException: Argument #2 of PHPUnit\Framework\Assert::assertCount() must be a countable or iterable
+
+/var/www/html/library/ZodiacSign/ZodiacSign.php:17
+/var/www/html/modules/main/main.php:15
+/var/www/html/index.php:226
+/var/www/html/index.php:250
+
+  thrown]
+at file /var/www/html/vendor/phpunit/phpunit/src/Framework/Exception/InvalidArgumentException.php in line 31
+=================================================
+
+2022-06-14 17:03:33: Error: [Uncaught TypeError: Return value of ZodiacSign\ZodiacSign::getZodiacSign() must be of the type string, none returned in /var/www/html/library/ZodiacSign/ZodiacSign.php:21
+Stack trace:
+#0 /var/www/html/modules/main/main.php(15): ZodiacSign\ZodiacSign->getZodiacSign('18-08-1986')
+#1 /var/www/html/index.php(226): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('')
+#3 {main}
+  thrown]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 21
+=================================================
+
+2022-06-14 17:08:14: Parse: [syntax error, unexpected '}', expecting '(']
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 25
+=================================================
+
+2022-06-14 17:13:11: Notice: [Undefined offset: 3]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 24
+=================================================
+
+2022-06-14 17:13:11: Error: [Uncaught TypeError: Typed property ZodiacSign\ZodiacSign::$day must be string, null used in /var/www/html/library/ZodiacSign/ZodiacSign.php:24
+Stack trace:
+#0 /var/www/html/modules/main/main.php(15): ZodiacSign\ZodiacSign->getZodiacSign('--')
+#1 /var/www/html/index.php(226): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('')
+#3 {main}
+  thrown]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 24
+=================================================
+
+2022-06-14 17:37:02: Warning: [preg_match() expects at least 2 parameters, 1 given]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 15
+=================================================
+
+2022-06-14 17:56:34: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (Y-m-d) at position 1 (-): Unexpected character in /var/www/html/library/ZodiacSign/ZodiacSign.php:30
+Stack trace:
+#0 /var/www/html/library/ZodiacSign/ZodiacSign.php(30): DateTime->__construct('Y-m-d')
+#1 /var/www/html/modules/main/main.php(15): ZodiacSign\ZodiacSign->getZodiacSign('1986-08-18')
+#2 /var/www/html/index.php(226): require('/var/www/html/m...')
+#3 /var/www/html/index.php(250): FrontController::init('')
+#4 {main}
+  thrown]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 30
+=================================================
+
+2022-06-14 18:00:04: Error: [Uncaught Error: Object of class DateTime could not be converted to string in /var/www/html/library/ZodiacSign/ZodiacSign.php:32
+Stack trace:
+#0 /var/www/html/modules/main/main.php(15): ZodiacSign\ZodiacSign->getZodiacSign(Object(DateTime))
+#1 /var/www/html/index.php(226): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('')
+#3 {main}
+  thrown]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 32
+=================================================
+
+2022-06-14 18:01:11: Error: [Uncaught Error: Class 'Blar_DateTime' not found in /var/www/html/library/ZodiacSign/ZodiacSign.php:31
+Stack trace:
+#0 /var/www/html/modules/main/main.php(15): ZodiacSign\ZodiacSign->getZodiacSign('1986-08-18')
+#1 /var/www/html/index.php(226): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('')
+#3 {main}
+  thrown]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 31
+=================================================
+
+2022-06-14 18:03:14: Error: [Uncaught Error: Object of class DateTime could not be converted to string in /var/www/html/library/ZodiacSign/ZodiacSign.php:32
+Stack trace:
+#0 /var/www/html/modules/main/main.php(15): ZodiacSign\ZodiacSign->getZodiacSign(Object(DateTime))
+#1 /var/www/html/index.php(226): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('')
+#3 {main}
+  thrown]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 32
+=================================================
+
+2022-06-14 18:04:24: Error: [Uncaught Error: Cannot use object of type DateTime as array in /var/www/html/library/ZodiacSign/ZodiacSign.php:32
+Stack trace:
+#0 /var/www/html/modules/main/main.php(15): ZodiacSign\ZodiacSign->getZodiacSign(Object(DateTime))
+#1 /var/www/html/index.php(226): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('')
+#3 {main}
+  thrown]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 32
+=================================================
+
+2022-06-14 18:06:48: Error: [Uncaught Error: Class 'ZodiacSign\DateTime' not found in /var/www/html/library/ZodiacSign/ZodiacSign.php:30
+Stack trace:
+#0 /var/www/html/modules/main/main.php(15): ZodiacSign\ZodiacSign->getZodiacSign('2022-08-18')
+#1 /var/www/html/index.php(226): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('')
+#3 {main}
+  thrown]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 30
+=================================================
+
+2022-06-14 19:01:24: Error: [Uncaught Exception: DateTime::__construct(): Failed to parse time string (2020-13-18) at position 6 (3): Unexpected character in /var/www/html/library/ZodiacSign/ZodiacSign.php:30
+Stack trace:
+#0 /var/www/html/library/ZodiacSign/ZodiacSign.php(30): DateTime->__construct('2020-13-18')
+#1 /var/www/html/modules/main/main.php(15): ZodiacSign\ZodiacSign->getZodiacSign('2020-13-18')
+#2 /var/www/html/index.php(226): require('/var/www/html/m...')
+#3 /var/www/html/index.php(250): FrontController::init('')
+#4 {main}
+  thrown]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 30
+=================================================
+
+2022-06-14 19:53:44: Error: [Uncaught TypeError: DateTime::__construct() expects parameter 1 to be string, object given in /var/www/html/library/ZodiacSign/ZodiacSign.php:47
+Stack trace:
+#0 /var/www/html/library/ZodiacSign/ZodiacSign.php(47): DateTime->__construct(Object(DateTime))
+#1 /var/www/html/modules/main/main.php(15): ZodiacSign\ZodiacSign->getZodiacSign(Object(DateTime))
+#2 /var/www/html/index.php(226): require('/var/www/html/m...')
+#3 /var/www/html/index.php(250): FrontController::init('')
+#4 {main}
+  thrown]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 47
+=================================================
+
+2022-06-14 19:54:43: Error: [Uncaught TypeError: DateTime::__construct() expects parameter 1 to be string, object given in /var/www/html/library/ZodiacSign/ZodiacSign.php:47
+Stack trace:
+#0 /var/www/html/library/ZodiacSign/ZodiacSign.php(47): DateTime->__construct(Object(DateTime))
+#1 /var/www/html/modules/main/main.php(15): ZodiacSign\ZodiacSign->getZodiacSign(Object(DateTime))
+#2 /var/www/html/index.php(226): require('/var/www/html/m...')
+#3 /var/www/html/index.php(250): FrontController::init('')
+#4 {main}
+  thrown]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 47
+=================================================
+
+2022-06-14 19:57:18: Error: [Uncaught Error: Object of class DateTime could not be converted to string in /var/www/html/library/ZodiacSign/ZodiacSign.php:49
+Stack trace:
+#0 /var/www/html/modules/main/main.php(15): ZodiacSign\ZodiacSign->getZodiacSign('1900-02-20')
+#1 /var/www/html/index.php(226): require('/var/www/html/m...')
+#2 /var/www/html/index.php(250): FrontController::init('')
+#3 {main}
+  thrown]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 49
+=================================================
+
+2022-06-14 23:40:05: Notice: [A non well formed numeric value encountered]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 55
+=================================================
+
+2022-06-14 23:40:34: Notice: [A non well formed numeric value encountered]
+at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 55
+=================================================
+
 
