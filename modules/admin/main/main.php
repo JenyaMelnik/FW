@@ -1,4 +1,5 @@
 <?php
+
 if(isset($_POST['login'],$_POST['pass'])) {
 	$auth = new \FW\User\Authorization;
 	if($auth->authByLoginPass($_POST['login'],$_POST['pass'],true)) {

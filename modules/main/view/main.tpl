@@ -7,17 +7,19 @@
 	/*nav a {display: inline-block;padding: 10px;border: 2px solid #eee;}*/
 	/*.pagination {justify-content: center;}*/
 </style>
-<?php if(!$res->num_rows) { ?>
-	<div>Отсутствуют записи</div>
-<?php } else { ?>
-	<ul style="width:150px; margin:auto;">
-		<?php while($row = $res->fetch_assoc()) { ?>
-			<li><?php echo $row['email']; ?></li>
-		<?php } ?>
-	</ul>
-<?php } ?>
 
-<div style="text-align:center;"><?=\FW\Pagination\Pagination::nav();?></div>
+<?php //if(!$res->num_rows) { ?>
+<!--	<div>Отсутствуют записи</div>-->
+<?php //} else { ?>
+<!--	<ul style="width:150px; margin:auto;">-->
+<!--		--><?php //while($row = $res->fetch_assoc()) { ?>
+<!--			<li>--><?php //echo $row['email']; ?><!--</li>-->
+<!--		--><?php //} ?>
+<!--	</ul>-->
+<?php //} ?>
+<!---->
+<!--<div style="text-align:center;">--><?//=\FW\Pagination\Pagination::nav();?><!--</div>-->
+
 <hr>
 <h1>Страница MAIN</h1>
 <hr>

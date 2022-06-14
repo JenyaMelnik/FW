@@ -70,13 +70,17 @@
         </div>
     <?php } else { ?>
         <div class="auth">
-            Вы вошли как: <?= $_SESSION['user']['id'] ?>
-            <a onclick="logOut()" href="<?= createUrl('login/exit') ?>"> Выход </a>
+            Вы вошли как: <a href="<?= createUrl('login/edit') ?>"><?= $_SESSION['user']['login'] ?></a>
+            <a onclick="logOut()" href="<?= createUrl('login/exit') ?>"> / Выход </a>
+            <?php if (isset($_SESSION['user']['role']) && $_SESSION['user']['role'] === 'admin') { ?>
+                <a class="admin" href="<?= createUrl('admin') ?>"> Admin </a>
+            <?php } ?>
         </div>
     <?php } ?>
-
     <nav class="clearfix">
         <a href="/">На главную</a>
+        <br>
+        <a href="<?= createUrl('/api/testApi/main'); ?>">Test Api</a>
     </nav>
 </header>
 <main>
@@ -100,6 +104,8 @@
 <!-- scripts for login with Facebook -->
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 <script src="/skins/js/fbAuth.js"></script>
+<script src="/skins/js/addFbSocial.js"></script>
+<script src="/skins/js/addVkSocial.js"></script>
 <?php echo Core::$END; ?>
 </body>
 </html>
