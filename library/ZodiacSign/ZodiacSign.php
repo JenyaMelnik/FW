@@ -7,8 +7,10 @@ use Exception;
 
 class ZodiacSign
 {
-    /** @var int */
-    private int $dayNumber = 0;
+    /** @var string */
+    private string $month = '';
+    /** @var string */
+    private string $day = '';
     /** @var string */
     private string $zodiacSign = '';
 
@@ -19,14 +21,14 @@ class ZodiacSign
      */
     public function getZodiacSign(string $birthday): string
     {
-        $this->validateEnteredData($birthday);
-        $this->dayNumberToZodiacSign($this->dayNumber);
-
-        if ($this->zodiacSign) {
-            return $this->zodiacSign;
-        } else {
-            return 'Неизвестная ошибка';
+        try {
+            $this->validateEnteredData($birthday);
+            $this->dayNumberToZodiacSign();
+        } catch (Exception $e) {
+            $this->zodiacSign = 'Не корректные данные';
         }
+
+        return $this->zodiacSign;
     }
 
     /**
@@ -37,66 +39,52 @@ class ZodiacSign
     {
         $birthday = trim($birthday);
         if (!preg_match('#^[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}$#u', $birthday)) {
-            echo 'Не корректные данные';
-            exit();
+            throw new Exception('Не корректные данные');
         }
 
-        $birthdayArray = explode('-', $birthday);
+        list($year, $this->month, $this->day) = explode('-', $birthday);
 
-        $year = $birthdayArray[0];
-        $month = $birthdayArray[1];
-        $day = $birthdayArray[2];
-
-        if (!checkdate($month, $day, $year)) {
-            echo 'Не корректные данные';
-            exit();
-        }
-
-        if ((int)($year) < 1900) {
-            echo 'Не верный год рождения';
-            exit();
+        if (!checkdate($this->month, $this->day, $year)) {
+            throw new Exception('Не корректные данные');
         }
 
         $now = new DateTime();
         $myBirthday = new DateTime($birthday);
 
         if ($myBirthday > $now) {
-            echo 'Не корректные данные';
-            exit();
+            throw new Exception('Не корректные данные');
         }
-
-        $this->dayNumber = $myBirthday->format('z') + 1;
     }
 
     /**
      * @param int $dayNumber
      */
-    private function dayNumberToZodiacSign(int $dayNumber): void
+    private function dayNumberToZodiacSign(): void
     {
-        if (($dayNumber > 0 && $dayNumber < 20) || $dayNumber > 355) {
-            $this->zodiacSign = 'Козерог';
-        } elseif ($dayNumber > 19 && $dayNumber < 51) {
-            $this->zodiacSign = 'Водолей';
-        } elseif ($dayNumber > 50 && $dayNumber < 78) {
-            $this->zodiacSign = 'Рыбы';
-        } elseif ($dayNumber > 77 && $dayNumber < 111) {
+        if (($this->month == 3 && $this->day > 20) || ($this->month == 4 && $this->day < 20)) {
             $this->zodiacSign = 'Овен';
-        } elseif ($dayNumber > 110 && $dayNumber < 140) {
+        } elseif (($this->month == 4 && $this->day > 19) || ($this->month == 5 && $this->day < 21)) {
             $this->zodiacSign = 'Телец';
-        } elseif ($dayNumber > 139 && $dayNumber < 172) {
+        } elseif (($this->month == 5 && $this->day > 20) || ($this->month == 6 && $this->day < 21)) {
             $this->zodiacSign = 'Близнецы';
-        } elseif ($dayNumber > 171 && $dayNumber < 203) {
+        } elseif (($this->month == 6 && $this->day > 20) || ($this->month == 7 && $this->day < 23)) {
             $this->zodiacSign = 'Рак';
-        } elseif ($dayNumber > 202 && $dayNumber < 235) {
+        } elseif (($this->month == 7 && $this->day > 22) || ($this->month == 8 && $this->day < 23)) {
             $this->zodiacSign = 'Лев';
-        } elseif ($dayNumber > 234 && $dayNumber < 266) {
+        } elseif (($this->month == 8 && $this->day > 22) || ($this->month == 9 && $this->day < 23)) {
             $this->zodiacSign = 'Дева';
-        } elseif ($dayNumber > 234 && $dayNumber < 296) {
+        } elseif (($this->month == 9 && $this->day > 22) || ($this->month == 10 && $this->day < 23)) {
             $this->zodiacSign = 'Весы';
-        } elseif ($dayNumber > 295 && $dayNumber < 326) {
+        } elseif (($this->month == 10 && $this->day > 22) || ($this->month == 11 && $this->day < 22)) {
             $this->zodiacSign = 'Скорпион';
-        } elseif ($dayNumber > 325 && $dayNumber < 356) {
+        } elseif (($this->month == 11 && $this->day > 21) || ($this->month == 12 && $this->day < 22)) {
             $this->zodiacSign = 'Стрелец';
+        } elseif (($this->month == 12 && $this->day > 21) || ($this->month == 1 && $this->day < 20)) {
+            $this->zodiacSign = 'Козерог';
+        } elseif (($this->month == 1 && $this->day > 19) || ($this->month == 2 && $this->day < 19)) {
+            $this->zodiacSign = 'Водолей';
+        } elseif (($this->month == 2 && $this->day > 18) || ($this->month == 3 && $this->day < 21)) {
+            $this->zodiacSign = 'Рыбы';
         }
     }
 }
