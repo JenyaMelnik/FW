@@ -57,7 +57,7 @@ class ZodiacSign
     }
 
     /**
-     * @param int $dayNumber
+     *
      */
     private function dayNumberToZodiacSign(): void
     {

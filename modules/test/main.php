@@ -13,7 +13,7 @@
 // ===============================================================================
 
 $zodiacSign = new \ZodiacSign\ZodiacSign();
-$myZodiac = $zodiacSign->getZodiacSign('2021-12-31');
+$myZodiac = $zodiacSign->getZodiacSign('1986-12-24');
 wtf($myZodiac);
 
 
