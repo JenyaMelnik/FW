@@ -6,6 +6,9 @@ use SimpleXMLElement;
 
 class XmlResponse implements IApi
 {
+    /**
+     * @param array $response
+     */
     public function printResponse(array $response): void
     {
         if (count($response, COUNT_RECURSIVE) - count($response) > 0) {

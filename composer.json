@@ -18,7 +18,8 @@
     "phpmailer/phpmailer": "6.*",
     "psr/log": "^1.0@dev",
     "ext-json": "*",
-    "ext-simplexml": "*"
+    "ext-simplexml": "*",
+    "ext-mysql_xdevapi": "*"
   },
   "config": {
     "preferred-install": "dist"
