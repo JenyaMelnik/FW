@@ -2463,4 +2463,196 @@ at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 55
 at file /var/www/html/library/ZodiacSign/ZodiacSign.php in line 55
 =================================================
 
+2022-06-16 13:51:21: Warning: [file_put_contents(./logs/mysql.log): failed to open stream: Permission denied]
+at file /var/www/html/vendor/schoolphp/library/Core/functions.php in line 111
+=================================================
+
+2022-06-17 15:03:34: Warning: [require(./modules/login/view/facebookAuth2.tpl): failed to open stream: No such file or directory]
+at file /var/www/html/index.php in line 232
+=================================================
+
+2022-06-17 15:03:34: Complite error: [require(): Failed opening required './modules/login/view/facebookAuth2.tpl' (include_path='.:/usr/local/lib/php')]
+at file /var/www/html/index.php in line 232
+=================================================
+
+2022-06-17 15:04:08: Warning: [require(./modules/login/view/facebookAuth2.tpl): failed to open stream: No such file or directory]
+at file /var/www/html/index.php in line 232
+=================================================
+
+2022-06-17 15:04:08: Complite error: [require(): Failed opening required './modules/login/view/facebookAuth2.tpl' (include_path='.:/usr/local/lib/php')]
+at file /var/www/html/index.php in line 232
+=================================================
+
+2022-06-17 15:35:05: Notice: [Trying to access array offset on value of type null]
+at file /var/www/html/modules/login/facebookAuth2.php in line 10
+=================================================
+
+2022-06-17 15:36:11: Notice: [Trying to access array offset on value of type null]
+at file /var/www/html/modules/login/facebookAuth2.php in line 10
+=================================================
+
+2022-06-17 15:36:44: Notice: [Trying to access array offset on value of type null]
+at file /var/www/html/modules/login/facebookAuth2.php in line 10
+=================================================
+
+2022-06-17 15:39:33: Warning: [Illegal string offset 'email']
+at file /var/www/html/modules/login/facebookAuth2.php in line 10
+=================================================
+
+2022-06-17 15:40:19: Warning: [Illegal string offset 'email']
+at file /var/www/html/modules/login/facebookAuth2.php in line 10
+=================================================
+
+2022-06-17 15:41:29: Error: [Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/modules/login/facebookAuth2.php:11
+Stack trace:
+#0 /var/www/html/index.php(226): require()
+#1 /var/www/html/index.php(250): FrontController::init('login/facebookA...')
+#2 {main}
+  thrown]
+at file /var/www/html/modules/login/facebookAuth2.php in line 11
+=================================================
+
+2022-06-17 15:42:00: Warning: [Illegal string offset 'email']
+at file /var/www/html/modules/login/facebookAuth2.php in line 10
+=================================================
+
+2022-06-17 15:49:03: Warning: [Illegal string offset 'email']
+at file /var/www/html/modules/login/facebookAuth2.php in line 7
+=================================================
+
+2022-06-17 15:49:15: Warning: [Illegal string offset 'email']
+at file /var/www/html/modules/login/facebookAuth2.php in line 7
+=================================================
+
+2022-06-17 15:52:28: Warning: [file_get_contents(https://graph.facebook.com/me?fields=id,email,first_name,name&amp;access_token=qweEAAHf4WnLCKYBAJv8wXyUkHbIEmGbZAcVFeT9gddhtwjFWXMgUcXZB0FLBk800hqFmG5IZAiPLcaeDiHthV8wWxbv79HYFeGopIXnvUTywABx1AOjKzFASi0ZBUV3QBtVZCQWApkTywmog7B4eDfFOSyYvtSDdhrL5PbRSqF0f57WGqTo1lRQ8FZCZA01omRuTpVxmF8wEODpH1EIJX58xlddRS23r8LsYaaclLS8FYY9GBQambGHMFs): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+]
+at file /var/www/html/modules/login/facebookAuth2.php in line 9
+=================================================
+
+2022-06-17 15:53:30: Warning: [file_get_contents(https://graph.facebook.com/me?fields=id,email,first_name,name&amp;access_token=qweEAAHf4WnLCKYBAJv8wXyUkHbIEmGbZAcVFeT9gddhtwjFWXMgUcXZB0FLBk800hqFmG5IZAiPLcaeDiHthV8wWxbv79HYFeGopIXnvUTywABx1AOjKzFASi0ZBUV3QBtVZCQWApkTywmog7B4eDfFOSyYvtSDdhrL5PbRSqF0f57WGqTo1lRQ8FZCZA01omRuTpVxmF8wEODpH1EIJX58xlddRS23r8LsYaaclLS8FYY9GBQambGHMFs): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+]
+at file /var/www/html/modules/login/facebookAuth2.php in line 9
+=================================================
+
+2022-06-17 15:54:37: Warning: [file_get_contents(https://graph.facebook.com/me?fields=id,email,first_name,name&amp;access_token=qweEAAHf4WnLCKYBAJv8wXyUkHbIEmGbZAcVFeT9gddhtwjFWXMgUcXZB0FLBk800hqFmG5IZAiPLcaeDiHthV8wWxbv79HYFeGopIXnvUTywABx1AOjKzFASi0ZBUV3QBtVZCQWApkTywmog7B4eDfFOSyYvtSDdhrL5PbRSqF0f57WGqTo1lRQ8FZCZA01omRuTpVxmF8wEODpH1EIJX58xlddRS23r8LsYaaclLS8FYY9GBQambGHMFs): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+]
+at file /var/www/html/modules/login/facebookAuth2.php in line 9
+=================================================
+
+2022-06-17 15:55:07: Warning: [file_get_contents(https://graph.facebook.com/me?fields=id,email,first_name,name&amp;access_token=qweEAAHf4WnLCKYBAJv8wXyUkHbIEmGbZAcVFeT9gddhtwjFWXMgUcXZB0FLBk800hqFmG5IZAiPLcaeDiHthV8wWxbv79HYFeGopIXnvUTywABx1AOjKzFASi0ZBUV3QBtVZCQWApkTywmog7B4eDfFOSyYvtSDdhrL5PbRSqF0f57WGqTo1lRQ8FZCZA01omRuTpVxmF8wEODpH1EIJX58xlddRS23r8LsYaaclLS8FYY9GBQambGHMFs): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+]
+at file /var/www/html/modules/login/facebookAuth2.php in line 9
+=================================================
+
+2022-06-17 15:57:50: Warning: [file_get_contents(https://graph.facebook.com/me?fields=id,email,first_name,name&amp;access_token=qweEAAHf4WnLCKYBAJv8wXyUkHbIEmGbZAcVFeT9gddhtwjFWXMgUcXZB0FLBk800hqFmG5IZAiPLcaeDiHthV8wWxbv79HYFeGopIXnvUTywABx1AOjKzFASi0ZBUV3QBtVZCQWApkTywmog7B4eDfFOSyYvtSDdhrL5PbRSqF0f57WGqTo1lRQ8FZCZA01omRuTpVxmF8wEODpH1EIJX58xlddRS23r8LsYaaclLS8FYY9GBQambGHMFs): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+]
+at file /var/www/html/modules/login/facebookAuth2.php in line 10
+=================================================
+
+2022-06-17 15:59:29: Warning: [file_get_contents(https://graph.facebook.com/me?fields=id,email,first_name,name&amp;access_token=qweEAAHf4WnLCKYBAJv8wXyUkHbIEmGbZAcVFeT9gddhtwjFWXMgUcXZB0FLBk800hqFmG5IZAiPLcaeDiHthV8wWxbv79HYFeGopIXnvUTywABx1AOjKzFASi0ZBUV3QBtVZCQWApkTywmog7B4eDfFOSyYvtSDdhrL5PbRSqF0f57WGqTo1lRQ8FZCZA01omRuTpVxmF8wEODpH1EIJX58xlddRS23r8LsYaaclLS8FYY9GBQambGHMFs): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+]
+at file /var/www/html/modules/login/facebookAuth2.php in line 10
+=================================================
+
+2022-06-17 16:04:05: Warning: [json_decode() expects parameter 1 to be string, resource given]
+at file /var/www/html/modules/login/facebookAuth2.php in line 13
+=================================================
+
+2022-06-17 16:05:06: Error: [Uncaught Error: Call to undefined function http_get() in /var/www/html/modules/login/facebookAuth2.php:10
+Stack trace:
+#0 /var/www/html/index.php(226): require()
+#1 /var/www/html/index.php(250): FrontController::init('login/facebookA...')
+#2 {main}
+  thrown]
+at file /var/www/html/modules/login/facebookAuth2.php in line 10
+=================================================
+
+2022-06-17 16:16:00: Warning: [require(./modules/login/view/facebookAuth2.tpl): failed to open stream: No such file or directory]
+at file /var/www/html/index.php in line 232
+=================================================
+
+2022-06-17 16:16:00: Complite error: [require(): Failed opening required './modules/login/view/facebookAuth2.tpl' (include_path='.:/usr/local/lib/php')]
+at file /var/www/html/index.php in line 232
+=================================================
+
+2022-06-17 16:16:45: Complite warning: [Unterminated comment starting line 19]
+at file /var/www/html/modules/login/facebookAuth2.php in line 19
+=================================================
+
+2022-06-17 16:21:07: Warning: [require(./modules/login/view/facebookAuth2.tpl): failed to open stream: No such file or directory]
+at file /var/www/html/index.php in line 232
+=================================================
+
+2022-06-17 16:21:07: Complite error: [require(): Failed opening required './modules/login/view/facebookAuth2.tpl' (include_path='.:/usr/local/lib/php')]
+at file /var/www/html/index.php in line 232
+=================================================
+
+2022-06-17 16:32:47: Warning: [require(./modules/login/view/facebookAuth2.tpl): failed to open stream: No such file or directory]
+at file /var/www/html/index.php in line 232
+=================================================
+
+2022-06-17 16:32:47: Complite error: [require(): Failed opening required './modules/login/view/facebookAuth2.tpl' (include_path='.:/usr/local/lib/php')]
+at file /var/www/html/index.php in line 232
+=================================================
+
+2022-06-17 16:32:54: Warning: [require(./modules/login/view/facebookAuth2.tpl): failed to open stream: No such file or directory]
+at file /var/www/html/index.php in line 232
+=================================================
+
+2022-06-17 16:32:54: Complite error: [require(): Failed opening required './modules/login/view/facebookAuth2.tpl' (include_path='.:/usr/local/lib/php')]
+at file /var/www/html/index.php in line 232
+=================================================
+
+2022-06-17 16:33:41: Notice: [Undefined index: firstName]
+at file /var/www/html/modules/login/facebookAuth2.php in line 84
+=================================================
+
+2022-06-17 16:33:41: Notice: [Undefined index: firstName]
+at file /var/www/html/modules/login/facebookAuth2.php in line 99
+=================================================
+
+2022-06-17 16:37:34: Notice: [Undefined index: firstName]
+at file /var/www/html/modules/login/facebookAuth2.php in line 84
+=================================================
+
+2022-06-17 16:41:04: Warning: [require(./modules/login/view/facebookAuth2.tpl): failed to open stream: No such file or directory]
+at file /var/www/html/index.php in line 232
+=================================================
+
+2022-06-17 16:41:04: Complite error: [require(): Failed opening required './modules/login/view/facebookAuth2.tpl' (include_path='.:/usr/local/lib/php')]
+at file /var/www/html/index.php in line 232
+=================================================
+
+2022-06-17 16:52:32: Warning: [require(./modules/login/facebookAuth2.php): failed to open stream: No such file or directory]
+at file /var/www/html/index.php in line 226
+=================================================
+
+2022-06-17 16:52:32: Complite error: [require(): Failed opening required './modules/login/facebookAuth2.php' (include_path='.:/usr/local/lib/php')]
+at file /var/www/html/index.php in line 226
+=================================================
+
+2022-06-17 16:52:47: Warning: [require(./modules/login/facebookAuth2.php): failed to open stream: No such file or directory]
+at file /var/www/html/index.php in line 226
+=================================================
+
+2022-06-17 16:52:47: Complite error: [require(): Failed opening required './modules/login/facebookAuth2.php' (include_path='.:/usr/local/lib/php')]
+at file /var/www/html/index.php in line 226
+=================================================
+
+2022-06-17 16:53:22: Warning: [require(./modules/login/facebookAuth2.php): failed to open stream: No such file or directory]
+at file /var/www/html/index.php in line 226
+=================================================
+
+2022-06-17 16:53:22: Complite error: [require(): Failed opening required './modules/login/facebookAuth2.php' (include_path='.:/usr/local/lib/php')]
+at file /var/www/html/index.php in line 226
+=================================================
+
+2022-06-17 16:53:30: Warning: [require(./modules/login/facebookAuth2.php): failed to open stream: No such file or directory]
+at file /var/www/html/index.php in line 226
+=================================================
+
+2022-06-17 16:53:30: Complite error: [require(): Failed opening required './modules/login/facebookAuth2.php' (include_path='.:/usr/local/lib/php')]
+at file /var/www/html/index.php in line 226
+=================================================
+
 

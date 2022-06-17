@@ -19,7 +19,8 @@
     "psr/log": "^1.0@dev",
     "ext-json": "*",
     "ext-simplexml": "*",
-    "ext-mysql_xdevapi": "*"
+    "ext-mysql_xdevapi": "*",
+    "ext-curl": "*"
   },
   "config": {
     "preferred-install": "dist"
