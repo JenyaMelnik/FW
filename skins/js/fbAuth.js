@@ -44,6 +44,8 @@ function fb_login() {
                 }
             });
         }
+    }, {
+        scope: 'email,id'
     });
 }
 
