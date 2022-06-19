@@ -2655,4 +2655,12 @@ at file /var/www/html/index.php in line 226
 at file /var/www/html/index.php in line 226
 =================================================
 
+2022-06-19 11:20:16: Parse: [syntax error, unexpected '?>']
+at file /var/www/html/skins/index.tpl in line 74
+=================================================
+
+2022-06-19 11:20:22: Parse: [syntax error, unexpected '?>']
+at file /var/www/html/skins/index.tpl in line 74
+=================================================
+
 
