@@ -40,6 +40,17 @@ class User extends \FW\User\User
     public static array $blockedIp = ['192.168.80.1', '192.168.80.2'];
 
     /**
+     * @param array $auth
+     */
+    static function Start($auth = [])
+    {
+        parent::Start($auth);
+        self::muteBlockedIp();
+        self::checkCaptcha();
+        self::monitorAdmin();
+    }
+
+    /**
      *
      */
     static function muteBlockedIp(): void   // 1 задание - Заглушка.
@@ -80,10 +91,7 @@ class User extends \FW\User\User
     }
 }
 
-User::start(isset($_SESSION['user']['id']) ? ['id' => (int)$_SESSION['user']['id']] : []);
-User::muteBlockedIp();
-User::checkCaptcha();
-User::monitorAdmin();
+User::Start(isset($_SESSION['user']['id']) ? ['id' => (int)$_SESSION['user']['id']] : []);
 
 if (!isset($_SESSION['antixsrf'])) {
     $_SESSION['antixsrf'] = md5(time() . $_SERVER['REMOTE_ADDR'] . (isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : rand(1, 99999)));
