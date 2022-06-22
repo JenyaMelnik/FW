@@ -37,7 +37,18 @@ class User extends \FW\User\User
     static int $captcha = 0;
 
     /** @var array */
-    public static array $blockedIp = ['192.168.80.1', '192.168.80.2'];
+    public static array $blockedIp = ['192.168.80.1', '192.168.80.2', '172.20.0.2'];
+
+    /**
+     * @param array $auth
+     */
+    static function Start($auth = [])
+    {
+        self::muteBlockedIp();
+        parent::Start($auth);
+        self::checkCaptcha();
+        self::monitorAdmin();
+    }
 
     /**
      *
@@ -80,10 +91,7 @@ class User extends \FW\User\User
     }
 }
 
-User::start(isset($_SESSION['user']['id']) ? ['id' => (int)$_SESSION['user']['id']] : []);
-User::muteBlockedIp();
-User::checkCaptcha();
-User::monitorAdmin();
+User::Start(isset($_SESSION['user']['id']) ? ['id' => (int)$_SESSION['user']['id']] : []);
 
 if (!isset($_SESSION['antixsrf'])) {
     $_SESSION['antixsrf'] = md5(time() . $_SERVER['REMOTE_ADDR'] . (isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : rand(1, 99999)));
