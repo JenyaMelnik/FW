@@ -51,17 +51,6 @@ class User extends \FW\User\User
     }
 
     /**
-     * @param array $auth
-     */
-    static function Start($auth = [])
-    {
-        parent::Start($auth);
-        self::muteBlockedIp();
-        self::checkCaptcha();
-        self::monitorAdmin();
-    }
-
-    /**
      *
      */
     static function muteBlockedIp(): void   // 1 задание - Заглушка.
