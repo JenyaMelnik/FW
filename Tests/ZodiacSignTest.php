@@ -1,6 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+use ZodiacSign\Errors;
 use ZodiacSign\ZodiacSign;
 
 class ZodiacSignTest extends TestCase
@@ -11,7 +12,7 @@ class ZodiacSignTest extends TestCase
      */
     public function testGetZodiacSign(): void
     {
-        include __DIR__ . '/../../library/ZodiacSign/ZodiacSign.php';
+        include __DIR__ . '/../library/ZodiacSign/ZodiacSign.php';
 
         $zodiacSign = new ZodiacSign();
 
@@ -40,14 +41,14 @@ class ZodiacSignTest extends TestCase
         $this->assertEquals('Скорпион', $zodiacSign->getZodiacSign('1986-11-21'));
         $this->assertEquals('Стрелец', $zodiacSign->getZodiacSign('1986-11-22'));
         $this->assertEquals('Стрелец', $zodiacSign->getZodiacSign('1986-12-21'));
-        $this->assertEquals('Не корректные данные', $zodiacSign->getZodiacSign('1986>02-29'));
-        $this->assertEquals('Не корректные данные', $zodiacSign->getZodiacSign('1986-02-29'));
-        $this->assertEquals('Не корректные данные', $zodiacSign->getZodiacSign('1986 -15-21'));
-        $this->assertEquals('Не корректные данные', $zodiacSign->getZodiacSign('198v-15-21'));
-        $this->assertEquals('Не корректные данные', $zodiacSign->getZodiacSign('1986-15-21'));
-        $this->assertEquals('Не корректные данные', $zodiacSign->getZodiacSign('1986-05-50'));
-        $this->assertEquals('Не корректные данные', $zodiacSign->getZodiacSign('2025-05-50'));
-        $this->assertEquals('Не корректные данные', $zodiacSign->getZodiacSign('2025-05-'));
-        $this->assertEquals('Не корректные данные', $zodiacSign->getZodiacSign(''));
+        $this->assertEquals(Errors::IncorrectData->value, $zodiacSign->getZodiacSign('1986>02-29'));
+        $this->assertEquals(Errors::IncorrectData->value, $zodiacSign->getZodiacSign('1986-02-29'));
+        $this->assertEquals(Errors::IncorrectData->value, $zodiacSign->getZodiacSign('1986 -15-21'));
+        $this->assertEquals(Errors::IncorrectData->value, $zodiacSign->getZodiacSign('198v-15-21'));
+        $this->assertEquals(Errors::IncorrectData->value, $zodiacSign->getZodiacSign('1986-15-21'));
+        $this->assertEquals(Errors::IncorrectData->value, $zodiacSign->getZodiacSign('1986-05-50'));
+        $this->assertEquals(Errors::IncorrectData->value, $zodiacSign->getZodiacSign('2025-05-50'));
+        $this->assertEquals(Errors::IncorrectBirthday->value, $zodiacSign->getZodiacSign('2025-05-12'));
+        $this->assertEquals(Errors::IncorrectData->value, $zodiacSign->getZodiacSign(''));
     }
 }
